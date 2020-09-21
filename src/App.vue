@@ -21,6 +21,7 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:Light");
 @import url("https://fonts.googleapis.com/css?family=Nobile");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
 @font-face { 
     font-family: "PR Viking";
     src: url("assets/fonts/PR Viking.ttf"); 
@@ -32,11 +33,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "PR Viking", Georgia, Times, serif !important;
+  font-family: "Open Sans", Georgia, Times, serif !important;
 }
 
 p{
-  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 @import url("https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css");
@@ -53,7 +54,8 @@ p{
 }
 
 body {
-  font-family: "Roboto Condensed", Georgia, Times, serif;
+  font-family: "Open Sans", Georgia, Times, serif;
+  overflow-x: hidden;
 }
 
 h2 {

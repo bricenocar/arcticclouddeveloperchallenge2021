@@ -56,7 +56,7 @@
                     <p class="card-text">
                        <ul>
                         <li><p><span class="yellowtitle">0800</span> Breakfast</p></li>
-                        <li><p><span class="yellowtitle">0900</span> Jury Duty &#x26; Challenge session</p></li>
+                        <li><p><span class="yellowtitle">0900</span> Jury Duty &#x26;Challenge session</p></li>
                         <li><p><span class="yellowtitle">1130</span> Points &#x26; Helmets </p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
                         <li><p><span class="yellowtitle">1600</span> Final delivery (included documentation to the jury)</p></li>

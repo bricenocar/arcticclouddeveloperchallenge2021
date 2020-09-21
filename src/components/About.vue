@@ -151,10 +151,6 @@ export default {
     margin-bottom: 30px;
     margin-top: 20px;    
 }
-
-.separator{
-  margin-bottom: 100px;
-}
 .column {  
   padding-bottom: 50px;
   margin-bottom: 50px;

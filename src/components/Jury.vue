@@ -62,12 +62,6 @@ export default {
 };
 </script>
 <style>
-.judges {
-background: #27343C;
-  background: url("../assets/images/kristijan-arsov-tcw3nwoAgvs-unsplash_comp.jpg")
-    no-repeat center;
-  background-size: cover;
-  }
 .judgesTitle {
   color: white;
   font-size: 70px;
