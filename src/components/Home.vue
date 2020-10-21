@@ -396,30 +396,10 @@
       </div>
     </div>
     <div class="theLocation">
-      <gmaps-map>
-        <gmaps-marker :position="{ lat: 59.96, lng: 10.65 }" />
+      <gmaps-map :options="mapOptions">
+        <gmaps-marker :position="{ lat: 59.96, lng: 10.665 }" />
       </gmaps-map>
     </div>
-    <!--<div class="container-fluid">
-      <div class="row sponsacdc">
-        <div class="sponsacdcheader">
-          <div class="sponsacdcTitle">
-            <h1>Wanna take part and sponsor ACDC?</h1>
-          </div>
-        </div>
-        <div class="sponsacdcContent">
-          <div class="legoyellowbottom">
-            <img class="brikk" src="../assets/images/legoyellow.svg" />
-          </div>
-          <div class="Subtitlebottom">
-            <h1>Get in touch</h1>
-          </div>
-          <div class="legobluebottom">
-            <img class="brikk" src="../assets/images/legoblue.svg" />
-          </div>
-        </div>
-      </div>
-    </div>-->
   </div>
 </template>
 
@@ -435,7 +415,7 @@ export default {
   components: { gmapsMap, gmapsMarker },
   data: () => ({
     mapOptions: {
-      center: { lat: 59.96, lng: 10.65 },
+      center: { lat: 59.96, lng: 10.665 },
       zoom: 12,
     },
   }),
@@ -950,6 +930,11 @@ export default {
   .legodividerimg {
     width: 80%;
   }
+  .legodivider {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .slogan-top {
     font-size: 4em;
   }
@@ -970,17 +955,17 @@ export default {
   .legoredleft {
     position: absolute;
     left: 0;
-    top: 80vh;
+    top: 120vh;
   }
   .legoyellow {
     position: absolute;
     right: 0;
-    top: 75vh;
+    top: 115vh;
   }
   .legoblue {
     position: absolute;
     left: 60vw;
-    top: 87vh;
+    top: 127vh;
   }
   .legoredright {
     display: none;
@@ -1038,7 +1023,7 @@ export default {
   }
   .theCampSiteIcon {
     max-width: 200px;
-}
+  }
   .categoryTitle {
     margin: 0px 10vw;
   }
