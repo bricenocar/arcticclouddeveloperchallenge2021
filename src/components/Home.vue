@@ -72,14 +72,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>LEGO Super Mario power</h2>
+                    <h2>Blow my Mindstorm</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Power users love tools and flexibility, so why not show
-                      them some by using tools available to the average office
-                      and line worker out there. More power less code! Power
-                      Automate, Power Apps, Power BI, Power Virtual Agent
+                     If a Lego could speak, what would it say? Connect the Lego to the cloud and find out. IOT, Azure, “DevOps” 
                     </p>
                   </div>
                 </div>
@@ -93,14 +90,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>LEGO Harry Potter</h2>
+                    <h2>Lego Power Bricks</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Everything is so pretty, I can't take my eyes away!
-                      Applications are not all about functionality, they have to
-                      look pretty as well - why else have design manuals? Glossy
-                      pixels, User interactive, Responsivenes
+                      Emmet the Lego works hard every day, but can he work smarter? Power Automate, Power Apps, Power BI, Power Virtual Agent
                     </p>
                   </div>
                 </div>
@@ -114,12 +108,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>LEGO MINDSTORMS</h2>
+                    <h2>The Duplo invasion</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      All the tiny things, connected and online. Bring your IoT
-                      to the science fair! Azure, IoT, DevOps
+                      Ohh no, there have been sightings of Duplo in the city. What can we do? Keyvault, GDPR, Secured Services
                     </p>
                   </div>
                 </div>
@@ -133,13 +126,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>LEGO Star Wars</h2>
+                    <h2>The hidden lego empire</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Cash is king, and nothing says cash like great business
-                      value. Usable solutions, Feasable Ideas, Real world
-                      scenarios
+                      Rumors of mythical Lego creations live among us all. Can you find them? AR/VR
                     </p>
                   </div>
                 </div>
@@ -153,12 +144,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>NINJAGO fortress</h2>
+                    <h2>Legoland</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Secure your solutions, dont let Loki get past your gates!
-                      Keyvaults, GDPR, Secured Services
+                      Happy camper, spread the love, show your team spirit! Help others, build stuff, be positive
                     </p>
                   </div>
                 </div>
@@ -172,12 +162,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>LEGO Marvel spirit</h2>
+                    <h2>Lego Shark Tank</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Be a happy camper, spread the love, show your amazing team
-                      spirit! Help others in need, decorations, possitive vibes
+                      Running a business is tough. Do you have what it takes, or will you get FIRED? Usable Solutions, Feasable ideas, Real World Scenarios
                     </p>
                   </div>
                 </div>
