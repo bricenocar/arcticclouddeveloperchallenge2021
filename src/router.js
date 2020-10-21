@@ -16,7 +16,8 @@ import PreviousEvents from '@/components/PreviousEvents'
 import Judges from '@/components/Judges'
 import RegisterAnniversary from '@/components/RegisterAnniversary'
 import RulesAndPoints from '@/components/RulesAndPoints'
-
+import Sponsorship from '@/components/Sponsorship'
+import Jury2021 from '@/components/Jury2021'
 
 Vue.use(Router)
 
@@ -102,6 +103,16 @@ export default new Router({
       path: '/RulesAndPoints',
       name: 'RulesAndPoints',
       component: RulesAndPoints
+    },
+    {
+      path: '/Sponsorship',
+      name: 'Sponsorship',
+      component: Sponsorship
+    },
+    {
+      path: '/Jury2021',
+      name: 'Jury2021',
+      component: Jury2021
     }
   ]
 })

@@ -220,10 +220,10 @@
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>TBA</h2>
+                  <h2>Merethe Stave</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Creative engineer with excellent communication skills</p>
+                  <p>Merethe Stave is Chief Customer Officer and Senior Cloud Architect at CloudWay. She was recognized as one of Norway's 50 leading women in tech 2020 and is board member of the Norwegian Microsoft 365 Community.</p>
                 </div>
               </div>
             </div>
@@ -236,10 +236,10 @@
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>TBA</h2>
+                  <h2>Cathrine Wilhelmsen</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Creative engineer with excellent communication skills</p>
+                  <p>Cathrine loves teaching and sharing knowledge. Senior Business Intellligence Consultant in Inmeta. Active in the SQL Server Community as a Microsoft Data Platform MVP, BimlHero Certified Expert, Author, Speaker, Blogger, Organizer and chronic volunteer.</p>
                 </div>
               </div>
             </div>
@@ -252,10 +252,10 @@
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>TBA</h2>
+                  <h2>Marius Agur</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Creative engineer with excellent communication skills</p>
+                  <p>Owner at Marius Agur Consulting and a Microsoft MVP in Business Applications. This CRMViking has both been a participant and judge before, so he knows what’s going on – most importantly, he can explain the points system.</p>
                 </div>
               </div>
             </div>

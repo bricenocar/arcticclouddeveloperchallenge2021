@@ -1,36 +1,39 @@
 <template>
     <div class="container-fluid rulesandpoints">
       <div class="container">
-        <div class="row">
+        <div class="row ">
           <div class="column overview">
-            <h3 class="lightbrowntitle">Rules and Points</h3>
+            <h3 class="title">Rules and Points</h3>
             
-            <h4 class="yellowtitle">Categories</h4>
+            <h1 class="title">Categories</h1>
+            <div class="row legodivider">
+              <img class="legodividerimg3" src="../assets/images/legoline.svg" />
+            </div>
             <p>Each of the judges have 10 points to give out to each team for each of these categories every day:</p>
 
-            <p><b>Odins Power User Love</b></p>
-            <p>Power users love tools and flexibility, so why not show them some by using tools available to the average office and line worker out there. More power less code!</p>
+            <p><b>Blow my Mindstorm</b></p>
+            <p>If a Lego could speak, what would it say? Connect the Lego to the cloud and find out</p>
+            <p>Keywords: IOT, Azure, “DevOps” </p>
+
+            <p><b>Lego Power Bricks</b></p>
+            <p>Emmet the Lego works hard every day, but can he work smarter?</p>
             <p>Keywords: Power Automate, Power Apps, Power BI, Power Virtual Agent</p>
 
-            <p><b>Freyas Design Favor</b></p>
-            <p>Everything is so pretty, I can't take my eyes away! Applications are not all about functionality, they have to look pretty as well - why else have design manuals?</p>
-            <p>Keywords: Glossy pixels, User interactive, Responsivenes</p>
+            <p><b>The Duplo invasion</b></p>
+            <p>Ohh no, there have been sightings of Duplo in the city. What can we do?</p>
+            <p>Keywords: Keyvault, GDPR, Secured Services</p>
 
-            <p><b>Thors Connected Hammer</b></p>
-            <p>All the tiny things, connected and online. Bring your IoT to the science fair!</p>
-            <p>Keywords: Azure, IoT, DevOps</p>
+            <p><b>The hidden lego empire</b></p>
+            <p>Rumors of mythical Lego creations live among us all. Can you find them?</p>
+            <p>Keywords: AR/VR</p>
 
-            <p><b>Viking Raider's Loot</b></p>
-            <p>Cash is king, and nothing says cash like great business value.</p>
-            <p>Keywords: Usable solutions, Feasable Ideas, Real world scenarios</p>
+            <p><b>Legoland</b></p>
+            <p>Happy camper, spread the love, show your team spirit!</p>
+            <p>Keywords: Help others, build stuff, be positive</p>
 
-            <p><b>Bifrost's gate</b></p>
-            <p>Secure your solutions, dont let Loki get past your gates!</p>
-            <p>Keywords: Keyvaults, GDPR, Secured Services</p>
-
-            <p><b>For Valhalla!</b></p>
-            <p>Be a happy camper, spread the love, show your amazing team spirit!</p>
-            <p>Keywords: Help others in need, decorations, possitive vibes</p>
+            <p><b>Lego Shark Tank</b></p>
+            <p>Running a business is tough. Do you have what it takes, or will you get FIRED?</p>
+            <p>Keywords: Usable Solutions, Feasable ideas, Real World Scenarios</p>
 
             <h4 class="yellowtitle">Judging</h4>
             <p>Every judge can hand out a maximum of 60 points to each team at every jury duty each day (6 categories * 10 points = 60 points max).</p>
@@ -39,7 +42,7 @@
             <p>The crowns can be lost to another team the next day if they get more points in the category than the current category leaders.</p>
 
             <p>At the end of the hackaton each team have to deliver a short written presentation of the solution they have created to the judges.</p>
-            <p>Eeach judge then has 100 points each to hand out to the team they feel deserves it the most.</p>
+            <p>Each judge then has 100 points each to hand out to the team they feel deserves it the most.</p>
 
             <p>The maximum amount of achiveable points before the 100 wildcard points the last day will then be a total of: 6 categories * 10 points * X(Amount of judges) * 3 days of hacking.</p>
             <p>Example of maximum points for a team before wildcard points: 6 categories * 10 points * 6 judges * 3 days of hacking =  1080 points</p>
@@ -75,24 +78,31 @@ export default {
   padding: 20px;
   text-align: left;
    background: white;
-   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/isai-ramos-46821-unsplash_comp.jpg") no-repeat
-    center;
+   background: url(../assets/images/background-graa.svg) no-repeat center;
   background-size: cover;
   height: 40%;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.rulesandpoints .lightbrowntitle {
-    margin-bottom: 30px;
-    margin-top: 20px;
-    text-align: center;
+.rulesandpoints .title {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  color: #000;
 }
 .rulesandpoints ul {
   list-style-type: none;
+}
+.rulesandpoints p {
+  color: #000;
 }
 .column {  
   padding-bottom: 50px;
   margin-bottom: 50px;
   padding: 0 15px;
+}
+.legodividerimg3 {
+  width: 50%;
+  margin: auto;
 }
 </style>
