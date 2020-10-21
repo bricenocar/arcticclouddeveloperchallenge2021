@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container-fluid">
-      <div v-responsive="['hidden-all','xl']" class="legoLeft">
+      <div v-responsive="['hidden-all', 'xl']" class="legoLeft">
         <img class="legoleftpicture" src="../assets/images/biglego.svg" />
       </div>
       <div class="row quickSummary">
@@ -14,13 +14,20 @@
               <img class="legodividerimg" src="../assets/images/legoline.svg" />
             </div>
             <div class="row legodivider">
-              <img class="legodividerimg" src="../assets/images/texto-home.svg" />
+              <img
+                class="legodividerimg"
+                src="../assets/images/texto-home.svg"
+              />
             </div>
             <div class="row legodivider">
               <p class="event-date">February 04th-07th 2021</p>
             </div>
             <div class="row legodivider">
-              <a class="registerbuttonlink" href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu" target="_blank">
+              <a
+                class="registerbuttonlink"
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
+                target="_blank"
+              >
                 <div class="registerbutton">REGISTER TODAY</div>
               </a>
             </div>
@@ -43,7 +50,10 @@
       <div class="row Categories">
         <div class="categoriesHeader">
           <div class="categoriesIcon">
-            <img class="categoryIcon" src="../assets/images/Icon-categories.svg" />
+            <img
+              class="categoryIcon"
+              src="../assets/images/Icon-categories.svg"
+            />
           </div>
           <div class="categoriesTitle">
             <h1>Categories</h1>
@@ -56,15 +66,20 @@
               <div class="categoryCard col-md-4">
                 <div class="categoryContent">
                   <div class="categoryPicture">
-                    <img class="categoryPictureImg" src="../assets/images/Mario.svg" />
+                    <img
+                      class="categoryPictureImg"
+                      src="../assets/images/Mario.svg"
+                    />
                   </div>
                   <div class="categoryTitle">
                     <h2>LEGO Super Mario power</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Power users love tools and flexibility, so why not show them some by using tools available to the average
-                      office and line worker out there. More power less code! Power Automate, Power Apps, Power BI, Power Virtual Agent
+                      Power users love tools and flexibility, so why not show
+                      them some by using tools available to the average office
+                      and line worker out there. More power less code! Power
+                      Automate, Power Apps, Power BI, Power Virtual Agent
                     </p>
                   </div>
                 </div>
@@ -72,15 +87,20 @@
               <div class="categoryCard col-md-4">
                 <div class="categoryContent">
                   <div class="categoryPicture">
-                    <img class="categoryPictureImg" src="../assets/images/HarryPotter.svg" />
+                    <img
+                      class="categoryPictureImg"
+                      src="../assets/images/HarryPotter.svg"
+                    />
                   </div>
                   <div class="categoryTitle">
                     <h2>LEGO Harry Potter</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Everything is so pretty, I can't take my eyes away! Applications are not all about functionality, they have to look pretty as well - why else have design manuals?
-                      Glossy pixels, User interactive, Responsivenes
+                      Everything is so pretty, I can't take my eyes away!
+                      Applications are not all about functionality, they have to
+                      look pretty as well - why else have design manuals? Glossy
+                      pixels, User interactive, Responsivenes
                     </p>
                   </div>
                 </div>
@@ -88,15 +108,18 @@
               <div class="categoryCard col-md-4">
                 <div class="categoryContent">
                   <div class="categoryPicture">
-                    <img class="categoryPictureImg" src="../assets/images/BOOST.svg" />
+                    <img
+                      class="categoryPictureImg"
+                      src="../assets/images/BOOST.svg"
+                    />
                   </div>
                   <div class="categoryTitle">
                     <h2>LEGO MINDSTORMS</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      All the tiny things, connected and online. Bring your IoT to the science fair!
-                      Azure, IoT, DevOps
+                      All the tiny things, connected and online. Bring your IoT
+                      to the science fair! Azure, IoT, DevOps
                     </p>
                   </div>
                 </div>
@@ -104,15 +127,19 @@
               <div class="categoryCard col-md-4">
                 <div class="categoryContent">
                   <div class="categoryPicture">
-                    <img class="categoryPictureImg" src="../assets/images/StarWars.svg" />
+                    <img
+                      class="categoryPictureImg"
+                      src="../assets/images/StarWars.svg"
+                    />
                   </div>
                   <div class="categoryTitle">
                     <h2>LEGO Star Wars</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Cash is king, and nothing says cash like great business value.
-                      Usable solutions, Feasable Ideas, Real world scenarios
+                      Cash is king, and nothing says cash like great business
+                      value. Usable solutions, Feasable Ideas, Real world
+                      scenarios
                     </p>
                   </div>
                 </div>
@@ -120,7 +147,10 @@
               <div class="categoryCard col-md-4">
                 <div class="categoryContent">
                   <div class="categoryPicture">
-                    <img class="categoryPictureImg" src="../assets/images/Ninjago.svg" />
+                    <img
+                      class="categoryPictureImg"
+                      src="../assets/images/Ninjago.svg"
+                    />
                   </div>
                   <div class="categoryTitle">
                     <h2>NINJAGO fortress</h2>
@@ -136,15 +166,18 @@
               <div class="categoryCard col-md-4">
                 <div class="categoryContent">
                   <div class="categoryPicture">
-                    <img class="categoryPictureImg" src="../assets/images/Marvel.svg" />
+                    <img
+                      class="categoryPictureImg"
+                      src="../assets/images/Marvel.svg"
+                    />
                   </div>
                   <div class="categoryTitle">
                     <h2>LEGO Marvel spirit</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Be a happy camper, spread the love, show your amazing team spirit!
-                      Help others in need, decorations, possitive vibes
+                      Be a happy camper, spread the love, show your amazing team
+                      spirit! Help others in need, decorations, possitive vibes
                     </p>
                   </div>
                 </div>
@@ -158,7 +191,7 @@
           <div class="categoriesIcon">
             <img class="categoryIcon" src="../assets/images/icon-award.svg" />
           </div>
-          <div class="categoriesTitle">
+          <div class="theAwardTitle">
             <h1>The award</h1>
             <p>The winning team get to take home the ANTLERS to keep</p>
             <p>until next challenge</p>
@@ -181,7 +214,10 @@
             <div class="judgeCard col-md-4">
               <div class="judgeContent">
                 <div class="judgePicture">
-                  <img class="judgePictureImg" src="../assets/images/judge-1.svg" />
+                  <img
+                    class="judgePictureImg"
+                    src="../assets/images/judge-1.svg"
+                  />
                 </div>
                 <div class="judgeTitle">
                   <h2>TBA</h2>
@@ -194,7 +230,10 @@
             <div class="judgeCard col-md-4">
               <div class="judgeContent">
                 <div class="judgePicture">
-                  <img class="judgePictureImg" src="../assets/images/judge-2.svg" />
+                  <img
+                    class="judgePictureImg"
+                    src="../assets/images/judge-2.svg"
+                  />
                 </div>
                 <div class="judgeTitle">
                   <h2>TBA</h2>
@@ -207,7 +246,10 @@
             <div class="judgeCard col-md-4">
               <div class="judgeContent">
                 <div class="judgePicture">
-                  <img class="judgePictureImg" src="../assets/images/judge-3.svg" />
+                  <img
+                    class="judgePictureImg"
+                    src="../assets/images/judge-3.svg"
+                  />
                 </div>
                 <div class="judgeTitle">
                   <h2>TBA</h2>
@@ -220,7 +262,10 @@
             <div class="judgeCard col-md-4">
               <div class="judgeContent">
                 <div class="judgePicture">
-                  <img class="judgePictureImg" src="../assets/images/judge-5.svg" />
+                  <img
+                    class="judgePictureImg"
+                    src="../assets/images/judge-5.svg"
+                  />
                 </div>
                 <div class="judgeTitle">
                   <h2>TBA</h2>
@@ -233,7 +278,10 @@
             <div class="judgeCard col-md-4">
               <div class="judgeContent">
                 <div class="judgePicture">
-                  <img class="judgePictureImg" src="../assets/images/judge-6.svg" />
+                  <img
+                    class="judgePictureImg"
+                    src="../assets/images/judge-6.svg"
+                  />
                 </div>
                 <div class="judgeTitle">
                   <h2>TBA</h2>
@@ -246,7 +294,10 @@
             <div class="judgeCard col-md-4">
               <div class="judgeContent">
                 <div class="judgePicture">
-                  <img class="judgePictureImg" src="../assets/images/judge-7.svg" />
+                  <img
+                    class="judgePictureImg"
+                    src="../assets/images/judge-7.svg"
+                  />
                 </div>
                 <div class="judgeTitle">
                   <h2>TBA</h2>
@@ -264,7 +315,10 @@
         <div class="container thePriceToPayContainer">
           <div class="thePriceToPayHeader">
             <div class="thePriceToPayIcon">
-              <img class="thePriceToPayIconImg" src="../assets/images/icon-bilette.svg" />
+              <img
+                class="thePriceToPayIconImg"
+                src="../assets/images/icon-bilette.svg"
+              />
             </div>
           </div>
           <div class="thePriceToPayContent">
@@ -307,17 +361,35 @@
         </div>
       </div>
       <div class="row theCampSite">
-        <div class="theCampSiteHeader">
-          <div class="theCampSiteIconContainer">
-            <img class="theCampSiteIcon" src="../assets/images/icon-campsite.svg" />
-          </div>
-          <div class="theCampSiteTitle">
-            <h1>The campsite</h1>
-            <p>Venue is the venerable Voksenåsen Hotel, located in the hills surrounding Oslo.</p>
-            <p>We encourage all participants to stay at the hotel for the event.</p>
-            <p>We will handle room bookings, and as you see from the conference fee most of what you'll need is covered so you can focus on waging the ultimate cloud battle.</p>
-            <div class="theCampSiteFooter">
-              <img class="theCampSiteIcon" src="../assets/images/logo-voksenaasen.svg" />
+        <div class="container theCampSiteContainer">
+          <div class="theCampSiteHeader">
+            <div class="theCampSiteIconContainer">
+              <img
+                class="theCampSiteIcon"
+                src="../assets/images/icon-campsite.svg"
+              />
+            </div>
+            <div class="theCampSiteTitle">
+              <h1>The campsite</h1>
+              <p>
+                Venue is the venerable Voksenåsen Hotel, located in the hills
+                surrounding Oslo.
+              </p>
+              <p>
+                We encourage all participants to stay at the hotel for the
+                event.
+              </p>
+              <p>
+                We will handle room bookings, and as you see from the conference
+                fee most of what you'll need is covered so you can focus on
+                waging the ultimate cloud battle.
+              </p>
+              <div class="theCampSiteFooter">
+                <img
+                  class="theCampSiteIcon"
+                  src="../assets/images/logo-voksenaasen.svg"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -362,11 +434,11 @@ export default {
   },
   components: { gmapsMap, gmapsMarker },
   data: () => ({
-      mapOptions: {
-        center: { lat: 59.96, lng: 10.65 },
-        zoom: 12,
-      },
-    }),
+    mapOptions: {
+      center: { lat: 59.96, lng: 10.65 },
+      zoom: 12,
+    },
+  }),
 };
 </script>
 <style>
@@ -628,6 +700,11 @@ export default {
   margin-top: 15vh;
   display: flex;
 }
+.theCampSiteContainer {
+  background: white;
+  margin-top: 15vh;
+  display: flex;
+}
 .thePriceToPayHeader {
   display: flex;
 }
@@ -829,28 +906,28 @@ export default {
   overflow-x: hidden;
   position: absolute;
   left: 80vw;
-  top: 80vh;
+  top: 70vh;
 }
 
 .legoredleft {
   overflow-x: hidden;
   position: absolute;
   left: 25%;
-  top: 89vh;
+  top: 79vh;
 }
 
 .legoblue {
   overflow-x: hidden;
   position: absolute;
   left: 65vw;
-  top: 94vh;
+  top: 84vh;
 }
 
 .legoredright {
   overflow-x: hidden;
   position: absolute;
   left: 88vw;
-  top: 100vh;
+  top: 90vh;
 }
 
 .separator {
@@ -923,6 +1000,45 @@ export default {
   .categoriesTitle p {
     font-size: 12pt;
   }
+  .theAwardTitle h1 {
+    font-size: 35pt;
+  }
+  .theAwardTitle p {
+    font-size: 12pt;
+  }
+  .thePriceToPayTitle h1 {
+    font-size: 35pt;
+  }
+  .thePriceToPayTitle p {
+    font-size: 12pt;
+  }
+  .thePriceToPayAmount h1 {
+    font-size: 35pt;
+  }
+  .thePriceToPayAmount p {
+    font-size: 12pt;
+  }
+  .thePriceToPayIncludes {
+    margin-top: 10vh;
+  }
+  .thePriceToPayIncludes > ul > li {
+    text-align: left;
+    color: black;
+    font-size: 12pt;
+  }
+  .theCampSiteTitle h1 {
+    font-size: 35pt;
+  }
+  .theCampSiteTitle p {
+    font-size: 12pt;
+  }
+  .theCampSiteHeader {
+    display: flex;
+    width: 100%;
+  }
+  .theCampSiteIcon {
+    max-width: 200px;
+}
   .categoryTitle {
     margin: 0px 10vw;
   }
@@ -949,6 +1065,9 @@ export default {
     padding-top: 0;
   }
   .theAwardTitle {
+    font-size: 2.5rem;
+  }
+  .thePriceToPayTitle {
     font-size: 2.5rem;
   }
 }
@@ -1005,6 +1124,9 @@ export default {
   .theAwardTitle {
     font-size: 2.5rem;
   }
+  .thePriceToPayTitle {
+    font-size: 2.5rem;
+  }
 }
 /* ----------- iPhone X ----------- */
 /* Portrait and Landscape */
@@ -1029,6 +1151,9 @@ export default {
     padding-top: 0;
   }
   .theAwardTitle {
+    font-size: 2.5rem;
+  }
+  .thePriceToPayTitle {
     font-size: 2.5rem;
   }
   .logo2right {
