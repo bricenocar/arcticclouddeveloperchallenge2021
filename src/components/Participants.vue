@@ -12,7 +12,7 @@
             <p>Keeping up the tradition, the Arctic Cloud Developer Challenge is being held in Oslo at Voksenåsen hotel</p>
             <p>
               <b>
-                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fa-Hi0eGx02N9F9pogEbtVqrSmJ1crRAtUiuR7rVkvNUMjZPUk44SDFJWllIMklLR0g3QUhJVlpNRC4u">Register your teams!</a>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPrLtWcV50kVJjBZxX570Dr5URFFGWkpUN0pSTTZVWDlYRzFVQjc2UkJNNC4u">Register your teams!</a>
               </b>
             </p>
             <h4>Pricing</h4>
@@ -53,17 +53,6 @@ export default {
 };
 </script>
 <style>
-.overview p {
-  font-size: 25px;
-  padding: 0 20px;
-}
-.overview h3{
-  font-size: 50px;
-}
-.overview h4{
-  font-size: 40px;
-  padding: 0 20px;
-}
 .title {
     text-align: center;
     margin-bottom: 30px;

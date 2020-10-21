@@ -4,7 +4,7 @@ import Home from '@/components/Home'
 import Contact from '@/components/Contact'
 import About from '@/components/About'
 import Agenda from '@/components/Agenda'
-import LastYear from '@/components/LastYear'
+import Galleri from '@/components/Galleri'
 import Register from '@/components/Register'
 import Overview from '@/components/Overview'
 import BusinessChallenge from '@/components/BusinessChallenge'
@@ -12,6 +12,11 @@ import Participants from '@/components/Participants'
 import Stakes from '@/components/Stakes'
 import Values from '@/components/Values'
 import Jury from '@/components/Jury'
+import PreviousEvents from '@/components/PreviousEvents'
+import Judges from '@/components/Judges'
+import RegisterAnniversary from '@/components/RegisterAnniversary'
+import RulesAndPoints from '@/components/RulesAndPoints'
+
 
 Vue.use(Router)
 
@@ -44,14 +49,19 @@ export default new Router({
       component: Contact
     },
     {
-      path: '/LastYear',
-      name: 'LastYear',
-      component: LastYear
+      path: '/Galleri',
+      name: 'galleri',
+      component: Galleri
     },
     {
       path: '/register',
       name: 'register',
       component: Register
+    },
+    {
+      path: '/registerAnniversary',
+      name: 'registerAnniversary',
+      component: RegisterAnniversary
     },
     {
       path: '/business',
@@ -64,9 +74,14 @@ export default new Router({
       component: Participants
     },
     {
-      path: '/stakes',
+      path: '/anniversary',
       name: 'stakes',
       component: Stakes
+    },
+    {
+      path: '/previous',
+      name: 'previous',
+      component: PreviousEvents
     },
     {
       path: '/values',
@@ -77,6 +92,16 @@ export default new Router({
       path: '/jury',
       name: 'jury',
       component: Jury
+    },
+    {
+      path: '/judges',
+      name: 'judges',
+      component: Judges
+    },
+    {
+      path: '/RulesAndPoints',
+      name: 'RulesAndPoints',
+      component: RulesAndPoints
     }
   ]
 })

@@ -1,13 +1,13 @@
 <template>
   <div class="container-fluid">
-    <div class="row lastyear">
+    <div class="row galleri">
       <div class="container">
         <div class="col-md-12">
-          <h3>ACDC 2018</h3>
+          <h3 class="yellowtitle">ACDC 2018</h3>
           <div class="row">
             <lightbox :images="ACDC2018"></lightbox>
           </div>
-          <h3>ASPC 2017</h3>
+          <h3 class="yellowtitle">ASPC 2017</h3>
           <div class="row">
             <lightbox :images="ACDC2017"></lightbox>
           </div>
@@ -23,7 +23,7 @@ import Vue from "vue";
 Vue.use(lightbox);
 
 export default {
-  name: "LastYear",
+  name: "galleri",
   methods: {
     track () {
       this.$ga.page('/')
@@ -116,5 +116,9 @@ export default {
 };
 </script> 
  
-<style scoped>
+<style>
+.galleri{
+  background: url("../assets/images/paul-green-98256-unsplash.jpg") no-repeat center;
+  background-size: cover;
+}
 </style> 

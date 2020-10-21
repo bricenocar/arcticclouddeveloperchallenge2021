@@ -16,13 +16,17 @@ export default {
     Footer: Footer
   }
 };
+
 </script>
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:Light");
 @import url("https://fonts.googleapis.com/css?family=Nobile");
-@import url("https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css");
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
+@font-face { 
+    font-family: "PR Viking";
+    src: url("assets/fonts/PR Viking.ttf"); 
+}
 
 h1,
 h2,
@@ -30,12 +34,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Condensed", Georgia, Times, serif;
+  font-family: "Open Sans", Georgia, Times, serif !important;
 }
-p,
-div {
-  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+
+p{
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
+
+@import url("https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css");
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -49,11 +55,16 @@ div {
 }
 
 body {
-  font-family: "Roboto Condensed", Georgia, Times, serif;
+  font-family: "Open Sans", Georgia, Times, serif;
+  overflow-x: hidden;
 }
 
 h2 {
   margin: 0px;
+}
+
+h5{
+  font-size: 2rem;
 }
 
 h6 {
@@ -64,4 +75,30 @@ h6 {
 .wrapper {
   text-align: center;
 }
+
+.yellowtitle{
+  color:#FBB90F;
+}
+
+.browntitle{
+  color:#5B4F43;
+}
+
+.lightbrowntitle {
+  color:#fff0df;
+}
+@media only screen and (min-device-width: 800px) {
+  .overview p {
+    font-size: 25px;
+    padding: 0 20px;
+  }
+  .overview h3{
+    font-size: 50px;
+  }
+  .overview h4{
+    font-size: 40px;
+    padding: 0 20px;
+  }
+}
+
 </style>

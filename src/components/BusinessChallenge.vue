@@ -7,7 +7,10 @@
             <p>
               The business challenges that the teams choose to target are up to the teams. 
               this year’s theme is Vikings, so feel free to center your business case in anything 
-              Midgard related, your imagination is the limit!
+              Midgard related, your imagination is the limit! 
+            </p>
+            <p>
+              Teams battle for the great trophy - the antlers - for best in show. The winning team is the team receiving the most amount of points according to our point system.
             </p>
           </div>
         </div>
@@ -25,17 +28,6 @@ export default {
 };
 </script>
 <style>
-.overview p {
-  font-size: 25px;
-  padding: 0 20px;
-}
-.overview h3{
-  font-size: 50px;
-}
-.overview h4{
-  font-size: 40px;
-  padding: 0 20px;
-}
 .title {
     text-align: center;
     margin-bottom: 30px;
