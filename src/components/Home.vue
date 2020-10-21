@@ -1,305 +1,399 @@
 <template>
-  <div class="container-fluid">
-    <div v-responsive="['hidden-all','xl']" class="legoLeft">
-      <img class="legoleftpicture" src="../assets/images/biglego.svg" />
-    </div>
-    <div class="row quickSummary">
-      <div class="container">
-        <div class="main-section-top">
-          <div class="row logo-container">
-            <img class="logotop" src="../assets/images/logo-2021.svg" />
+  <div>
+    <div class="container-fluid">
+      <div v-responsive="['hidden-all','xl']" class="legoLeft">
+        <img class="legoleftpicture" src="../assets/images/biglego.svg" />
+      </div>
+      <div class="row quickSummary">
+        <div class="container">
+          <div class="main-section-top">
+            <div class="row logo-container">
+              <img class="logotop" src="../assets/images/logo-2021.svg" />
+            </div>
+            <div class="row legodivider">
+              <img class="legodividerimg" src="../assets/images/legoline.svg" />
+            </div>
+            <div class="row legodivider">
+              <img class="legodividerimg" src="../assets/images/texto-home.svg" />
+            </div>
+            <div class="row legodivider">
+              <p class="event-date">February 04th-07th 2021</p>
+            </div>
+            <div class="row legodivider">
+              <a class="registerbuttonlink" href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu" target="_blank">
+                <div class="registerbutton">REGISTER TODAY</div>
+              </a>
+            </div>
+            <div class="row separator"></div>
+            <div class="legoyellow">
+              <img class="brikk" src="../assets/images/legoyellow.svg" />
+            </div>
+            <div class="legoredleft">
+              <img class="brikk" src="../assets/images/legoredleft.svg" />
+            </div>
+            <div class="legoblue">
+              <img class="brikk" src="../assets/images/legoblue.svg" />
+            </div>
+            <div class="legoredright">
+              <img class="brikk" src="../assets/images/legoredright.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row Categories">
+        <div class="categoriesHeader">
+          <div class="categoriesIcon">
+            <img class="categoryIcon" src="../assets/images/Icon-categories.svg" />
+          </div>
+          <div class="categoriesTitle">
+            <h1>Categories</h1>
+            <p>(Subject to change)</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="categoriesContent">
+            <div class="row">
+              <div class="categoryCard col-md-4">
+                <div class="categoryContent">
+                  <div class="categoryPicture">
+                    <img class="categoryPictureImg" src="../assets/images/Mario.svg" />
+                  </div>
+                  <div class="categoryTitle">
+                    <h2>LEGO Super Mario power</h2>
+                  </div>
+                  <div class="categoryDescription">
+                    <p>
+                      Power users love tools and flexibility, so why not show them some by using tools available to the average
+                      office and line worker out there. More power less code! Power Automate, Power Apps, Power BI, Power Virtual Agent
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="categoryCard col-md-4">
+                <div class="categoryContent">
+                  <div class="categoryPicture">
+                    <img class="categoryPictureImg" src="../assets/images/HarryPotter.svg" />
+                  </div>
+                  <div class="categoryTitle">
+                    <h2>LEGO Harry Potter</h2>
+                  </div>
+                  <div class="categoryDescription">
+                    <p>
+                      Everything is so pretty, I can't take my eyes away! Applications are not all about functionality, they have to look pretty as well - why else have design manuals?
+                      Glossy pixels, User interactive, Responsivenes
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="categoryCard col-md-4">
+                <div class="categoryContent">
+                  <div class="categoryPicture">
+                    <img class="categoryPictureImg" src="../assets/images/BOOST.svg" />
+                  </div>
+                  <div class="categoryTitle">
+                    <h2>LEGO MINDSTORMS</h2>
+                  </div>
+                  <div class="categoryDescription">
+                    <p>
+                      All the tiny things, connected and online. Bring your IoT to the science fair!
+                      Azure, IoT, DevOps
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="categoryCard col-md-4">
+                <div class="categoryContent">
+                  <div class="categoryPicture">
+                    <img class="categoryPictureImg" src="../assets/images/StarWars.svg" />
+                  </div>
+                  <div class="categoryTitle">
+                    <h2>LEGO Star Wars</h2>
+                  </div>
+                  <div class="categoryDescription">
+                    <p>
+                      Cash is king, and nothing says cash like great business value.
+                      Usable solutions, Feasable Ideas, Real world scenarios
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="categoryCard col-md-4">
+                <div class="categoryContent">
+                  <div class="categoryPicture">
+                    <img class="categoryPictureImg" src="../assets/images/Ninjago.svg" />
+                  </div>
+                  <div class="categoryTitle">
+                    <h2>NINJAGO fortress</h2>
+                  </div>
+                  <div class="categoryDescription">
+                    <p>
+                      Secure your solutions, dont let Loki get past your gates!
+                      Keyvaults, GDPR, Secured Services
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="categoryCard col-md-4">
+                <div class="categoryContent">
+                  <div class="categoryPicture">
+                    <img class="categoryPictureImg" src="../assets/images/Marvel.svg" />
+                  </div>
+                  <div class="categoryTitle">
+                    <h2>LEGO Marvel spirit</h2>
+                  </div>
+                  <div class="categoryDescription">
+                    <p>
+                      Be a happy camper, spread the love, show your amazing team spirit!
+                      Help others in need, decorations, possitive vibes
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row theAward">
+        <div class="categoriesHeader">
+          <div class="categoriesIcon">
+            <img class="categoryIcon" src="../assets/images/icon-award.svg" />
+          </div>
+          <div class="categoriesTitle">
+            <h1>The award</h1>
+            <p>The winning team get to take home the ANTLERS to keep</p>
+            <p>until next challenge</p>
+            <br />
+            <p>And all the glory they can carry</p>
+          </div>
+        </div>
+      </div>
+      <div class="row judges">
+        <div class="container">
+          <div class="judgesTitle darktext">
+            <h1>Judges</h1>
           </div>
           <div class="row legodivider">
-            <img class="legodividerimg" src="../assets/images/legoline.svg" />
+            <img class="legodividerimg2" src="../assets/images/legoline.svg" />
           </div>
-          <div class="row legodivider">
-            <img class="legodividerimg" src="../assets/images/texto-home.svg" />
-          </div>
-          <div class="row legodivider">
-            <p class="event-date">February 8th-12th 2021</p>
-          </div>
-          <div class="row legodivider">
-            <a class="registerbuttonlink" href="/">
-              <div class="registerbutton">REGISTER TODAY</div>
-            </a>
+        </div>
+        <div class="judgesContent">
+          <div class="row">
+            <div class="judgeCard col-md-4">
+              <div class="judgeContent">
+                <div class="judgePicture">
+                  <img class="judgePictureImg" src="../assets/images/judge-1.svg" />
+                </div>
+                <div class="judgeTitle">
+                  <h2>TBA</h2>
+                </div>
+                <div class="judgeDescription">
+                  <p>Creative engineer with excellent communication skills</p>
+                </div>
+              </div>
+            </div>
+            <div class="judgeCard col-md-4">
+              <div class="judgeContent">
+                <div class="judgePicture">
+                  <img class="judgePictureImg" src="../assets/images/judge-2.svg" />
+                </div>
+                <div class="judgeTitle">
+                  <h2>TBA</h2>
+                </div>
+                <div class="judgeDescription">
+                  <p>Creative engineer with excellent communication skills</p>
+                </div>
+              </div>
+            </div>
+            <div class="judgeCard col-md-4">
+              <div class="judgeContent">
+                <div class="judgePicture">
+                  <img class="judgePictureImg" src="../assets/images/judge-3.svg" />
+                </div>
+                <div class="judgeTitle">
+                  <h2>TBA</h2>
+                </div>
+                <div class="judgeDescription">
+                  <p>Creative engineer with excellent communication skills</p>
+                </div>
+              </div>
+            </div>
+            <div class="judgeCard col-md-4">
+              <div class="judgeContent">
+                <div class="judgePicture">
+                  <img class="judgePictureImg" src="../assets/images/judge-5.svg" />
+                </div>
+                <div class="judgeTitle">
+                  <h2>TBA</h2>
+                </div>
+                <div class="judgeDescription">
+                  <p>Creative engineer with excellent communication skills</p>
+                </div>
+              </div>
+            </div>
+            <div class="judgeCard col-md-4">
+              <div class="judgeContent">
+                <div class="judgePicture">
+                  <img class="judgePictureImg" src="../assets/images/judge-6.svg" />
+                </div>
+                <div class="judgeTitle">
+                  <h2>TBA</h2>
+                </div>
+                <div class="judgeDescription">
+                  <p>Creative engineer with excellent communication skills</p>
+                </div>
+              </div>
+            </div>
+            <div class="judgeCard col-md-4">
+              <div class="judgeContent">
+                <div class="judgePicture">
+                  <img class="judgePictureImg" src="../assets/images/judge-7.svg" />
+                </div>
+                <div class="judgeTitle">
+                  <h2>TBA</h2>
+                </div>
+                <div class="judgeDescription">
+                  <p>Creative engineer with excellent communication skills</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row separator"></div>
-          <div class="legoyellow">
+        </div>
+      </div>
+      <div class="row thePriceToPay">
+        <div class="container thePriceToPayContainer">
+          <div class="thePriceToPayHeader">
+            <div class="thePriceToPayIcon">
+              <img class="thePriceToPayIconImg" src="../assets/images/icon-bilette.svg" />
+            </div>
+          </div>
+          <div class="thePriceToPayContent">
+            <div class="thePriceToPayTitle">
+              <h1>Tickets</h1>
+            </div>
+            <div class="thePriceToPayAmount">
+              <h1>10.000 NOK</h1>
+              <p>excluding VAT</p>
+            </div>
+            <div class="thePriceToPayIncludes">
+              <ul>
+                <li>
+                  <p>Challenge Participants Pass</p>
+                </li>
+                <li>
+                  <p>Three nights in single bedroom at onsite hotel</p>
+                </li>
+                <li>
+                  <p>Breakfast Friday, Saturday and Sunday</p>
+                </li>
+                <li>
+                  <p>Lunch, coffee and small treats for the full duration</p>
+                </li>
+                <li>
+                  <p>Geekfood Thursday</p>
+                </li>
+                <li>
+                  <p>Three course dinner Friday</p>
+                </li>
+                <li>
+                  <p>Banquet dinner Saturday</p>
+                </li>
+                <li>
+                  <p>Subsidized CloudPints</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row theCampSite">
+        <div class="theCampSiteHeader">
+          <div class="theCampSiteIconContainer">
+            <img class="theCampSiteIcon" src="../assets/images/icon-campsite.svg" />
+          </div>
+          <div class="theCampSiteTitle">
+            <h1>The campsite</h1>
+            <p>Venue is the venerable Voksenåsen Hotel, located in the hills surrounding Oslo.</p>
+            <p>We encourage all participants to stay at the hotel for the event.</p>
+            <p>We will handle room bookings, and as you see from the conference fee most of what you'll need is covered so you can focus on waging the ultimate cloud battle.</p>
+            <div class="theCampSiteFooter">
+              <img class="theCampSiteIcon" src="../assets/images/logo-voksenaasen.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="theLocation">
+      <gmaps-map>
+        <gmaps-marker :position="{ lat: 59.96, lng: 10.65 }" />
+      </gmaps-map>
+    </div>
+    <!--<div class="container-fluid">
+      <div class="row sponsacdc">
+        <div class="sponsacdcheader">
+          <div class="sponsacdcTitle">
+            <h1>Wanna take part and sponsor ACDC?</h1>
+          </div>
+        </div>
+        <div class="sponsacdcContent">
+          <div class="legoyellowbottom">
             <img class="brikk" src="../assets/images/legoyellow.svg" />
           </div>
-          <div class="legoredleft">
-            <img class="brikk" src="../assets/images/legoredleft.svg" />
+          <div class="Subtitlebottom">
+            <h1>Get in touch</h1>
           </div>
-          <div class="legoblue">
+          <div class="legobluebottom">
             <img class="brikk" src="../assets/images/legoblue.svg" />
           </div>
-          <div class="legoredright">
-            <img class="brikk" src="../assets/images/legoredright.svg" />
-          </div>
         </div>
       </div>
-    </div>
-    <div class="row Categories">
-      <div class="categoriesHeader">
-        <div class="categoriesIcon">
-          <img class="categoryIcon" src="../assets/images/Icon-categories.svg" />
-        </div>
-        <div class="categoriesTitle">
-          <h1>Categories</h1>
-          <p>(Subject to change)</p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="categoriesContent">
-          <div class="row">
-            <div class="categoryCard col-md-4">
-              <div class="categoryContent">
-                <div class="categoryPicture">
-                  <img class="judgePicture" src="../assets/images/Mario.svg" />
-                </div>
-                <div class="categoryTitle">
-                  <h2>LEGO Super Mario power</h2>
-                </div>
-                <div class="categoryDescription">
-                  <p>
-                    Power users love tools and flexibility, so why not show them some by using tools available to the average
-                    office and line worker out there. More power less code! Power Automate, Power Apps, Power BI, Power Virtual Agent
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="categoryCard col-md-4">
-              <div class="categoryContent">
-                <div class="categoryPicture">
-                  <img class="judgePicture" src="../assets/images/HarryPotter.svg" />
-                </div>
-                <div class="categoryTitle">
-                  <h2>LEGO Harry Potter</h2>
-                </div>
-                <div class="categoryDescription">
-                  <p>
-                    Everything is so pretty, I can't take my eyes away! Applications are not all about functionality, they have to look pretty as well - why else have design manuals?
-                    Glossy pixels, User interactive, Responsivenes
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="categoryCard col-md-4">
-              <div class="categoryContent">
-                <div class="categoryPicture">
-                  <img class="judgePicture" src="../assets/images/BOOST.svg" />
-                </div>
-                <div class="categoryTitle">
-                  <h2>LEGO MINDSTORMS</h2>
-                </div>
-                <div class="categoryDescription">
-                  <p>
-                    All the tiny things, connected and online. Bring your IoT to the science fair!
-                    Azure, IoT, DevOps
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="categoryCard col-md-4">
-              <div class="categoryContent">
-                <div class="categoryPicture">
-                  <img class="judgePicture" src="../assets/images/StarWars.svg" />
-                </div>
-                <div class="categoryTitle">
-                  <h2>LEGO Star Wars</h2>
-                </div>
-                <div class="categoryDescription">
-                  <p>
-                    Cash is king, and nothing says cash like great business value.
-                    Usable solutions, Feasable Ideas, Real world scenarios
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="categoryCard col-md-4">
-              <div class="categoryContent">
-                <div class="categoryPicture">
-                  <img class="judgePicture" src="../assets/images/Ninjago.svg" />
-                </div>
-                <div class="categoryTitle">
-                  <h2>NINJAGO fortress</h2>
-                </div>
-                <div class="categoryDescription">
-                  <p>
-                    Secure your solutions, dont let Loki get past your gates!
-                    Keyvaults, GDPR, Secured Services
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="categoryCard col-md-4">
-              <div class="categoryContent">
-                <div class="categoryPicture">
-                  <img class="judgePicture" src="../assets/images/Marvel.svg" />
-                </div>
-                <div class="categoryTitle">
-                  <h2>LEGO Marvel spirit</h2>
-                </div>
-                <div class="categoryDescription">
-                  <p>
-                    Be a happy camper, spread the love, show your amazing team spirit!
-                    Help others in need, decorations, possitive vibes
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row theAward">
-      <div class="categoriesHeader">
-        <div class="categoriesIcon">
-          <img class="categoryIcon" src="../assets/images/icon-award.svg" />
-        </div>
-        <div class="categoriesTitle">
-          <h1>The award</h1>
-          <p>The winning team get to take home the BRICK TROPHY to keep</p>
-          <p>until next challenge</p>
-          <br />
-          <p>And all the glory they can carry</p>
-        </div>
-      </div>
-    </div>
-    <div class="row judges">
-      <div class="container">
-        <div class="judgesContent">
-          <div class="judgesTitle darktext">
-            <h1>JUDGES</h1>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="judgeTitle darktext">
-                <h2>Ahmad Najjar</h2>
-              </div>
-              <img class="judgePicture" src="../assets/judges/ahmad.png" />
-              <div
-                class="judgeDescription darktext"
-              >Ahmad is an enthusiastic developer heart and soul and a senior consultant based in Oslo at Infoworker. He’s also an active co-organizer for events and hackathons.</div>
-
-              <div class="judgeTitle darktext">
-                <h2>Marc Anderson</h2>
-              </div>
-              <img class="judgePicture" src="../assets/judges/marc.png" />
-              <div
-                class="judgeDescription darktext"
-              >Marc has over 35 years of experience in technology professional services and software development. Over a wide-ranging career in consulting as well as line manager positions.</div>
-            </div>
-            <div class="col-md-6">
-              <div class="judgeTitle darktext">
-                <h2>Mikael Svenson</h2>
-              </div>
-              <img class="judgePicture" src="../assets/judges/mikael.png" />
-              <div
-                class="judgeDescription darktext"
-              >Principal Program Manager at Microsoft. Mikael has good insight in many technologies and platforms as well as experience as project manager and customer communicator.</div>
-
-              <div class="judgeTitle darktext">
-                <h2>Kim Noel</h2>
-              </div>
-              <img class="judgePicture" src="../assets/judges/kim.png" />
-              <div
-                class="judgeDescription darktext"
-              >Creative engineer with excellent communication skills, team spirit, and adaptability. Her mission is to enable others to embrace uncertainty since there is no linear path to success.</div>
-            </div>
-
-            <div class="col-md-12">
-              <div class="judgeTitle darktext">
-                <h2>Lucy Bourne</h2>
-              </div>
-              <img class="judgePicture" src="../assets/judges/lucy.png" />
-              <div
-                class="judgeDescription darktext"
-              >Microsoft Business Applications Evangelist on a mission to empower every person and organisation on the planet to achieve more.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row thePriceToPay">
-      <div class="container-fluid">
-        <div class="container thePriceToPayContent">
-          <div class="thePriceToPayTitle">
-            <h1>THE PRICE TO PAY</h1>
-          </div>
-          <p>Price: NOK 10000 (ex. VAT)</p>
-          <p>Includes:</p>
-          <ul>
-            <li>
-              <p>Challenge Participants Pass</p>
-            </li>
-            <li>
-              <p>Three nights in single bedroom at onsite hotel</p>
-            </li>
-            <li>
-              <p>Breakfast Friday, Saturday and Sunday</p>
-            </li>
-            <li>
-              <p>Lunch, coffee and small treats for the full duration</p>
-            </li>
-            <li>
-              <p>Geekfood Thursday</p>
-            </li>
-            <li>
-              <p>Three course dinner Friday</p>
-            </li>
-            <li>
-              <p>Banquet dinner Saturday</p>
-            </li>
-            <li>
-              <p>Subsidized CloudPints</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="row theCampSite">
-      <div class="container">
-        <div class="antlersStraightWhite"></div>
-        <div class="antlersDividerWhite"></div>
-        <div class="antlersDividerWhite"></div>
-        <div class="theCampsiteTitle">
-          <h1>THE CAMPSITE</h1>
-        </div>
-        <div class="antlersDividerWhite"></div>
-        <div class="antlersDividerWhite"></div>
-        <div class="antlersScewedWhite"></div>
-        <div class="theCampSiteContent">
-          <div class="theCampsiteSubTitle">
-            <h1>VOKSENÅSEN HOTELL</h1>
-          </div>
-          <p>Venue is the venerable Voksenåsen Hotel, located in the hills surrounding Oslo.</p>
-          <p>We encourage all participants to stay at the hotel for the event.</p>
-          <p>We will handle room bookings, and as you see from the conference fee most of what you'll need is covered so you can focus on waging the ultimate cloud battle.</p>
-        </div>
-      </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
 <script>
+import { gmapsMap, gmapsMarker } from "x5-gmaps";
 export default {
   name: "Home",
   methods: {
     track() {
       this.$ga.page("/");
     },
-  }, //this is the name of the component
+  },
+  components: { gmapsMap, gmapsMarker },
+  data: () => ({
+      mapOptions: {
+        center: { lat: 59.96, lng: 10.65 },
+        zoom: 12,
+      },
+    }),
 };
 </script>
 <style>
+.sponsacdcheader {
+  width: 100%;
+  margin-top: 50px;
+}
+.sponsacdcTitle h1 {
+  color: #27343c;
+  font-size: 40pt;
+  font-weight: bold;
+}
+.sponsacdcContent {
+  width: 100%;
+}
+.theLocation {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
 .main-section-top {
   max-width: 678px;
   margin: auto;
 }
 .legoLeft {
   position: absolute;
+  left: -5%;
 }
 .logotop {
   margin: auto;
@@ -411,13 +505,7 @@ export default {
   width: 45%;
   padding-top: 70px;
 }
-.Categories {
-  background: lightgray;
-  background: url(../assets/images/background-legos.svg) no-repeat center;
-  height: 30%;
-  padding-top: 15vh;
-  flex-direction: column;
-}
+
 .theAward {
   background: white;
   height: 30%;
@@ -457,6 +545,13 @@ export default {
 .theAwardContent p {
   margin: 0;
 }
+.Categories {
+  background: lightgray;
+  background: url(../assets/images/background-legos.svg) no-repeat center;
+  height: 30%;
+  padding-top: 15vh;
+  flex-direction: column;
+}
 .categoriesHeader {
   display: flex;
   width: 60%;
@@ -495,6 +590,12 @@ export default {
 .categoryPicture {
   width: 100%;
 }
+.categoryPictureImg {
+  margin-bottom: 15px;
+  width: 315px;
+  height: 315px;
+  padding: 25px;
+}
 .categoryTitle {
   font-size: 35pt;
   color: black;
@@ -517,45 +618,84 @@ export default {
   font-family: "Roboto Condensed", Georgia, Times, serif;
 }
 .thePriceToPay {
+  background: lightgray;
+  background: url(../assets/images/background-graa.svg) no-repeat center;
+  height: 30%;
+  padding-top: 15vh;
+}
+.thePriceToPayContainer {
   background: white;
-  /*background: url("../assets/images/artem-maltsev-1372852-unsplash.png")
-    no-repeat center;*/
-  background-size: cover;
+  margin-top: 15vh;
+  display: flex;
 }
-.thePriceToPayTitle {
-  color: white;
-  font-size: 61px;
+.thePriceToPayHeader {
+  display: flex;
 }
-.thePriceToPayContent > ul > li {
-  text-align: left;
-}
-
-.thePriceToPayContent {
-  color: white;
-  font-size: 25px;
-  font-family: "Open Sans", Georgia, Times, serif;
-  text-shadow: 1px 1px #27343c;
+.thePriceToPayIcon {
   margin-right: 2em;
 }
+.thePriceToPayImg {
+  margin-bottom: 15px;
+  width: 315px;
+  height: 315px;
+  padding: 25px;
+}
+.thePriceToPayTitle h1 {
+  color: black;
+  text-align: left;
+  font-size: 50pt;
+  font-weight: bold;
+}
+.thePriceToPayAmount {
+  padding: 20px 10px;
+  border: 3px solid black;
+}
+.thePriceToPayAmount h1 {
+  color: black;
+  text-align: left;
+  font-size: 50pt;
+  font-weight: bold;
+}
+.thePriceToPayAmount p {
+  color: black;
+  text-align: left;
+  font-size: 12pt;
+  font-weight: bold;
+}
+.thePriceToPayIncludes {
+  margin-top: 10vh;
+}
+.thePriceToPayIncludes > ul > li {
+  text-align: left;
+  color: black;
+  font-size: 12pt;
+}
+.thePriceToPayContent {
+  background: white;
+  flex-direction: column;
+}
 .judges {
-  background: #27343c;
-  /*background: url("../assets/images/ella-peebles-kUkqoqwY61s-unsplash.jpg")
-    no-repeat center;*/
-  background-size: cover;
-  opacity: 0.9;
-  color: #27343c;
+  background: #2a2d35;
 }
 .judgesTitle {
-  color: #fbb90f !important;
-  font-size: 70px;
+  margin-top: 30px;
+}
+.judgesTitle h1 {
+  color: white;
+  font-size: 45px;
   font-weight: bolder;
-  text-shadow: 1px 1px #27343c;
   margin-bottom: 30px;
 }
 .judgesContent {
   color: white;
   font-size: 25px;
-  margin-top: 10%;
+  margin-top: 5%;
+  width: 80%;
+  margin: auto;
+}
+.legodividerimg2 {
+  width: 80%;
+  margin: auto;
 }
 .darkenoverlay {
   width: 100%;
@@ -566,38 +706,75 @@ export default {
   background: url("../assets/images/woodframe.png") no-repeat;
   padding: 10px 5px 5px 10px;
 }
-.judgeTitle {
-  color: #fbb90f !important;
-  font-size: 35px;
-  text-shadow: 1px 1px #27343c;
-  margin-bottom: 15px;
+.judgeCard {
+  padding: 1em 2em;
+}
+.judgeContent {
+  height: 100%;
+  padding: 0 20px;
 }
 .judgePicture {
   margin-bottom: 15px;
-  width: 315px;
-  height: 315px;
+  width: 250px;
+  margin: auto;
+  padding: 30px;
+}
+.judgePictureImg {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.judgeTitle {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.judgeDescription {
+  font-size: 12pt;
+  color: #6d7c90;
+  margin: 0px 1.75vw;
 }
 .darktext {
   color: #fff;
-  text-shadow: 3px 3px #27343c;
 }
 .bottomspacing {
   margin-bottom: 3em;
 }
-.judgeDescription {
-  color: white;
-  font-size: 25px;
-  text-shadow: 3px 3px #27343c;
-  margin-bottom: 25px;
-}
 .theCampSite {
   background: white;
-  background: url("../assets/images/jake-hinds-392693-unsplash.png") no-repeat
-    center;
-  background-size: cover;
-  height: 40%;
-  padding-top: 40px;
-  padding-bottom: 40%;
+  padding-top: 15vh;
+  flex-direction: column;
+  padding-bottom: 15vh;
+}
+.theCampSiteHeader {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+.theCampSiteHeader h1 {
+  color: black;
+  text-align: left;
+  font-size: 50pt;
+  font-weight: bold;
+}
+.theCampSiteHeader p {
+  color: #6d7c90;
+  text-align: left;
+  font-size: 15pt;
+}
+.theCampSiteFooter {
+  display: flex;
+}
+.theCampSiteIcon {
+  margin-right: 2em;
+}
+.theCampSiteTitle {
+  display: flex;
+  flex-direction: column;
+}
+.theCampSiteContent {
+  color: black;
+  font-size: 25px;
+  background-color: white;
 }
 .antlersStraightWhite {
   height: 71px;
@@ -652,28 +829,28 @@ export default {
   overflow-x: hidden;
   position: absolute;
   left: 80vw;
-  top: 61vh;
+  top: 80vh;
 }
 
 .legoredleft {
   overflow-x: hidden;
   position: absolute;
   left: 25%;
-  top: 70vh;
+  top: 89vh;
 }
 
 .legoblue {
   overflow-x: hidden;
   position: absolute;
   left: 65vw;
-  top: 75vh;
+  top: 94vh;
 }
 
 .legoredright {
   overflow-x: hidden;
   position: absolute;
   left: 88vw;
-  top: 81vh;
+  top: 100vh;
 }
 
 .separator {
@@ -773,6 +950,37 @@ export default {
   }
   .theAwardTitle {
     font-size: 2.5rem;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 920px) and (max-device-width: 1600px) {
+  .legoyellow {
+    overflow-x: hidden;
+    position: absolute;
+    left: 80vw;
+    top: 110vh;
+  }
+
+  .legoredleft {
+    overflow-x: hidden;
+    position: absolute;
+    left: 25%;
+    top: 119vh;
+  }
+
+  .legoblue {
+    overflow-x: hidden;
+    position: absolute;
+    left: 65vw;
+    top: 124vh;
+  }
+
+  .legoredright {
+    overflow-x: hidden;
+    position: absolute;
+    left: 88vw;
+    top: 130vh;
   }
 }
 

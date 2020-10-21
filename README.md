@@ -1,4 +1,4 @@
-# acdc2019
+# acdc2020
 
 ## Project setup
 ```
@@ -15,15 +15,5 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Deployment 
+The deployment is executed from master branch in the repository https://github.com/bricenocar/arcticclouddeveloperchallenge. You must commit your changes and create a pull request so it can be merged to master after testing it.

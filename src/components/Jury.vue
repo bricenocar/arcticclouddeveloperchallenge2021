@@ -62,19 +62,6 @@ export default {
 };
 </script>
 <style>
-.judgesTitle {
-  color: white;
-  font-size: 70px;
-  font-weight: bolder;
-  text-shadow: 1px 1px #27343c;
-  margin-bottom: 30px;
-}
-.judgesContent {
-  color: white;
-  font-size: 25px;
-  margin-top: 10%;
-  
-}
 .darkenoverlay{
   width: 100%;
   height: 100%;
@@ -83,17 +70,6 @@ export default {
 .judgeFrame {  
   background: url("../assets/images/woodframe.png") no-repeat;
   padding: 10px 5px 5px 10px ;
-}
-.judgeTitle {
-  color: white;
-  font-size: 35px;
-  text-shadow: 1px 1px #27343c;
-  margin-bottom: 15px;
-}
-.judgePicture {
-  margin-bottom: 15px;
-  width: 315px;
-  height: 315px;
 }
 .judge-devider{
   margin-left: 15px !important;

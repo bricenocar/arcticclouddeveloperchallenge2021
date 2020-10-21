@@ -8,7 +8,7 @@
             <i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i>
             <span>Home</span>
           </router-link>
-          <router-link class="spacing" to="/about">
+          <!--<router-link class="spacing" to="/about">
             <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
             <span>About</span>
           </router-link>
@@ -35,22 +35,9 @@
           <router-link class="spacing" to="/contact">
             <i class="ms-Icon ms-Icon--ContactCard" aria-hidden="true"></i>
             <span>Contact us</span>
-          </router-link>
+          </router-link>-->
         </nav>
       </Slide>
-      <!--<div v-responsive="['hidden-all','lg','xl','md']">
-            <nav class="tabs">
-              <div class="selector"></div>
-                <router-link class="spacing" to="/home">Home</router-link>
-                <router-link class="spacing" to="/about">About</router-link>
-                <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
-                <router-link class="spacing" to="/Agenda">Agenda</router-link>
-                <router-link class="spacing" to="/register">Register</router-link>
-                <router-link class="spacing" to="/anniversary">10th Anniversary</router-link>
-                <router-link class="spacing" to="/previous">Previous Events</router-link>
-                <router-link class="spacing" to="/contact">Contact us</router-link>
-            </nav>
-      </div>-->
     </div>
   </div>
 </template>
@@ -88,10 +75,6 @@ export default {
   color: #b8b7ad;
   font-size: 20px;
   margin-left: 0 !important;
-}
-.bm-burger-button {
-  top: 20px !important;
-  right: 5px !important;
 }
 
 .bm-item-list > nav {
