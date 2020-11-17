@@ -76,7 +76,8 @@
                   </div>
                   <div class="categoryDescription">
                     <p>
-                     If a Lego could speak, what would it say? Connect the Lego to the cloud and find out. IOT, Azure, “DevOps” 
+                      If a Lego could speak, what would it say? Connect the Lego
+                      to the cloud and find out. IOT, Azure, “DevOps”
                     </p>
                   </div>
                 </div>
@@ -94,7 +95,9 @@
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Emmet the Lego works hard every day, but can he work smarter? Power Automate, Power Apps, Power BI, Power Virtual Agent
+                      Emmet the Lego works hard every day, but can he work
+                      smarter? Power Automate, Power Apps, Power BI, Power
+                      Virtual Agent
                     </p>
                   </div>
                 </div>
@@ -112,7 +115,8 @@
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Ohh no, there have been sightings of Duplo in the city. What can we do? Keyvault, GDPR, Secured Services
+                      Ohh no, there have been sightings of Duplo in the city.
+                      What can we do? Keyvault, GDPR, Secured Services
                     </p>
                   </div>
                 </div>
@@ -130,7 +134,8 @@
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Rumors of mythical Lego creations live among us all. Can you find them? AR/VR
+                      Rumors of mythical Lego creations live among us all. Can
+                      you find them? AR/VR
                     </p>
                   </div>
                 </div>
@@ -148,7 +153,8 @@
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Happy camper, spread the love, show your team spirit! Help others, build stuff, be positive
+                      Happy camper, spread the love, show your team spirit! Help
+                      others, build stuff, be positive
                     </p>
                   </div>
                 </div>
@@ -166,7 +172,9 @@
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Running a business is tough. Do you have what it takes, or will you get FIRED? Usable Solutions, Feasable ideas, Real World Scenarios
+                      Running a business is tough. Do you have what it takes, or
+                      will you get FIRED? Usable Solutions, Feasable ideas, Real
+                      World Scenarios
                     </p>
                   </div>
                 </div>
@@ -184,8 +192,7 @@
             <h1>The award</h1>
             <p>The winning team get to take home the ANTLERS to keep</p>
             <p>until next challenge</p>
-            <br />
-            <p>And all the glory they can carry</p>
+            <p style="margin-top:50px">And all the glory they can carry!</p>
           </div>
         </div>
       </div>
@@ -212,7 +219,12 @@
                   <h2>Merethe Stave</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Merethe Stave is Chief Customer Officer and Senior Cloud Architect at CloudWay. She was recognized as one of Norway's 50 leading women in tech 2020 and is board member of the Norwegian Microsoft 365 Community.</p>
+                  <p>
+                    Merethe Stave is Chief Customer Officer and Senior Cloud
+                    Architect at CloudWay. She was recognized as one of Norway's
+                    50 leading women in tech 2020 and is board member of the
+                    Norwegian Microsoft 365 Community.
+                  </p>
                 </div>
               </div>
             </div>
@@ -228,7 +240,13 @@
                   <h2>Cathrine Wilhelmsen</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Cathrine loves teaching and sharing knowledge. Senior Business Intellligence Consultant in Inmeta. Active in the SQL Server Community as a Microsoft Data Platform MVP, BimlHero Certified Expert, Author, Speaker, Blogger, Organizer and chronic volunteer.</p>
+                  <p>
+                    Cathrine loves teaching and sharing knowledge. Senior
+                    Business Intellligence Consultant in Inmeta. Active in the
+                    SQL Server Community as a Microsoft Data Platform MVP,
+                    BimlHero Certified Expert, Author, Speaker, Blogger,
+                    Organizer and chronic volunteer.
+                  </p>
                 </div>
               </div>
             </div>
@@ -244,7 +262,12 @@
                   <h2>Marius Agur</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Owner at Marius Agur Consulting and a Microsoft MVP in Business Applications. This CRMViking has both been a participant and judge before, so he knows what’s going on – most importantly, he can explain the points system.</p>
+                  <p>
+                    Owner at Marius Agur Consulting and a Microsoft MVP in
+                    Business Applications. This CRMViking has both been a
+                    participant and judge before, so he knows what’s going on –
+                    most importantly, he can explain the points system.
+                  </p>
                 </div>
               </div>
             </div>
@@ -301,68 +324,74 @@
         </div>
       </div>
       <div class="row thePriceToPay">
-        <div class="container thePriceToPayContainer">
-          <div class="thePriceToPayHeader">
-            <div class="thePriceToPayIcon">
-              <img
-                class="thePriceToPayIconImg"
-                src="../assets/images/icon-bilette.svg"
-              />
+        <div class="container ">
+          <div class="thePriceToPayContainer">
+            <div class="thePriceToPayHeader">
+              <div class="thePriceToPayIcon">
+                <img
+                  class="thePriceToPayIconImg"
+                  src="../assets/images/icon-bilette.svg"
+                />
+              </div>
+            </div>
+            <div class="thePriceToPayContent">
+              <div class="thePriceToPayTitle">
+                <h1>Tickets</h1>
+              </div>
+              <div class="col-md-6 thePriceToPayAmount">
+                <p>From</p>
+                <p></p>
+                <h1>2.000 NOK</h1>
+                <p>excluding VAT</p>
+                <p>*All surples money is strictly donations to a good cause</p>
+              </div>
+              <div class="thePriceToPayIncludes">
+                <p>
+                  <strong>
+                    Why does this cost when it is an online event?</strong
+                  >
+                </p>
+                <p>
+                  Even though we are online, we still have cost running the
+                  event (judges,marketing,swag bag, prizes, etc). We also want
+                  dedicated tech geeks that want to learn and have fun.
+                </p>
+                <p><strong>Why do say from 2000 and up?</strong></p>
+                <p>
+                  At the same time we are focused on making this event
+                  memorable, we also wanted to make it special for people that
+                  are less fortunate. We have therefore decided that all surplus
+                  money we get is donated to a Norwegian charity for children.
+                  Details about what charity will soon be announced. The more
+                  you pay, the more we can donate.
+                </p>
+                <p><strong>What's in it for me as a participiant?</strong></p>
+                <p>
+                  During corona we can all agree that the learning between
+                  colleagues has been hard. We all need to dedicate some time to
+                  learn new things and be social with people we work with.
+                </p>
+                <p><strong>What's in it for me as an employer?</strong></p>
+                <p>
+                  Your emplyees need to have a bit of fun (while beeing safe)
+                  during these hard times. It will be a boost for your employees
+                  mental health, and it is good for your brand to be a part for
+                  community events. At the same time we will also post to social
+                  media with everything that happening, creating awareness. We
+                  will also be posting your logo with special thank you video
+                  from the organization we donate to.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="thePriceToPayContent">
-            <div class="thePriceToPayTitle">
-              <h1>Tickets</h1>
-            </div>
-            <div class="col-md-6 thePriceToPayAmount">
-              <p>From<p><h1>2.000 NOK</h1>
-              <p>excluding VAT</p>
-              <p>*All surples money is strictly donations to a good cause</p>
-            </div>
-            <div class="thePriceToPayIncludes">
-              <p><strong>
-                  Why does this cost when it is an online event?</strong></p>
-              <p>Even though we are online, we still have cost running the event (judges,marketing,swag bag, prizes, etc).
-                We also want dedicated tech geeks that want to learn and have fun.
-              </p>
-              <p><strong>Why do say from 2000 and up?</strong></p>
-              <p>At the same time we are focused on making this event memorable, we also wanted to make it special for people that are less fortunate. We have therefore decided that all surplus money we get is donated to a Norwegian charity for children.
-                Details about what charity will soon be announced. The more you pay, the more we can donate.
-              </p>
-              <p><strong>What's in it for me as a participiant?</strong></p>
-              <p>During corona we can all agree that the learning between colleagues has been hard. We all need to dedicate some time to learn new things and be social with people we work with.</p>
-              <p><strong>What's in it for me as an employer?</strong></p>
-              <p>Your emplyees need to have a bit of fun (while beeing safe) during these hard times. It will be a boost for your employees mental health, and it is good for your brand to be a part for community events.
-                At the same time we will also post to social media with everything that happening, creating awareness.
-                We will also be posting your logo with special thank you video from the organization we donate to.
-              </p>
-              <!-- <ul>
-                <li>
-                  <p>Challenge Participants Pass</p>
-                </li>
-                <li>
-                  <p>Three nights in single bedroom at onsite hotel</p>
-                </li>
-                <li>
-                  <p>Breakfast Friday, Saturday and Sunday</p>
-                </li>
-                <li>
-                  <p>Lunch, coffee and small treats for the full duration</p>
-                </li>
-                <li>
-                  <p>Geekfood Thursday</p>
-                </li>
-                <li>
-                  <p>Three course dinner Friday</p>
-                </li>
-                <li>
-                  <p>Banquet dinner Saturday</p>
-                </li>
-                <li>
-                  <p>Subsidized CloudPints</p>
-                </li>
-              </ul> -->
-            </div>
+          <div class="row legodivider">
+            <a
+              class="registerbuttonlinkbottom"
+              href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
+              target="_blank"
+            >
+              <div class="registerbuttonbottom">REGISTER TODAY</div>
+            </a>
           </div>
         </div>
       </div>
@@ -410,7 +439,7 @@
 </template>
 
 <script>
-import { gmapsMap, gmapsMarker } from "x5-gmaps";
+//import { gmapsMap, gmapsMarker } from "x5-gmaps";
 export default {
   name: "Home",
   methods: {
@@ -418,13 +447,6 @@ export default {
       this.$ga.page("/");
     },
   },
-  components: { gmapsMap, gmapsMarker },
-  data: () => ({
-    mapOptions: {
-      center: { lat: 59.96, lng: 10.665 },
-      zoom: 12,
-    },
-  }),
 };
 </script>
 <style>
@@ -516,6 +538,21 @@ export default {
 }
 .registerbuttonlink {
   width: 100%;
+}
+.registerbuttonlinkbottom {
+  width: 50vw;
+  margin: auto;
+}
+.registerbuttonbottom {
+  color: black;
+  display: block;
+  background-color: #ffc800;
+  border-radius: 6pt;
+  padding: 1em;
+  border: #27343c 2pt solid;
+  font-family: "Open Sans";
+  font-weight: bold;
+  margin-top: 3em;
 }
 .rectangle {
   border: solid 10px;
