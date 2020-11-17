@@ -320,18 +320,18 @@
               <p>*All surples money is strictly donations to a good cause</p>
             </div>
             <div class="thePriceToPayIncludes">
-              <p>
-                  Why does this cost when it is an online event?</p>
+              <p><strong>
+                  Why does this cost when it is an online event?</strong></p>
               <p>Even though we are online, we still have cost running the event (judges,marketing,swag bag, prizes, etc).
                 We also want dedicated tech geeks that want to learn and have fun.
               </p>
-              <p>Why do say from 2000 and up?</p>
+              <p><strong>Why do say from 2000 and up?</strong></p>
               <p>At the same time we are focused on making this event memorable, we also wanted to make it special for people that are less fortunate. We have therefore decided that all surplus money we get is donated to a Norwegian charity for children.
                 Details about what charity will soon be announced. The more you pay, the more we can donate.
               </p>
-              <p>What's in it for me as a participiant?</p>
+              <p><strong>What's in it for me as a participiant?</strong></p>
               <p>During corona we can all agree that the learning between colleagues has been hard. We all need to dedicate some time to learn new things and be social with people we work with.</p>
-              <p>What's in it for me as an employer?</p>
+              <p><strong>What's in it for me as an employer?</strong></p>
               <p>Your emplyees need to have a bit of fun (while beeing safe) during these hard times. It will be a boost for your employees mental health, and it is good for your brand to be a part for community events.
                 At the same time we will also post to social media with everything that happening, creating awareness.
                 We will also be posting your logo with special thank you video from the organization we donate to.

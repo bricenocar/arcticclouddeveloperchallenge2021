@@ -16,7 +16,7 @@
                     <p class="card-text">
                        <ul>
                         <li><p><span class="yellowtitle">0900</span> Ladies and gentlemen. Start your engines. Get your setups ready, and make sure you have enough coffee</p></li>
-                        <li><p><span class="yellowtitle">0930</span> Words from Microsoft Norway saying welcome to this awesom event!</p></li>
+                        <li><p><span class="yellowtitle">0930</span> Words from Microsoft Norway saying welcome to this awesome event!</p></li>
                         <li><p><span class="yellowtitle">1000</span> Introduction of the rules with personal introductions per referee</p></li>
                         <li><p><span class="yellowtitle">1030</span> Let's GO!!</p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
