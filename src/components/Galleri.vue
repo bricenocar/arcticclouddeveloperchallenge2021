@@ -118,7 +118,8 @@ export default {
  
 <style>
 .galleri{
-  background: url("../assets/images/paul-green-98256-unsplash.jpg") no-repeat center;
+  background: url(../assets/images/background-graa.svg)no-repeat
+  center;
   background-size: cover;
 }
 </style> 

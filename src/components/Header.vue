@@ -8,7 +8,7 @@
             <i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i>
             <span>Home</span>
           </router-link>
-          <!--<router-link class="spacing" to="/about">
+          <router-link class="spacing" to="/about">
             <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
             <span>About</span>
           </router-link>
@@ -20,14 +20,18 @@
             <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
             <span>Agenda</span>
           </router-link>
-          <router-link class="spacing" to="/register">
+          <router-link class="spacing" to="/Jury2021">
+            <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
+            <span>Jury</span>
+          </router-link>
+          <!-- <router-link class="spacing" to="/register">
             <i class="ms-Icon ms-Icon--AddFriend" aria-hidden="true"></i>
             <span>Register</span>
           </router-link>
           <router-link class="spacing" to="/anniversary">
             <i class="ms-Icon ms-Icon--PartyLeader" aria-hidden="true"></i>
             <span>10th Anniversary</span>
-          </router-link>
+          </router-link> -->
           <router-link class="spacing" to="/previous">
             <i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i>
             <span>Previous Events</span>
@@ -35,7 +39,7 @@
           <router-link class="spacing" to="/contact">
             <i class="ms-Icon ms-Icon--ContactCard" aria-hidden="true"></i>
             <span>Contact us</span>
-          </router-link>-->
+          </router-link>
         </nav>
       </Slide>
     </div>
