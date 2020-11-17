@@ -366,7 +366,7 @@
           </div>
         </div>
       </div>
-      <div class="row theCampSite">
+      <!-- <div class="row theCampSite">
         <div class="container theCampSiteContainer">
           <div class="theCampSiteHeader">
             <div class="theCampSiteIconContainer">
@@ -399,13 +399,13 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
-    <div class="theLocation">
+    <!-- <div class="theLocation">
       <gmaps-map :options="mapOptions">
         <gmaps-marker :position="{ lat: 59.96, lng: 10.665 }" />
       </gmaps-map>
-    </div>
+    </div> -->
   </div>
 </template>
 
