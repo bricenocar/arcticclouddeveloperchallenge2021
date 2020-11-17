@@ -3,10 +3,16 @@
       <div class="container">
         <div class="row">
           <div class="column overview">
-            <h3 class="lightbrowntitle title">Previous Events</h3>
+            <h1 class="title">Previous Events</h1>
+            <div class="row legodivider">
+              <img class="legodividerimg3" src="../assets/images/legoline.svg"/>
+              </div>
             <p>ACDC have had very nice moments and stories, we are very happy to share them with you...</p>
             <h4>Comments from previous judges:</h4>
             <div class="center">
+              <Tweet id="1235918009233010688" :options="{ theme: 'dark' }"/>
+              <Tweet id="1226518271161184257" :options="{theme: 'dark'}"/>
+              <Tweet id="1226558090130198529" :options="{ theme: 'dark' }"/>
               <Tweet id="1102039120543731712" :options="{ theme: 'dark' }"/>              
               <Tweet id="828378154741923841" :options="{ theme: 'dark' }"/>
               <Tweet id="1101061008125239301" :options="{ theme: 'dark' }"/>
@@ -147,13 +153,32 @@ export default {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 20px;
+    color:black;
 }
+.overview h1{
+  color:black;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bold;
+}
+.overview h4{
+  color: #6d7c90;
+  font-size:30pt;
+  font-weight:bold;
+  text-align: center;
+}
+.overview p {
+  color: #6d7c90;
+  font-size: 15pt;
+  text-align: center;
+}
+
 
 .about {
   padding: 20px;
   text-align: left;
    background: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/isai-ramos-46821-unsplash_comp.jpg") no-repeat
+    background: url(../assets/images/background-graa.svg) no-repeat
     center; 
   background-size: cover;
   height: 40%;

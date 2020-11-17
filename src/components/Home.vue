@@ -314,12 +314,29 @@
             <div class="thePriceToPayTitle">
               <h1>Tickets</h1>
             </div>
-            <div class="thePriceToPayAmount">
-              <h1>10.000 NOK</h1>
+            <div class="col-md-6 thePriceToPayAmount">
+              <p>From<p><h1>2.000 NOK</h1>
               <p>excluding VAT</p>
+              <p>*All surples money is strictly donations to a good cause</p>
             </div>
             <div class="thePriceToPayIncludes">
-              <ul>
+              <p><strong>
+                  Why does this cost when it is an online event?</strong></p>
+              <p>Even though we are online, we still have cost running the event (judges,marketing,swag bag, prizes, etc).
+                We also want dedicated tech geeks that want to learn and have fun.
+              </p>
+              <p><strong>Why do say from 2000 and up?</strong></p>
+              <p>At the same time we are focused on making this event memorable, we also wanted to make it special for people that are less fortunate. We have therefore decided that all surplus money we get is donated to a Norwegian charity for children.
+                Details about what charity will soon be announced. The more you pay, the more we can donate.
+              </p>
+              <p><strong>What's in it for me as a participiant?</strong></p>
+              <p>During corona we can all agree that the learning between colleagues has been hard. We all need to dedicate some time to learn new things and be social with people we work with.</p>
+              <p><strong>What's in it for me as an employer?</strong></p>
+              <p>Your emplyees need to have a bit of fun (while beeing safe) during these hard times. It will be a boost for your employees mental health, and it is good for your brand to be a part for community events.
+                At the same time we will also post to social media with everything that happening, creating awareness.
+                We will also be posting your logo with special thank you video from the organization we donate to.
+              </p>
+              <!-- <ul>
                 <li>
                   <p>Challenge Participants Pass</p>
                 </li>
@@ -344,12 +361,12 @@
                 <li>
                   <p>Subsidized CloudPints</p>
                 </li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
       </div>
-      <div class="row theCampSite">
+      <!-- <div class="row theCampSite">
         <div class="container theCampSiteContainer">
           <div class="theCampSiteHeader">
             <div class="theCampSiteIconContainer">
@@ -382,13 +399,13 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
-    <div class="theLocation">
+    <!-- <div class="theLocation">
       <gmaps-map :options="mapOptions">
         <gmaps-marker :position="{ lat: 59.96, lng: 10.665 }" />
       </gmaps-map>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -712,6 +729,11 @@ export default {
   margin-top: 10vh;
 }
 .thePriceToPayIncludes > ul > li {
+  text-align: left;
+  color: black;
+  font-size: 12pt;
+}
+.thePriceToPayIncludes p {
   text-align: left;
   color: black;
   font-size: 12pt;

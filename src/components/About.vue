@@ -2,15 +2,22 @@
     <div class="container-fluid aboutacdc">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 separator overview">
-            <h3 class="title lightbrowntitle">Arctic cloud developer challenge 2020</h3>
-            <p>#acdc2020 aims to stimulate collaborative learning, networking and stimulation of ideas for participants through
+          <div class="column overview">
+            <h1 class="title ">Arctic cloud developer challenge</h1>
+             <div class="row legodivider">
+              <img class="legodividerimg3" src="../assets/images/legoline.svg" />
+            </div>
+            <!-- <p>#acdc2021 aims to stimulate collaborative learning, networking and stimulation of ideas for participants through
               <nobr>hands-on,</nobr>
               <nobr>time-limited</nobr> challenges. we are fiercely competitive, yet vastly helpful and extremely sharing (also across teams), realizing that collective learning is more important than personal gain!
-            </p> 
+            </p>  -->
+            <p>
+              ACDC is a 3 day Norwegian hackathon focusing on Microsoft technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT. Azure, ML, Power BI. Our goal is to push technology to new limits while we learn from each other and socialize.
+              This great event has been hosted for over 10 years at the beautiful Voksenåsen. This year we are forced to think new, so we are going online, and going LIVE!
+            </p>
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="column col-md-4">    
             <div class="about-icon-link about-v-default ">
               <router-link :to="{ name: 'overview' }" class="io-about-reset">
@@ -113,7 +120,7 @@
               </router-link>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 </template>
@@ -133,7 +140,7 @@ export default {
   padding: 20px;
   text-align: left;
    background: white;
-   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/isai-ramos-46821-unsplash_comp.jpg") no-repeat
+   background: url(../assets/images/background-graa.svg) no-repeat
     center;
   background-size: cover;
   height: 40%;
@@ -196,5 +203,9 @@ a.io-about-reset:hover {
     margin-left: -15px;
     margin-right: -15px;
     margin-top: -15px;
+}
+.legodividerimg3 {
+  width: 50%;
+  margin: auto;
 }
 </style>
