@@ -3,9 +3,9 @@
       <div class="container">
         <div class="row ">
           <div class="column overview">
-            <h3 class="title">Rules and Points</h3>
+            <h1 class="title">Rules and Points</h1>
             
-            <h1 class="title">Categories</h1>
+            <h4>Categories</h4>
             <div class="row legodivider">
               <img class="legodividerimg3" src="../assets/images/legoline.svg" />
             </div>
@@ -100,6 +100,23 @@ export default {
   padding-bottom: 50px;
   margin-bottom: 50px;
   padding: 0 15px;
+}
+.rulesandpoints h1{
+  color: black;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bold;
+}
+.rulesandpoints h4{
+  color: #6d7c90;
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+.rulesandpoints p{
+  color: #6d7c90;
+  text-align: left;
+  font-size: 15pt;
 }
 .legodividerimg3 {
   width: 50%;

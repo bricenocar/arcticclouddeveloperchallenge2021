@@ -2,7 +2,10 @@
     <div class="container-fluid">
       <div class="row contact">
         <div class="col-md-12 overview">
-          <h3 class="lightbrowntitle">Contact us!</h3>
+          <h3>Contact us!</h3>
+          <div class="row legodivider">
+              <img class="legodividerimg3" src="../assets/images/legoline.svg" />
+            </div>
                <p>
               Follow Dexter the Lynx on Twitter
               <a href="https://twitter.com/intent/user?screen_name=SPChallenge"><span>@SPChallenge</span></a>
@@ -30,8 +33,8 @@ export default {
 .contact {
   padding: 20px;
    background: white;
-   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/isai-ramos-46821-unsplash_comp.jpg") no-repeat
-    center; 
+   background:url(../assets/images/background-graa.svg)no-repeat 
+   center; 
   background-size: cover;
   height: 40%;
   padding-top: 40px;
@@ -41,11 +44,16 @@ export default {
 .contact h3 {
   margin-top: 20px;
   margin-bottom: 30px;
+  color:black;
 }
 
 .contact .lightbrowntitle {
     margin-bottom: 30px;
     margin-top: 20px;
     text-align: center;
+}
+.legodividerimg3 {
+  width: 50%;
+  margin: auto;
 }
 </style>
