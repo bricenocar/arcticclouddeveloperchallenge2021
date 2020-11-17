@@ -8,15 +8,19 @@
             <i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i>
             <span>Home</span>
           </router-link>
-          <!--<router-link class="spacing" to="/about">
+          <!--<router-link class="spacing" to="/Sponsorship">
             <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
-            <span>About</span>
-          </router-link>
+            <span>Sponsoship</span>
+          </router-link>-->
           <router-link class="spacing" to="/RulesAndPoints">
             <i class="ms-Icon ms-Icon--Bullseye" aria-hidden="true"></i>
             <span>Rules and points</span>
           </router-link>
-          <router-link class="spacing" to="/Agenda">
+          <router-link class="spacing" to="/Jury2021">
+            <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
+            <span>Jury</span>
+          </router-link>
+          <!--<router-link class="spacing" to="/Agenda">
             <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
             <span>Agenda</span>
           </router-link>
