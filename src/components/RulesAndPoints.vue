@@ -4,11 +4,11 @@
         <div class="row ">
           <div class="column overview">
             <h1 class="title">Rules and Points</h1>
-            
-            <h4>Categories</h4>
             <div class="row legodivider">
               <img class="legodividerimg3" src="../assets/images/legoline.svg" />
             </div>
+            <h4>Categories</h4>
+            <br>
             <p>Each of the judges have 10 points to give out to each team for each of these categories every day:</p>
 
             <p><b>Blow my Mindstorm</b></p>
