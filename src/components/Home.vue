@@ -205,7 +205,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-1.svg"
+                    src="../assets/judges/judge_merethe_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -221,23 +221,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-2.svg"
-                  />
-                </div>
-                <div class="judgeTitle">
-                  <h2>Cathrine Wilhelmsen</h2>
-                </div>
-                <div class="judgeDescription">
-                  <p>Cathrine loves teaching and sharing knowledge. Senior Business Intellligence Consultant in Inmeta. Active in the SQL Server Community as a Microsoft Data Platform MVP, BimlHero Certified Expert, Author, Speaker, Blogger, Organizer and chronic volunteer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="judgeCard col-md-4">
-              <div class="judgeContent">
-                <div class="judgePicture">
-                  <img
-                    class="judgePictureImg"
-                    src="../assets/images/judge-3.svg"
+                    src="../assets/judges/judge_marius_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -253,7 +237,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-5.svg"
+                    src="../assets/judges/judge_questionmark_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -269,7 +253,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-6.svg"
+                    src="../assets/judges/judge_questionmark_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -285,7 +269,23 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-7.svg"
+                    src="../assets/judges/judge_questionmark_square.png"
+                  />
+                </div>
+                <div class="judgeTitle">
+                  <h2>TBA</h2>
+                </div>
+                <div class="judgeDescription">
+                  <p>Creative engineer with excellent communication skills</p>
+                </div>
+              </div>
+            </div>
+            <div class="judgeCard col-md-4">
+              <div class="judgeContent">
+                <div class="judgePicture">
+                  <img
+                    class="judgePictureImg"
+                    src="../assets/judges/judge_questionmark_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -326,9 +326,12 @@
                 We also want dedicated tech geeks that want to learn and have fun.
               </p>
               <p><strong>Why do say from 2000 and up?</strong></p>
-              <p>At the same time we are focused on making this event memorable, we also wanted to make it special for people that are less fortunate. We have therefore decided that all surplus money we get is donated to a Norwegian charity for children.
-                Details about what charity will soon be announced. The more you pay, the more we can donate.
+              <div class="donation"><div><img src="../assets/images/barnekreftforeningen.svg"/></div>
+              <p>At the same time we are focused on making this event memorable, we also wanted to make it special for people that are less fortunate. We have therefore decided that all surplus money we get is donated to a Norwegian charity for children, <a href="https://www.barnekreftforeningen.no/">Barnekreftforeningen</a>.
+                 The more you pay, the more we can donate.
+                 
               </p>
+              </div>
               <p><strong>What's in it for me as a participiant?</strong></p>
               <p>During corona we can all agree that the learning between colleagues has been hard. We all need to dedicate some time to learn new things and be social with people we work with.</p>
               <p><strong>What's in it for me as an employer?</strong></p>
@@ -927,6 +930,13 @@ export default {
 
 .line-style {
   height: 10%;
+}
+.donation img{
+float:left;
+margin-right: 10px;
+}
+.donation {
+  text-align: justify;
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
