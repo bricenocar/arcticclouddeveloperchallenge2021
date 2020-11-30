@@ -212,7 +212,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-1.svg"
+                    src="../assets/judges/judge_merethe_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -233,11 +233,11 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-2.svg"
+                    src="../assets/judges/judge_marius_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>Cathrine Wilhelmsen</h2>
+                  <h2>Marius Agur</h2>
                 </div>
                 <div class="judgeDescription">
                   <p>
@@ -255,11 +255,11 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-3.svg"
+                    src="../assets/judges/judge_questionmark_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>Marius Agur</h2>
+                  <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
                   <p>
@@ -276,7 +276,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-5.svg"
+                    src="../assets/judges/judge_questionmark_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -292,7 +292,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-6.svg"
+                    src="../assets/judges/judge_questionmark_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -308,7 +308,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-7.svg"
+                    src="../assets/judges/judge_questionmark_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -964,6 +964,13 @@ export default {
 
 .line-style {
   height: 10%;
+}
+.donation img{
+float:left;
+margin-right: 10px;
+}
+.donation {
+  text-align: justify;
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */

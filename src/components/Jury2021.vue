@@ -16,7 +16,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-1.svg"
+                    src="../assets/judges/judge_merethe_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -32,23 +32,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-2.svg"
-                  />
-                </div>
-                <div class="judgeTitle">
-                  <h2>Cathrine Wilhelmsen</h2>
-                </div>
-                <div class="judgeDescription">
-                  <p>Cathrine loves teaching and sharing knowledge. Senior Business Intellligence Consultant in Inmeta. Active in the SQL Server Community as a Microsoft Data Platform MVP, BimlHero Certified Expert, Author, Speaker, Blogger, Organizer and chronic volunteer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="judgeCard col-md-4">
-              <div class="judgeContent">
-                <div class="judgePicture">
-                  <img
-                    class="judgePictureImg"
-                    src="../assets/images/judge-3.svg"
+                    src="../assets/judges/judge_marius_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -64,7 +48,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-5.svg"
+                    src="../assets/judges/judge_questionmark_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -80,7 +64,7 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-6.svg"
+                    src="../assets/judges/judge_questionmark_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
@@ -96,7 +80,23 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/images/judge-7.svg"
+                    src="../assets/judges/judge_questionmark_square.png"
+                  />
+                </div>
+                <div class="judgeTitle">
+                  <h2>TBA</h2>
+                </div>
+                <div class="judgeDescription">
+                  <p>Creative engineer with excellent communication skills</p>
+                </div>
+              </div>
+            </div>
+            <div class="judgeCard col-md-4">
+              <div class="judgeContent">
+                <div class="judgePicture">
+                  <img
+                    class="judgePictureImg"
+                    src="../assets/judges/judge_questionmark_square.png"
                   />
                 </div>
                 <div class="judgeTitle">
