@@ -10,13 +10,17 @@
           </router-link>
           <router-link class="spacing" to="/about">
             <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
-            <span>About</span>
+            <span>Sponsorship</span>
           </router-link>
           <router-link class="spacing" to="/RulesAndPoints">
             <i class="ms-Icon ms-Icon--Bullseye" aria-hidden="true"></i>
             <span>Rules and points</span>
           </router-link>
-          <router-link class="spacing" to="/Agenda">
+          <router-link class="spacing" to="/Jury2021">
+            <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
+            <span>Jury</span>
+          </router-link>
+          <!--<router-link class="spacing" to="/Agenda">
             <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
             <span>Agenda</span>
           </router-link>
@@ -24,7 +28,7 @@
             <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
             <span>Jury</span>
           </router-link>
-          <!-- <router-link class="spacing" to="/register">
+          <router-link class="spacing" to="/register">
             <i class="ms-Icon ms-Icon--AddFriend" aria-hidden="true"></i>
             <span>Register</span>
           </router-link>
