@@ -47,14 +47,19 @@
           </div>
         </div>
       </div>
-       <div class="row Categories">
+      <div class="row Categories">
         <div class="categoriesHeader">
-          
           <div class="aboutTitle">
             <h1>About</h1>
-            <p> ACDC is a 3 day Norwegian hackathon focusing on Microsoft technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT. Azure, ML, Power BI. Our goal is to push technology to new limits while we learn from each other and socialize.
-              This great event has been hosted for over 10 years at the beautiful Voksenåsen. This year we are forced to think new, so we are going online, and going LIVE!
-</p>
+            <p>
+              ACDC is a 3 day Norwegian hackathon focusing on Microsoft
+              technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT.
+              Azure, ML, Power BI. Our goal is to push technology to new limits
+              while we learn from each other and socialize. This great event has
+              been hosted for over 10 years at the beautiful Voksenåsen. This
+              year we are forced to think new, so we are going online, and going
+              LIVE!
+            </p>
           </div>
         </div>
       </div>
@@ -272,9 +277,7 @@
                   <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>
-                    Creative engineer with excellent communication skills
-                  </p>
+                  <p>Creative engineer with excellent communication skills</p>
                 </div>
               </div>
             </div>
