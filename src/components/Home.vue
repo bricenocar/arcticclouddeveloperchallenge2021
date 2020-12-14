@@ -367,14 +367,12 @@
                   dedicated tech geeks that want to learn and have fun.
                 </p>
                 <p><strong>Why do say from 2000 and up?</strong></p>
-                <p>
-                  At the same time we are focused on making this event
-                  memorable, we also wanted to make it special for people that
-                  are less fortunate. We have therefore decided that all surplus
-                  money we get is donated to a Norwegian charity for children.
-                  Details about what charity will soon be announced. The more
-                  you pay, the more we can donate.
-                </p>
+              <div class="donation"><div><img src="../assets/images/barnekreftforeningen.svg"/></div>
+              <p>At the same time we are focused on making this event memorable, we also wanted to make it special for people that are less fortunate. We have therefore decided that all surplus money we get is donated to a Norwegian charity for children, <a href="https://www.barnekreftforeningen.no/">Barnekreftforeningen</a>.
+                 The more you pay, the more we can donate.
+
+              </p>
+              </div>
                 <p><strong>What's in it for me as a participiant?</strong></p>
                 <p>
                   During corona we can all agree that the learning between
