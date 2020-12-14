@@ -192,7 +192,7 @@
             <h1>The award</h1>
             <p>The winning team get to take home the ANTLERS to keep</p>
             <p>until next challenge</p>
-            <p style="margin-top:50px">And all the glory they can carry!</p>
+            <p style="margin-top: 50px">And all the glory they can carry!</p>
           </div>
         </div>
       </div>
@@ -241,11 +241,10 @@
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Cathrine loves teaching and sharing knowledge. Senior
-                    Business Intellligence Consultant in Inmeta. Active in the
-                    SQL Server Community as a Microsoft Data Platform MVP,
-                    BimlHero Certified Expert, Author, Speaker, Blogger,
-                    Organizer and chronic volunteer.
+                    Owner at Marius Agur Consulting and a Microsoft MVP in
+                    Business Applications. This CRMViking has both been a
+                    participant and judge before, so he knows what’s going on –
+                    most importantly, he can explain the points system.
                   </p>
                 </div>
               </div>
@@ -263,10 +262,7 @@
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Owner at Marius Agur Consulting and a Microsoft MVP in
-                    Business Applications. This CRMViking has both been a
-                    participant and judge before, so he knows what’s going on –
-                    most importantly, he can explain the points system.
+                    Creative engineer with excellent communication skills
                   </p>
                 </div>
               </div>
@@ -324,7 +320,7 @@
         </div>
       </div>
       <div class="row thePriceToPay">
-        <div class="container ">
+        <div class="container">
           <div class="thePriceToPayContainer">
             <div class="thePriceToPayHeader">
               <div class="thePriceToPayIcon">
@@ -934,28 +930,28 @@ export default {
   overflow-x: hidden;
   position: absolute;
   left: 80vw;
-  top: 70vh;
+  top: 75vh;
 }
 
 .legoredleft {
   overflow-x: hidden;
   position: absolute;
-  left: 25%;
-  top: 79vh;
+  left: 20%;
+  top: 85vh;
 }
 
 .legoblue {
   overflow-x: hidden;
   position: absolute;
   left: 65vw;
-  top: 84vh;
+  top: 94vh;
 }
 
 .legoredright {
   overflow-x: hidden;
   position: absolute;
   left: 88vw;
-  top: 90vh;
+  top: 99vh;
 }
 
 .separator {
@@ -965,9 +961,9 @@ export default {
 .line-style {
   height: 10%;
 }
-.donation img{
-float:left;
-margin-right: 10px;
+.donation img {
+  float: left;
+  margin-right: 10px;
 }
 .donation {
   text-align: justify;
