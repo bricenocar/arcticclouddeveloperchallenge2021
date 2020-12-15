@@ -48,14 +48,14 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/judges/judge_questionmark_square.png"
+                    src="../assets/judges/judge_mikael.png"
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>TBA</h2>
+                  <h2>Mikael Svenson</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Creative engineer with excellent communication skills</p>
+                  <p>Principal Program Manager at Microsoft. Mikael has good insight in many technologies and platforms as well as experience as project manager and customer communicator.</p>
                 </div>
               </div>
             </div>
