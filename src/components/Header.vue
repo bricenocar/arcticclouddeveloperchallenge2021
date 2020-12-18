@@ -1,51 +1,52 @@
 <template>
   <div class="container-fluid">
     <div class="row header">
-      <Slide right>
+      <div v-responsive="['hidden-all', 'xs', 'sm']">
+        <Slide right>
+          <nav class="tabs">
+            <div class="selector"></div>
+            <router-link class="spacing" to="/home">
+              <i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i>
+              <span>Home</span>
+            </router-link>
+            <router-link class="spacing" to="/about">
+              <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
+              <span>About</span>
+            </router-link>
+            <router-link class="spacing" to="/RulesAndPoints">
+              <i class="ms-Icon ms-Icon--Bullseye" aria-hidden="true"></i>
+              <span>Rules and points</span>
+            </router-link>
+            <router-link class="spacing" to="/Jury2021">
+              <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
+              <span>Jury</span>
+            </router-link>
+            <router-link class="spacing" to="/previous">
+              <i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i>
+              <span>Previous Events</span>
+            </router-link>
+            <router-link class="spacing" to="/contact">
+              <i class="ms-Icon ms-Icon--ContactCard" aria-hidden="true"></i>
+              <span>Contact us</span>
+            </router-link>
+          </nav>
+        </Slide>
+      </div>
+      <div class="navcontainer" v-responsive="['hidden-all', 'lg', 'xl', 'md']">
         <nav class="tabs">
           <div class="selector"></div>
-          <router-link class="spacing" to="/home">
-            <i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i>
-            <span>Home</span>
-          </router-link>
-          <router-link class="spacing" to="/about">
-            <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
-            <span>About</span>
-          </router-link>
-          <router-link class="spacing" to="/RulesAndPoints">
-            <i class="ms-Icon ms-Icon--Bullseye" aria-hidden="true"></i>
-            <span>Rules and points</span>
-          </router-link>
-          <router-link class="spacing" to="/Jury2021">
-            <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
-            <span>Jury</span>
-          </router-link>
-          <!--<router-link class="spacing" to="/Agenda">
-            <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
-            <span>Agenda</span>
-          </router-link>
-          <router-link class="spacing" to="/Jury2021">
-            <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
-            <span>Jury</span>
-          </router-link>
-          <router-link class="spacing" to="/register">
-            <i class="ms-Icon ms-Icon--AddFriend" aria-hidden="true"></i>
-            <span>Register</span>
-          </router-link>
-          <router-link class="spacing" to="/anniversary">
-            <i class="ms-Icon ms-Icon--PartyLeader" aria-hidden="true"></i>
-            <span>10th Anniversary</span>
-          </router-link> -->
-          <router-link class="spacing" to="/previous">
-            <i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i>
-            <span>Previous Events</span>
-          </router-link>
-          <router-link class="spacing" to="/contact">
-            <i class="ms-Icon ms-Icon--ContactCard" aria-hidden="true"></i>
-            <span>Contact us</span>
-          </router-link>
+          <router-link class="spacing" to="/home">Home</router-link>
+          <router-link class="spacing" to="/about">About</router-link>
+          <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
+          <router-link class="spacing" to="/Jury2021"
+            >Jury</router-link
+          >
+          <router-link class="spacing" to="/previous"
+            >Previous Events</router-link
+          >
+          <router-link class="spacing" to="/contact">Contact us</router-link>
         </nav>
-      </Slide>
+      </div>
     </div>
   </div>
 </template>
@@ -73,7 +74,7 @@ export default {
   z-index: 1000; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #3B3B3B !important; /* Black*/
+  background-color: #3b3b3b !important; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
@@ -126,6 +127,14 @@ export default {
   height: 10vh;
 }
 
+.navcontainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  max-height: 80px;
+}
+
 .tabs {
   font-size: 18px;
   list-style: none;
@@ -141,11 +150,15 @@ export default {
   position: relative;
   z-index: 1;
   transition-duration: 0.6s;
-  padding: .7em;
+  padding: 0.7em;
+}
+
+.navcontainer .tabs {
+  display: flex;
 }
 
 .router-link-active {
-  color: #FFC800 !important;
+  color: #ffc800 !important;
 }
 
 .tabs a i {
