@@ -8,18 +8,21 @@
         </div>
         <p>
           Follow Dexter the Lynx on Twitter
-          <a href="https://twitter.com/intent/user?screen_name=SPChallenge"
-            ><span>@SPChallenge</span></a
+          <a href="https://twitter.com/intent/user?screen_name=ArcticCloudDev"
+            ><span>@ArcticCloudDev</span></a
           >
         </p>
         <p>
-          Follow Dexter the Lynx on Facebook
+          Follow Dexter the Lynx on 
           <a href="https://www.facebook.com/ArcticCloudDeveloperChallenge/"
             ><span
-              >https://www.facebook.com/ArcticCloudDeveloperChallenge/</span
+              >Facebook</span
             ></a
           >
         </p>
+        <p>
+          Follow Dexter the Lynx on
+          <a href="https://www.linkedin.com/company/arctic-cloud-developer-challenge/"><span>LinkedIn</span></a></p>
       </div>
     </div>
   </div>
@@ -60,5 +63,6 @@ export default {
 .legodividerimg3 {
   width: 50%;
   margin: auto;
+  padding-bottom: 10px;
 }
 </style>

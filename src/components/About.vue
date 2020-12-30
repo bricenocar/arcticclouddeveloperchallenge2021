@@ -2,8 +2,8 @@
     <div class="container-fluid aboutacdc">
       <div class="container">
         <div class="row">
-          <div class="column overview">
-            <h1 class="title ">Arctic cloud developer challenge</h1>
+          <div class="column about">
+            <h1>Arctic cloud developer challenge</h1>
              <div class="row legodivider">
               <img class="legodividerimg3" src="../assets/images/legoline.svg" />
             </div>
@@ -136,6 +136,7 @@ export default {
 };
 </script>
 <style>
+
 .aboutacdc {
   padding: 20px;
   text-align: left;
@@ -150,6 +151,19 @@ export default {
 .about .title {
   margin-top: 20px;
 }
+.about h1{
+  color: black;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bold;
+}
+
+.about p{
+  color: #6d7c90;
+  text-align: left;
+  font-size: 15pt;
+}
+
 .about ul {
   list-style-type: none;
 }
@@ -207,5 +221,18 @@ a.io-about-reset:hover {
 .legodividerimg3 {
   width: 50%;
   margin: auto;
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+   about h1{
+    font-size: 30pt;
+  }
+}
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 180px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  about h1{
+    font-size: 30pt;
+  }
 }
 </style>
