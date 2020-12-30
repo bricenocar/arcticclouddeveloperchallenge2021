@@ -47,8 +47,14 @@
           </div>
         </div>
       </div>
-      <div class="row Categories">
-        <div class="categoriesHeader">
+      <div class="row About">
+        <div class="aboutHeader">
+          <div class="categoriesIcon">
+            <img
+              class="categoryIcon"
+              src="../assets/images/Icon-categories.svg"
+            />
+          </div>
           <div class="aboutTitle">
             <h1>About</h1>
             <p>
@@ -63,7 +69,7 @@
           </div>
         </div>
       </div>
-      <div class="row Categories">
+      <div class="row Categories">        
         <div class="categoriesHeader">
           <div class="categoriesIcon">
             <img
@@ -648,6 +654,30 @@ export default {
 .theAwardContent p {
   margin: 0;
 }
+.About {
+  background: white;
+  /* background: url(../assets/images/background-legos.svg) no-repeat center; */
+  height: 30%;
+  padding-top: 15vh;
+  flex-direction: column;
+}
+.aboutHeader {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+.aboutHeader h1 {
+  color: black;
+  text-align: left;
+  font-size: 50pt;
+  font-weight: bold;
+}
+.aboutHeader p {
+  color: #6d7c90;
+  text-align: left;
+  font-size: 15pt;
+}
+
 .Categories {
   background: lightgray;
   background: url(../assets/images/background-legos.svg) no-repeat center;
@@ -1043,19 +1073,32 @@ export default {
     margin-right: 1em;
   }
   .categoriesTitle h1 {
-    font-size: 35pt;
+    font-size: 30pt;
   }
   .categoriesTitle p {
     font-size: 12pt;
   }
+  .aboutHeader {
+    width: 90%;
+  }
+  .aboutContent {
+    background-color: transparent;
+  }
+  
+  .aboutTitle h1 {
+    font-size: 30pt;
+  }
+  .aboutTitle p {
+    font-size: 12pt;
+  }
   .theAwardTitle h1 {
-    font-size: 35pt;
+    font-size: 30pt;
   }
   .theAwardTitle p {
     font-size: 12pt;
   }
   .thePriceToPayTitle h1 {
-    font-size: 35pt;
+    font-size: 30pt;
   }
   .thePriceToPayTitle p {
     font-size: 12pt;
@@ -1206,6 +1249,9 @@ export default {
   }
   .logo2right {
     position: unset;
+  }
+  .brikk{
+  display:none ;
   }
 }
 </style>
