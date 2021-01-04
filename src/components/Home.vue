@@ -365,7 +365,9 @@
                 <p>excluding VAT</p>
                 <p>*All surples money is strictly donations to a good cause</p>
               </div>
-              <div class="thePriceToPaySubheader"><img src="../assets/images/barnekreftforeningen.svg" /></div>
+              <div class="thePriceToPaySubheader">
+                <img src="../assets/images/barnekreftforeningen.svg" />
+              </div>
               <div class="thePriceToPayIncludes">
                 <p>
                   <strong>
@@ -826,11 +828,12 @@ export default {
   font-size: 12pt;
 }
 .thePriceToPaySubheader {
-    margin-top: 10vh;
-    display: flex;
+  margin-top: 10vh;
+  display: flex;
 }
-.thePriceToPaySubheader img{
-    max-width: 300px;
+.thePriceToPaySubheader img {
+  width: 100%;
+  max-width: 300px;
 }
 .thePriceToPayContent {
   background: white;
