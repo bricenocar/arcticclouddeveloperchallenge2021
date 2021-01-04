@@ -69,7 +69,7 @@
           </div>
         </div>
       </div>
-      <div class="row Categories">        
+      <div class="row Categories">
         <div class="categoriesHeader">
           <div class="categoriesIcon">
             <img
@@ -283,7 +283,11 @@
                   <h2>Mikael Svenson</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Principal Program Manager at Microsoft. Mikael has good insight in many technologies and platforms as well as experience as project manager and customer communicator.</p>
+                  <p>
+                    Principal Program Manager at Microsoft. Mikael has good
+                    insight in many technologies and platforms as well as
+                    experience as project manager and customer communicator.
+                  </p>
                 </div>
               </div>
             </div>
@@ -361,6 +365,7 @@
                 <p>excluding VAT</p>
                 <p>*All surples money is strictly donations to a good cause</p>
               </div>
+              <div class="thePriceToPaySubheader"><img src="../assets/images/barnekreftforeningen.svg" /></div>
               <div class="thePriceToPayIncludes">
                 <p>
                   <strong>
@@ -373,12 +378,19 @@
                   dedicated tech geeks that want to learn and have fun.
                 </p>
                 <p><strong>Why do say from 2000 and up?</strong></p>
-              <div class="donation"><div><img src="../assets/images/barnekreftforeningen.svg"/></div>
-              <p>At the same time we are focused on making this event memorable, we also wanted to make it special for people that are less fortunate. We have therefore decided that all surplus money we get is donated to a Norwegian charity for children, <a href="https://www.barnekreftforeningen.no/">Barnekreftforeningen</a>.
-                 The more you pay, the more we can donate.
-
-              </p>
-              </div>
+                <div class="donation">
+                  <div></div>
+                  <p>
+                    At the same time we are focused on making this event
+                    memorable, we also wanted to make it special for people that
+                    are less fortunate. We have therefore decided that all
+                    surplus money we get is donated to a Norwegian charity for
+                    children,
+                    <a href="https://www.barnekreftforeningen.no/"
+                      >Barnekreftforeningen</a
+                    >. The more you pay, the more we can donate.
+                  </p>
+                </div>
                 <p><strong>What's in it for me as a participiant?</strong></p>
                 <p>
                   During corona we can all agree that the learning between
@@ -813,6 +825,13 @@ export default {
   color: black;
   font-size: 12pt;
 }
+.thePriceToPaySubheader {
+    margin-top: 10vh;
+    display: flex;
+}
+.thePriceToPaySubheader img{
+    max-width: 300px;
+}
 .thePriceToPayContent {
   background: white;
   flex-direction: column;
@@ -1084,7 +1103,7 @@ export default {
   .aboutContent {
     background-color: transparent;
   }
-  
+
   .aboutTitle h1 {
     font-size: 30pt;
   }
@@ -1250,8 +1269,8 @@ export default {
   .logo2right {
     position: unset;
   }
-  .brikk{
-  display:none ;
+  .brikk {
+    display: none;
   }
 }
 </style>
