@@ -52,7 +52,7 @@ export default {
   background-size: cover;
   height: 40%;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 40%;
 }
 .values .title {
   margin-top: 20px;

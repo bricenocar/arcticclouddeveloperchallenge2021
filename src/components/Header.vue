@@ -13,6 +13,10 @@
               <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
               <span>About</span>
             </router-link>
+            <router-link class="spacing" to="/agenda">
+              <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
+              <span>Agenda</span>
+            </router-link>
             <router-link class="spacing" to="/RulesAndPoints">
               <i class="ms-Icon ms-Icon--Bullseye" aria-hidden="true"></i>
               <span>Rules and points</span>
@@ -21,10 +25,10 @@
               <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
               <span>Jury</span>
             </router-link>
-            <router-link class="spacing" to="/previous">
+            <!-- <router-link class="spacing" to="/previous">
               <i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i>
               <span>Previous Events</span>
-            </router-link>
+            </router-link> -->
             <router-link class="spacing" to="/contact">
               <i class="ms-Icon ms-Icon--ContactCard" aria-hidden="true"></i>
               <span>Contact us</span>
@@ -37,14 +41,16 @@
           <div class="selector"></div>
           <router-link class="spacing" to="/home">Home</router-link>
           <router-link class="spacing" to="/about">About</router-link>
+          <router-link class="spacing" to="/Agenda">Agenda</router-link>
           <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
           <router-link class="spacing" to="/Jury2021"
             >Jury</router-link
           >
-          <router-link class="spacing" to="/previous"
+          <!-- <router-link class="spacing" to="/previous"
             >Previous Events</router-link
-          >
+          > -->
           <router-link class="spacing" to="/contact">Contact us</router-link>
+          
         </nav>
       </div>
     </div>
@@ -93,7 +99,9 @@ export default {
 .bm-burger-bars {
   background-color: #ffc800 !important;
 }
-
+.bm-burger-button{
+  top:26px;
+}
 .logo1left {
   padding-top: 15px;
 }
@@ -209,7 +217,7 @@ export default {
     position: relative;
   }
   .header {
-    height: 8vh;
+    height: 10vh;
   }
 }
 
@@ -232,7 +240,7 @@ export default {
     position: relative;
   }
   .header {
-    height: 8vh;
+    height: 10vh;
   }
 }
 </style>

@@ -42,7 +42,7 @@ export default {
   background-size: cover;
   height: 40%;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 40%;
 }
 .sponsorship .title {
     margin-bottom: 30px;

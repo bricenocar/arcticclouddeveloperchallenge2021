@@ -1,8 +1,8 @@
 <template>
-    <div class="container-fluid aboutacdc">
-      <div class="container">
-        <div class="row">
-          <div class="column about">
+    <div class="container-fluid">
+      <div class="row about">
+        <div class="container">
+          <div class="col-md-12">
             <h1>Arctic cloud developer challenge</h1>
              <div class="row legodivider">
               <img class="legodividerimg3" src="../assets/images/legoline.svg" />
@@ -11,10 +11,14 @@
               <nobr>hands-on,</nobr>
               <nobr>time-limited</nobr> challenges. we are fiercely competitive, yet vastly helpful and extremely sharing (also across teams), realizing that collective learning is more important than personal gain!
             </p>  -->
+            <div class="row devider">
+              <div class="col-md-12">
             <p>
-              ACDC is a 3 day Norwegian hackathon focusing on Microsoft technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT. Azure, ML, Power BI. Our goal is to push technology to new limits while we learn from each other and socialize.
+              ACDC is a 3 day Norwegian hackathon focusing on Microsoft technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT. Azure, ML, Power BI. <br>Our goal is to push technology to new limits while we learn from each other and socialize.
               This great event has been hosted for over 10 years at the beautiful Voksenåsen. This year we are forced to think new, so we are going online, and going LIVE!
             </p>
+            </div>
+            </div>
           </div>
         </div>
         <!-- <div class="row">
@@ -137,7 +141,7 @@ export default {
 </script>
 <style>
 
-.aboutacdc {
+.about {
   padding: 20px;
   text-align: left;
    background: white;
@@ -146,7 +150,7 @@ export default {
   background-size: cover;
   height: 40%;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 40%;
 }
 .about .title {
   margin-top: 20px;
@@ -154,14 +158,14 @@ export default {
 .about h1{
   color: black;
   text-align: center;
-  font-size: 50pt;
+  font-size: 30pt;
   font-weight: bold;
 }
 
 .about p{
   color: #6d7c90;
   text-align: left;
-  font-size: 15pt;
+  font-size: 12pt;
 }
 
 .about ul {
@@ -232,7 +236,7 @@ a.io-about-reset:hover {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 180px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   about h1{
-    font-size: 30pt;
+    font-size: 20pt;
   }
 }
 </style>
