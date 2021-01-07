@@ -47,7 +47,7 @@ p{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  font-size: 18px;
+  font-size: 12pt;
   overflow-x: hidden;
 }
 #app ul {

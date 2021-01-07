@@ -20,9 +20,9 @@
               />
             </div>
             <div class="row legodivider">
-              <p class="event-date">February 04th-07th 2021</p>
+              <p class="event-date">February 04th-06th 2021</p>
             </div>
-            <div class="row legodivider">
+            <div class="row legodevider">
               <a
                 class="registerbuttonlink"
                 href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
@@ -60,7 +60,7 @@
             <p>
               ACDC is a 3 day Norwegian hackathon focusing on Microsoft
               technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT.
-              Azure, ML, Power BI. Our goal is to push technology to new limits
+              Azure, ML, Power BI. <br>Our goal is to push technology to new limits
               while we learn from each other and socialize. This great event has
               been hosted for over 10 years at the beautiful Voksenåsen. This
               year we are forced to think new, so we are going online, and going
@@ -212,9 +212,9 @@
           </div>
           <div class="theAwardTitle">
             <h1>The award</h1>
-            <p>The winning team get to take home the ANTLERS to keep</p>
-            <p>until next challenge</p>
-            <p style="margin-top: 50px">And all the glory they can carry!</p>
+            <img class="antlers" src="../assets/images/acdc_antlers.jpg"/>
+            <p>The winning team get to take home the ANTLERS to keep until next challenge.</p>
+            <p>And all the glory they can carry!</p>
           </div>
         </div>
       </div>
@@ -242,10 +242,8 @@
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Merethe Stave is Chief Customer Officer and Senior Cloud
-                    Architect at CloudWay. She was recognized as one of Norway's
-                    50 leading women in tech 2020 and is board member of the
-                    Norwegian Microsoft 365 Community.
+                    Merethe Stave is Chief Customer Officer and Senior Cloud Architect at CloudWay. She is an Office Apps and Services MVP, was recognized as one of Norway’s 50 leading women in tech 2020 and is a board member of the Norwegian Microsoft 365 Community. She has worked for more than 10 years with the Office 365/SharePoint platform, and was behind the establishment of the SharePoint Saturday Conference (SPS) in Oslo early 2013. 
+
                   </p>
                 </div>
               </div>
@@ -284,9 +282,7 @@
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Principal Program Manager at Microsoft. Mikael has good
-                    insight in many technologies and platforms as well as
-                    experience as project manager and customer communicator.
+                    Mikael is a Principal Program Manager at Microsoft working on Microsoft Search (with a license to develop 🙂) He was awarded MVP in Office Apps & Services between 2011-2018 and has authored three books on search. He is also a member of Microsoft 365 Patterns and Practices (PnP).Closing on 50 he claims to still be youthful and humble - statements we'll just leave at that.
                   </p>
                 </div>
               </div>
@@ -296,14 +292,16 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/judges/judge_questionmark_square.png"
+                    src="../assets/judges/judge_martin.png"
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>TBA</h2>
+                  <h2>Martin Ehrnst</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Creative engineer with excellent communication skills</p>
+                  <p>Martin is a Microsoft Azure MVP, working in 'fintech' as a technical lead for cloud platforms at Vipps.
+For more than a decade he has worked with infrastructure management, automation, and monitoring. Martin is dedicated on sharing his findings, and does so via community contributions around the new IT-Pro role, where code meets operations. You can read more about his findings trough his blog, social media, conferences, and user groups.
+</p>
                 </div>
               </div>
             </div>
@@ -312,14 +310,17 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/judges/judge_questionmark_square.png"
+                    src="../assets/judges/judge_ida.png"
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>TBA</h2>
+                  <h2>Ida Bergum</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Creative engineer with excellent communication skills</p>
+                  <p>Ida is a Data and AI Solution Architect in Avanade, and a Data Platform MVP. 
+                  Her passion is to help industries and people to become more data driven and data literate. One of her favorite platforms that she very often talks about on international conferences, and a very important part of that passion or mission of hers, is Power BI. She has been part of some cool large international implementations and rollouts over the years, both from a strategic and technical perspective. 
+                  She is also board member of local user groups like MDPUG Norway, and PPUG. While she is missing her community in person events these days, she are very much looking forward to meet you all virtually in her first ACDC.  
+                  </p>
                 </div>
               </div>
             </div>
@@ -363,10 +364,10 @@
                 <p></p>
                 <h1>2.000 NOK</h1>
                 <p>excluding VAT</p>
-                <p>*All surples money is strictly donations to a good cause</p>
+                <p>The event will be raising money for barnekreftforeningen.</p>
               </div>
               <div class="thePriceToPaySubheader">
-                <img src="../assets/images/barnekreftforeningen.svg" />
+                <a href="https://www.barnekreftforeningen.no/"> <img src="../assets/images/barnekreftforeningen.svg" /></a>
               </div>
               <div class="thePriceToPayIncludes">
                 <p>
@@ -411,7 +412,29 @@
                 </p>
               </div>
             </div>
+          </div>  
+      </div>
+      </div>
+      <div class="row sponsors">
+        <div class="container">
+          <div class="sponsorsContainer">
+            <div class="sponsorsHeader">
+              <div class="sponsorsIcon">
+              <p><img
+                  class="sponsorsIconImg"
+                  src="../assets/images/icon-bilette.svg"
+                /></p></div>
+                <div class="sponsorsContent">
+             <div class="sponsorsTitle">
+            <h1>Sponsors</h1>            
+              <p><img class="sponsorsImg" src="../assets/sponsors/microsoft.png"/></p>
+              <!-- <p><img class="sponsorsImg" src="../assets/sponsors/PointTaken-Logo-White.png"/></p> -->
+            </div>
           </div>
+          </div>
+        </div>
+        </div>
+      </div>
           <div class="row legodivider">
             <a
               class="registerbuttonlinkbottom"
@@ -421,8 +444,7 @@
               <div class="registerbuttonbottom">REGISTER TODAY</div>
             </a>
           </div>
-        </div>
-      </div>
+        
       <!-- <div class="row theCampSite">
         <div class="container theCampSiteContainer">
           <div class="theCampSiteHeader">
@@ -484,7 +506,7 @@ export default {
 }
 .sponsacdcTitle h1 {
   color: #27343c;
-  font-size: 40pt;
+  font-size: 30pt;
   font-weight: bold;
 }
 .sponsacdcContent {
@@ -524,14 +546,13 @@ export default {
   justify-content: center;
 }
 .registerbutton {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+  background-color:  #ffc800;
   border-radius: 6pt;
   padding: 1em;
-  border: white 3pt solid;
+  border: rgb(29, 29, 29) 3pt solid;
   font-family: "Open Sans";
   font-weight: bold;
-  margin-top: 3em;
 }
 .legoleftpicture {
   max-width: 450px;
@@ -551,11 +572,7 @@ export default {
 .quickSummary .container {
   padding-top: 2em;
 }
-.quickSummary .event-title {
-  font-size: 55px;
-  font-weight: 500;
-  line-height: 1.2;
-}
+
 .quickSummary .event-date {
   font-size: 30px;
   font-weight: 500;
@@ -565,11 +582,21 @@ export default {
   width: 100%;
 }
 .registerbuttonlink {
+  width: 50vw;
+  margin-left:200px;
+}
+.registerButton{
+font-size: 30pt;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #ffc800;
+  text-align: right;
   width: 100%;
 }
 .registerbuttonlinkbottom {
   width: 50vw;
   margin: auto;
+  
 }
 .registerbuttonbottom {
   color: black;
@@ -577,7 +604,7 @@ export default {
   background-color: #ffc800;
   border-radius: 6pt;
   padding: 1em;
-  border: #27343c 2pt solid;
+  border:  white 3pt solid;
   font-family: "Open Sans";
   font-weight: bold;
   margin-top: 3em;
@@ -595,8 +622,43 @@ export default {
   color: white;
 }
 .quickSummary p {
-  color: black;
+  color: #6d7c90;
   font-weight: 900;
+}
+
+.sponsors {
+  background: lightgray;
+  background: url(../assets/images/background-graa.svg) no-repeat center;
+  height: 30%;
+  /* padding-top: 15vh; */
+}
+.sponsorsContainer {
+  background:white;
+  margin-top: 15vh;
+  display: flex;
+}
+.sponsorsContent {
+  background: white;
+  flex-direction: column;
+}
+.sponsorsHeader {
+  display: flex;
+}
+.sponsorsIcon {
+  margin-right: 2em;
+}
+.sponsorsImg {
+  margin-bottom: 15px;
+  max-width: 315px;
+  max-height: 315px;
+  width:100%;
+  padding: 25px;
+}
+.sponsorsTitle h1 {
+  color: black;
+  text-align: left;
+  font-size: 30pt;
+  font-weight: bold;
 }
 .divider {
   border: 1px solid white;
@@ -635,6 +697,10 @@ export default {
   padding-top: 15vh;
   margin-bottom: 15vh;
 }
+.antlers{
+  max-width:500px;
+  width:100%;
+}
 .antlersStraight {
   height: 65px;
   background: url("../assets/images/antlers_dark_trans.png") no-repeat center;
@@ -654,14 +720,14 @@ export default {
 }
 .theAwardTitle {
   color: #27343c;
-  font-size: 72pt;
+  font-size: 30pt;
   text-align: left;
   font-weight: bold;
 }
 .theAwardContent {
   margin-top: 2vh;
   color: #6d7c90;
-  font-size: 15pt;
+  font-size: 12pt;
   margin-bottom: 80px;
   text-align: left;
 }
@@ -683,13 +749,13 @@ export default {
 .aboutHeader h1 {
   color: black;
   text-align: left;
-  font-size: 50pt;
+  font-size: 30pt;
   font-weight: bold;
 }
 .aboutHeader p {
   color: #6d7c90;
   text-align: left;
-  font-size: 15pt;
+  font-size: 12pt;
 }
 
 .Categories {
@@ -707,13 +773,13 @@ export default {
 .categoriesHeader h1 {
   color: black;
   text-align: left;
-  font-size: 50pt;
+  font-size: 30pt;
   font-weight: bold;
 }
 .categoriesHeader p {
   color: #6d7c90;
   text-align: left;
-  font-size: 15pt;
+  font-size: 12pt;
 }
 .categoryIcon {
   margin-right: 2em;
@@ -723,8 +789,8 @@ export default {
   flex-direction: column;
 }
 .categoriesContent {
-  color: black;
-  font-size: 25px;
+  color: #6d7c90;
+  font-size: 30pt;
   background-color: white;
 }
 .categoryCard {
@@ -739,12 +805,13 @@ export default {
 }
 .categoryPictureImg {
   margin-bottom: 15px;
-  width: 315px;
-  height: 315px;
+  max-width: 315px;
+  max-height: 315px;
   padding: 25px;
+  width:100%
 }
 .categoryTitle {
-  font-size: 35pt;
+  font-size: 30pt;
   color: black;
   margin: 0px 1.75vw;
 }
@@ -759,7 +826,7 @@ export default {
 .categoriesCatTitle {
   text-align: left;
   color: white;
-  font-size: 30px;
+  font-size: 30pt;
   font-weight: bold;
   margin-bottom: 15px;
   font-family: "Roboto Condensed", Georgia, Times, serif;
@@ -768,7 +835,7 @@ export default {
   background: lightgray;
   background: url(../assets/images/background-graa.svg) no-repeat center;
   height: 30%;
-  padding-top: 15vh;
+  /* padding-top: 15vh; */
 }
 .thePriceToPayContainer {
   background: white;
@@ -795,7 +862,7 @@ export default {
 .thePriceToPayTitle h1 {
   color: black;
   text-align: left;
-  font-size: 50pt;
+  font-size: 30pt;
   font-weight: bold;
 }
 .thePriceToPayAmount {
@@ -805,11 +872,11 @@ export default {
 .thePriceToPayAmount h1 {
   color: black;
   text-align: left;
-  font-size: 50pt;
+  font-size: 30pt;
   font-weight: bold;
 }
 .thePriceToPayAmount p {
-  color: black;
+  color: #6d7c90;
   text-align: left;
   font-size: 12pt;
   font-weight: bold;
@@ -819,12 +886,12 @@ export default {
 }
 .thePriceToPayIncludes > ul > li {
   text-align: left;
-  color: black;
+  color: #6d7c90;
   font-size: 12pt;
 }
 .thePriceToPayIncludes p {
   text-align: left;
-  color: black;
+  color: #6d7c90;
   font-size: 12pt;
 }
 .thePriceToPaySubheader {
@@ -832,6 +899,10 @@ export default {
   display: flex;
 }
 .thePriceToPaySubheader img {
+  width: 100%;
+  max-width: 300px;
+}
+.thePriceToPaySubheader a {
   width: 100%;
   max-width: 300px;
 }
@@ -847,13 +918,13 @@ export default {
 }
 .judgesTitle h1 {
   color: white;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: bolder;
   margin-bottom: 30px;
 }
 .judgesContent {
   color: white;
-  font-size: 25px;
+  font-size: 30pt;
   margin-top: 5%;
   width: 80%;
   margin: auto;
@@ -880,7 +951,7 @@ export default {
 }
 .judgePicture {
   margin-bottom: 15px;
-  width: 250px;
+  max-width: 250px;
   margin: auto;
   padding: 30px;
 }
@@ -890,7 +961,7 @@ export default {
 }
 .judgeTitle {
   color: white;
-  font-size: 35px;
+  font-size: 30pt;
   margin-bottom: 15px;
 }
 .judgeDescription {
@@ -918,13 +989,13 @@ export default {
 .theCampSiteHeader h1 {
   color: black;
   text-align: left;
-  font-size: 50pt;
+  font-size: 30pt;
   font-weight: bold;
 }
 .theCampSiteHeader p {
   color: #6d7c90;
   text-align: left;
-  font-size: 15pt;
+  font-size: 12pt;
 }
 .theCampSiteFooter {
   display: flex;
@@ -937,8 +1008,8 @@ export default {
   flex-direction: column;
 }
 .theCampSiteContent {
-  color: black;
-  font-size: 25px;
+  color:#6d7c90;
+  font-size: 30px;
   background-color: white;
 }
 .antlersStraightWhite {
@@ -967,13 +1038,13 @@ export default {
 .theCampSiteContent {
   margin-top: 80px;
   color: white;
-  font-size: 25px;
+  font-size: 30pt;
   text-align: left;
   text-shadow: 1px 1px #27343c;
 }
 .theCampsiteSubTitle {
   color: white;
-  font-size: 30px;
+  font-size: 30pt;
   margin-bottom: 15px;
   font-family: "Roboto Condensed", Georgia, Times, serif;
 }
@@ -1050,6 +1121,7 @@ export default {
     margin-top: 0;
     margin-bottom: 0;
   }
+  
   .slogan-top {
     font-size: 4em;
   }
@@ -1063,6 +1135,7 @@ export default {
   .registerbuttonlink {
     margin: auto;
     width: 80%;
+    text-align: center;
   }
   .brikk {
     max-width: 35vw;
@@ -1085,11 +1158,14 @@ export default {
   .legoredright {
     display: none;
   }
-  .categoriesHeader {
+  /* .categoriesHeader {
     width: 90%;
-  }
+  } */
   .categoriesContent {
     background-color: transparent;
+  }
+  .categoriesIcon{
+    display:none;
   }
   .categoryIcon {
     margin-right: 1em;
@@ -1100,9 +1176,9 @@ export default {
   .categoriesTitle p {
     font-size: 12pt;
   }
-  .aboutHeader {
+  /* .aboutHeader {
     width: 90%;
-  }
+  } */
   .aboutContent {
     background-color: transparent;
   }
@@ -1119,14 +1195,24 @@ export default {
   .theAwardTitle p {
     font-size: 12pt;
   }
+  .thePriceToPay {
+
+  padding-top: 0;
+}
+  .thePriceToPayIcon{
+    display:none;
+  }
   .thePriceToPayTitle h1 {
     font-size: 30pt;
+  }
+  .thePriceToPayHeader{
+    width:100%;
   }
   .thePriceToPayTitle p {
     font-size: 12pt;
   }
   .thePriceToPayAmount h1 {
-    font-size: 35pt;
+    font-size: 30pt;
   }
   .thePriceToPayAmount p {
     font-size: 12pt;
@@ -1136,11 +1222,20 @@ export default {
   }
   .thePriceToPayIncludes > ul > li {
     text-align: left;
-    color: black;
+    color: #6d7c90;
     font-size: 12pt;
   }
+  .sponsorsIcon{
+    display:none;
+  }
+  .sponsorsHeader{
+    width:100%;
+  }
+  .sponsorsContent{
+    margin-left:35px;
+  }
   .theCampSiteTitle h1 {
-    font-size: 35pt;
+    font-size: 30pt;
   }
   .theCampSiteTitle p {
     font-size: 12pt;
@@ -1182,6 +1277,12 @@ export default {
   }
   .thePriceToPayTitle {
     font-size: 2.5rem;
+  }
+  .brikk{
+    display:none;
+  }
+  .judgesContent {
+    padding:0;
   }
 }
 
@@ -1239,6 +1340,9 @@ export default {
   }
   .thePriceToPayTitle {
     font-size: 2.5rem;
+  }
+  .legoyellow {
+    display:none;
   }
 }
 /* ----------- iPhone X ----------- */

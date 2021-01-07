@@ -4,7 +4,7 @@
       <div class="row agenda">
         <div class="container">
           <div class="col-md-12">
-            <h1 class="title">Agenda</h1>
+            <h1>Agenda</h1>
              <div class="row legodivider">
               <img class="legodividerimg3" src="../assets/images/legoline.svg" />
             </div>
@@ -15,13 +15,15 @@
                     <h4 class="card-name">Thursday 04 February</h4>
                     <p class="card-text">
                        <ul>
-                        <li><p><span class="yellowtitle">0900</span> Ladies and gentlemen. Start your engines. Get your setups ready, and make sure you have enough coffee</p></li>
-                        <li><p><span class="yellowtitle">0930</span> Words from Microsoft Norway saying welcome to this awesome event!</p></li>
-                        <li><p><span class="yellowtitle">1000</span> Introduction of the rules with personal introductions per referee</p></li>
-                        <li><p><span class="yellowtitle">1030</span> Let's GO!!</p></li>
+                        <li><p><span class="yellowtitle">0800</span> Check-in and rigging</p></li>
+                        <li><p><span class="yellowtitle">0900</span> Welcome and Keynote</p></li>
+                        <li><p><span class="yellowtitle">1000</span> Team presentations</p></li>
+                        <li><p><span class="yellowtitle">1030</span> Challenge kick-off</p></li>
+                        <li><p><span class="yellowtitle">1130</span> Early Delivery Deadline</p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
-                        <p>All day - judges check in to see what is going on and offer help</p>
-                        <p>Late night - Points and badges!</p>
+                        <li><p><span class="yellowtitle">1500</span> Points</p></li>
+                        <li><p><span class="yellowtitle">1700</span> Virtual Pints</p></li>
+                        <li><p><span class="yellowtitle">2030</span> Head 2 Head Challenge</p></li>              
                       </ul>                  
                     </p>
                 </div>
@@ -34,14 +36,13 @@
                     <p class="card-text">
                        <ul>
                         
-                        <li><p><span class="yellowtitle">0900</span> Start your enginges</p></li>
-                        <li><p><span class="yellowtitle">1100-1130</span> Lightning talk 1</p></li>
-                        <li><p><span class="yellowtitle">1130-1200</span> Lightning talk 2</p></li>
+                        <li><p><span class="yellowtitle">0800</span> Morning Glory</p></li>
+                        <li><p><span class="yellowtitle">0900</span> Jury Summary</p></li>
+                        <li><p><span class="yellowtitle">1130</span> Points</p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
-                        <li><p><span class="yellowtitle">1400-1430</span> Lightning talk 3 </p></li>
-                        <li><p><span class="yellowtitle">1600</span> Lightning talk 4</p></li>
-                        <p>All day - judges check in to see what is going on and offer help</p>
-                        <p>Late night - Points and badges!</p>
+                        <li><p><span class="yellowtitle">1500</span> Points </p></li>
+                        <li><p><span class="yellowtitle">1800</span> Virtual Pints</p></li>
+                        <li><p><span class="yellowtitle">2100</span> Fun and games</p></li>
                       </ul>                  
                     </p>
                 </div>
@@ -53,20 +54,12 @@
                     <h4 class="card-name">Saturday 06 February</h4>
                     <p class="card-text">
                        <ul>
-                        <li><p><span class="yellowtitle">0900</span> GO TIME!</p></li>
-                        <li><p><span class="yellowtitle">1600</span> All submissions of projects due! (Video presentation)</p></li>
-                        <li><p><span class="yellowtitle">1630</span> Points and Badges </p></li>
+                        <li><p><span class="yellowtitle">0800</span> Morning Glory</p></li>
+                        <li><p><span class="yellowtitle">0900</span> Jury Summary</p></li>
+                        <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
+                        <li><p><span class="yellowtitle">1500</span> Final delivery</p></li>
+                        <li><p><span class="yellowtitle">1600</span> Awards</p></li>
                       </ul>                  
-                    </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-name">Sunday 07 February</h4>
-                    <p class="card-text">
-                       Live event announcing the winners of th 2021 ACDC                  
                     </p>
                 </div>
               </div>
@@ -108,10 +101,10 @@ export default {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 20px;
-  color: #000;
+  color: black;
 }
 .agenda p {
-  color: #000;
+  color:#6d7c90;
 }
 .agenda .card {
   background: transparent;
@@ -121,11 +114,12 @@ export default {
 .agenda h1{
   color:black;
   text-align: center;
-  font-size: 50pt;
+  font-size: 30pt;
   font-weight: bold;
 }
+
 .agenda h4{
-  color: #6d7c90;
+  color: black;
   font-size:20pt;
   font-weight:bold;
   text-align: center;

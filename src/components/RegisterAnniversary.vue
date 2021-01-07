@@ -27,7 +27,7 @@ export default {
   background-size: cover;
   height: 40%;
   padding-top: 40px;
-  padding-bottom: 100%;
+  padding-bottom: 40%;
 }
 
 .contact h3 {

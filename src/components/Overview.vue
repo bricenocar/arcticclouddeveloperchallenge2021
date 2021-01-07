@@ -69,7 +69,7 @@ export default {
   background-size: cover;
   height: 40%;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 40%;
 }
 .about .title {
   margin-top: 20px;

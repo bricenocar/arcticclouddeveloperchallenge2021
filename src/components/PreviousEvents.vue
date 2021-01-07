@@ -19,7 +19,7 @@
               <Tweet id="962750232995024897" :options="{ theme: 'dark' }"/>              
               <Tweet id="819226186123505664" :options="{ theme: 'dark' }"/>    
               <Tweet id="963135881409425415" :options="{ theme: 'dark' }"/>
-              <Tweet id="1102146784934141952" :options="{ cards: 'hidden', theme: 'dark' }"/>                        
+              <Tweet id="1102146784934141952" :options="{ theme: 'dark' }"/>                        
             </div>             
           </div>
         </div>
@@ -183,7 +183,7 @@ export default {
   background-size: cover;
   height: 40%;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 40%;
 }
 
 .about .title {
@@ -196,5 +196,8 @@ export default {
   padding-bottom: 50px;
   margin-bottom: 50px;
   padding: 0 15px;
+}
+.twitter-tweet twitter-tweet-rendered{
+  width:100% !important;
 }
 </style>
