@@ -18,6 +18,7 @@ import RegisterAnniversary from '@/components/RegisterAnniversary'
 import RulesAndPoints from '@/components/RulesAndPoints'
 import Sponsorship from '@/components/Sponsorship'
 import Jury2021 from '@/components/Jury2021'
+import Technical from '@/components/Technical'
 
 Vue.use(Router)
 
@@ -113,6 +114,11 @@ export default new Router({
       path: '/Jury2021',
       name: 'Jury2021',
       component: Jury2021
+    },
+    {
+      path: '/Technical',
+      name: 'Technical',
+      component: Technical
     }
   ]
 })
