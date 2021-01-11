@@ -738,7 +738,7 @@ font-size: 30pt;
   background: white;
   /* background: url(../assets/images/background-legos.svg) no-repeat center; */
   height: 30%;
-  padding-top: 15vh;
+  padding-top: 25vh;
   flex-direction: column;
 }
 .aboutHeader {
@@ -1284,6 +1284,9 @@ font-size: 30pt;
   .judgesContent {
     padding:0;
   }
+  .About{
+    padding-top: 15vh;
+  }
 }
 
 /* Portrait and Landscape */
@@ -1378,6 +1381,9 @@ font-size: 30pt;
   }
   .brikk {
     display: none;
+  }
+  .About{
+    padding-top:15vh;
   }
 }
 </style>

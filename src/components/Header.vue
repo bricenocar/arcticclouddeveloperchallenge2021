@@ -13,8 +13,12 @@
               <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
               <span>About</span>
             </router-link>
+            <router-link class="spacing" to="/Technical">
+              <i class="ms-Icon ms-Icon--Settings" aria-hidden="true"></i>
+              <span>Teknisk info</span>
+            </router-link>
             <router-link class="spacing" to="/agenda">
-              <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
+              <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
               <span>Agenda</span>
             </router-link>
             <router-link class="spacing" to="/RulesAndPoints">
@@ -22,7 +26,7 @@
               <span>Rules and points</span>
             </router-link>
             <router-link class="spacing" to="/Jury2021">
-              <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
+              <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
               <span>Jury</span>
             </router-link>
             <!-- <router-link class="spacing" to="/previous">
@@ -41,11 +45,10 @@
           <div class="selector"></div>
           <router-link class="spacing" to="/home">Home</router-link>
           <router-link class="spacing" to="/about">About</router-link>
+          <router-link class="spacing" to="/Technical">Teknisk info</router-link>
           <router-link class="spacing" to="/Agenda">Agenda</router-link>
           <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
-          <router-link class="spacing" to="/Jury2021"
-            >Jury</router-link
-          >
+          <router-link class="spacing" to="/Jury2021">Jury</router-link>
           <!-- <router-link class="spacing" to="/previous"
             >Previous Events</router-link
           > -->
