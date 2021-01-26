@@ -1285,7 +1285,7 @@ font-size: 30pt;
     padding:0;
   }
   .About{
-    padding-top: 15vh;
+    padding-top: 5vh;
   }
 }
 
@@ -1383,7 +1383,7 @@ font-size: 30pt;
     display: none;
   }
   .About{
-    padding-top:15vh;
+    padding-top:5vh;
   }
 }
 </style>

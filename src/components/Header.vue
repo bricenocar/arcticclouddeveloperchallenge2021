@@ -15,7 +15,7 @@
             </router-link>
             <router-link class="spacing" to="/Technical">
               <i class="ms-Icon ms-Icon--Settings" aria-hidden="true"></i>
-              <span>Teknisk info</span>
+              <span>Teknisk oppsett</span>
             </router-link>
             <router-link class="spacing" to="/agenda">
               <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
@@ -45,7 +45,7 @@
           <div class="selector"></div>
           <router-link class="spacing" to="/home">Home</router-link>
           <router-link class="spacing" to="/about">About</router-link>
-          <router-link class="spacing" to="/Technical">Teknisk info</router-link>
+          <router-link class="spacing" to="/Technical">Teknisk oppsett</router-link>
           <router-link class="spacing" to="/Agenda">Agenda</router-link>
           <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
           <router-link class="spacing" to="/Jury2021">Jury</router-link>
