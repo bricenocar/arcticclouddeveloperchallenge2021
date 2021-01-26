@@ -11,23 +11,25 @@
             <br>
             <p><b>Hvor skal laget ditt være?</b></p>
             
-            <p>Vi ønsker at alle lagene skal sitte samlet, enten om det er på kontoret i et stort møterom eller om det er på et hotell. 
+            <p>Vi ønsker at hvert lag skal sitte samlet, enten om det er på kontoret i et stort møterom eller om det er på et hotell. 
                 Grunnen til dette er at vi sender årets arrangement live på YouTube og dermed ønsker vi å vise laget samlet i en stream.  </p>
 
             <p><b>Utstyr</b></p>
-            <p>Alle lag må ha med et eksternt web kamera, mikrofon og høytaler <br>
+            <p>Alle lag må ha med et eksternt web kamera, mikrofon og høytaler. <br>
             Alle lag må ha en dedikert skjerm for skjermdeling til live stream.  </p>
             
             <p><b>Oppsett av møterom og PC </b></p>
             <p>Webkamera/mikrofon bør plasseres høyt, gjerne på stativ og skal filme hele laget samlet. Det må kobles til en deltaker PC som igjen blir med som gjest i StreamYard som vi bruker for å produsere live stream til YouTube.  Linken til StreamYard er <a href="https://streamyard.com/knxi5cms3w">https://streamyard.com/knxi5cms3w</a> og når man logger på så angi <b>lagnavn</b> i stedet for faktisk navn.
             </p>
-            <p>Den samme PC'en med ekstern skjerm må dele skjerm til StreamYard. Dette for å vise andre lag og tilskuere hva som gjøres ved for eksempel dommerevaluering. Det kreves derfor at denne PC'en er logget på Teams som viser hva laget driver med via skjermdeling til StreamYard. </p>
+            <p>Den samme PC'en med ekstern skjerm må dele skjerm til StreamYard. Dette for å vise andre lag og tilskuere hva som gjøres ved for eksempel dommerevaluering. Det kreves derfor at denne PC'en er logget på Discord som viser hva laget driver med via skjermdeling til StreamYard. </p>
 
-            <p><b>VIKTIG </b></p>
-            <p>Det er enklest å bruke en dedikert PC til alt dette så kamera og mikrofon ikke kommer i konflikt med Teams. For at lyd og bilde skal fungere i StreamYard kan ikke kamera og mikrofon brukes av Teams samtidig. </p>
+            <!-- <p><b>VIKTIG </b></p>
+            <p>Det er enklest å bruke en dedikert PC til alt dette så kamera og mikrofon ikke kommer i konflikt med Teams. For at lyd og bilde skal fungere i StreamYard kan ikke kamera og mikrofon brukes av Teams samtidig. </p> -->
 
             <p><b>Software </b></p>
-            <p>Til selve gjennomføringen av arrangementet bruker vi Teams med ulike grupperom. Alle lag får hvert sitt rom, samt et eget rom for dommere. Det vil være anledning til å besøke hverandres rom under arrangementet og å gå opp i hovedmøte hvor representanter for komiteen sitter til enhver tid.  </p>
+            <p>Til selve gjennomføringen av arrangementet bruker vi Discord med ulike kanaler. Alle lag får hver sitt kanal, samt en eget kanal for dommere. Det vil være anledning til å besøke hverandres kanaler under arrangementet og å gå opp i hovedkanal hvor representanter for komiteen sitter til enhver tid.  
+
+Last ned og opprett bruker her, <a href="https://discord.com/">https://discord.com</a> </p>
 
             <p><b>Agenda </b></p>
             <p>Det vil bli annonsert når man skal komme til hovedmøte, når det vil bli gjort dommerevaluering og andre hendelser i henhold til agenda.  </p>

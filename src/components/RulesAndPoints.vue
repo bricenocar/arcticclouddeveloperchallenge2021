@@ -39,13 +39,13 @@
             <h4 class="yellowtitle">Judging</h4>
             <p>Every judge can hand out a maximum of 60 points to each team at every jury duty each day (6 categories * 10 points = 60 points max).</p>
             <p>This year badges are back. Each team can get upto 30 badges. Each badge gives 10 points.</p>
-            <p>Each day the team that get the most points for each category gets a Teams background to be used until next evaulation.</p>
-            <p>The Teams background can be lost to another team the next day if they get more points in the category than the current category leaders.</p>
-            <p>At Final Jury Delivery each judge has 100 points each to hand out to the team they feel deserves it the most.</p>
+            <!-- <p>Each day the team that get the most points for each category gets a Teams background to be used until next evaulation.</p>
+            <p>The Teams background can be lost to another team the next day if they get more points in the category than the current category leaders.</p>-->
+            <p>At Final Jury Delivery each judge has 100 points each to hand out to the team they feel deserves it the most.</p> 
 
-            <p>The maximum amount of achiveable points before the 100 wildcard points the last day will then be a total of: 6 categories * 10 points * X(Amount of judges) * 3 days of hacking + 300 points for badges.</p>
+            <!-- <p>The maximum amount of achiveable points before the 100 wildcard points the last day will then be a total of: 6 categories * 10 points * X(Amount of judges) * 3 days of hacking + 300 points for badges.</p>
             <p>Example of maximum points for a team before wildcard points: 6 categories * 10 points * 6 judges * 3 days of hacking  + 300 points for badges =  1380 points</p>
-            <p>Example of maximum points for a team after wildcard points: 6 categories * 10 points * 6 judges * 3 days of hacking + 300 points for badges + 600 wildcard points =  1980 points</p> 
+            <p>Example of maximum points for a team after wildcard points: 6 categories * 10 points * 6 judges * 3 days of hacking + 300 points for badges + 600 wildcard points =  1980 points</p>  -->
             
             <h4 class="yellowtitle">The Grand Finale</h4>
             <p>The last day of the hackaton each team has to deliver a short written presentation of the solution they have created as a blog post.</p>
