@@ -51,7 +51,7 @@
             <p>The last day of the hackaton each team has to deliver a short written presentation of the solution they have created as a blog post.</p>
             <p>The judges now has to make the final decisions of wich teams that deserves to get the wildcard points.</p>
             <p>The judges will present top 3 teams, and finally announce the winner of ACDC 2021</p> 
-            <h4 class="yellowtitle">The winning team gets to take home the antlers and also gets to inscribe theire company name at the very honorable winning teams plate placed on the antlers.</h4>
+            <h4 class="yellowtitle">The winning team gets to take home the antlers and also gets to inscribe their company name at the very honorable winning teams plate placed on the antlers.</h4>
             <p>The winning team then gets to keep the antlers for 1 year until the next ACDC event.</p> 
           </div>
           </div>     
