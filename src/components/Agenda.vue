@@ -56,6 +56,7 @@
                        <ul>
                         <li><p><span class="yellowtitle">0800</span> Morning Glory</p></li>
                         <li><p><span class="yellowtitle">0900</span> Jury Summary</p></li>
+                        <li><p><span class="yellowtitle">1130</span> Points</p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
                         <li><p><span class="yellowtitle">1500</span> Final delivery</p></li>
                         <li><p><span class="yellowtitle">1600</span> Awards</p></li>
