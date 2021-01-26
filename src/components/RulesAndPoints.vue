@@ -37,11 +37,11 @@
             <p>Keywords: Usable Solutions, Feasable ideas, Real World Scenarios</p>
 
             <h4 class="yellowtitle">Judging</h4>
-            <p>Every judge can hand out a maximum of 60 points to each team at every jury duty each day (6 categories * 10 points = 60 points max).</p>
-            <p>This year badges are back. Each team can get upto 30 badges. Each badge gives 10 points.</p>
+            <p>Every judge can hand out a maximum of 60 points to each team at every jury duty each day. It means: 5 dommere * 6 kategorier * 10 poeng * 3 dager = 900 maks pr. lag </p>
+            <p>This year badges are back. Each team can get upto 33 badges. Each badge gives 10 points, but there is 1 badge that removes 10 points and 1 special badge that adds 25 point for the team that gets it. It means that there are 325 extra points available.</p>
             <!-- <p>Each day the team that get the most points for each category gets a Teams background to be used until next evaulation.</p>
             <p>The Teams background can be lost to another team the next day if they get more points in the category than the current category leaders.</p>-->
-            <p>At Final Jury Delivery each judge has 100 points each to hand out to the team they feel deserves it the most.</p> 
+            <p>At Final Jury Delivery each judge has 100 points each to hand out to the team they feel deserves it the most. There are 500 additional points.</p> 
 
             <!-- <p>The maximum amount of achiveable points before the 100 wildcard points the last day will then be a total of: 6 categories * 10 points * X(Amount of judges) * 3 days of hacking + 300 points for badges.</p>
             <p>Example of maximum points for a team before wildcard points: 6 categories * 10 points * 6 judges * 3 days of hacking  + 300 points for badges =  1380 points</p>
@@ -106,7 +106,7 @@ export default {
 }
 .rulesandpoints h4{
   color: black;
-  text-align: center;
+  text-align: left;
   font-size: 20pt;
   font-weight: bold;
 }

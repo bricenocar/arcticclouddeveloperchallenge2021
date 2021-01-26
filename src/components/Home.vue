@@ -287,7 +287,7 @@
                 </div>
               </div>
             </div>
-            <div class="judgeCard col-md-4">
+            <div class="judgeCard col-md-6">
               <div class="judgeContent">
                 <div class="judgePicture">
                   <img
@@ -305,7 +305,7 @@ For more than a decade he has worked with infrastructure management, automation,
                 </div>
               </div>
             </div>
-            <div class="judgeCard col-md-4">
+            <div class="judgeCard col-md-6">
               <div class="judgeContent">
                 <div class="judgePicture">
                   <img
@@ -323,23 +323,7 @@ For more than a decade he has worked with infrastructure management, automation,
                   </p>
                 </div>
               </div>
-            </div>
-            <div class="judgeCard col-md-4">
-              <div class="judgeContent">
-                <div class="judgePicture">
-                  <img
-                    class="judgePictureImg"
-                    src="../assets/judges/judge_questionmark_square.png"
-                  />
-                </div>
-                <div class="judgeTitle">
-                  <h2>TBA</h2>
-                </div>
-                <div class="judgeDescription">
-                  <p>Creative engineer with excellent communication skills</p>
-                </div>
-              </div>
-            </div>
+            </div>            
           </div>
           <div class="row separator"></div>
         </div>

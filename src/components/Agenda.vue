@@ -34,8 +34,7 @@
                   <div class="card-body">
                     <h4 class="card-name">Friday 05 February</h4>
                     <p class="card-text">
-                       <ul>
-                        
+                       <ul>                        
                         <li><p><span class="yellowtitle">0800</span> Morning Glory</p></li>
                         <li><p><span class="yellowtitle">0900</span> Jury Summary</p></li>
                         <li><p><span class="yellowtitle">1130</span> Points</p></li>
