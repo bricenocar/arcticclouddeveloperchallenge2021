@@ -8,11 +8,7 @@
             <router-link class="spacing" to="/home">
               <i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i>
               <span>Home</span>
-            </router-link>
-            <router-link class="spacing" to="/about">
-              <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
-              <span>About</span>
-            </router-link>
+            </router-link>            
             <router-link class="spacing" to="/Technical">
               <i class="ms-Icon ms-Icon--Settings" aria-hidden="true"></i>
               <span>Teknisk oppsett</span>
@@ -21,14 +17,19 @@
               <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
               <span>Agenda</span>
             </router-link>
+            <router-link class="spacing" to="/badges">
+              <i class="ms-Icon ms-Icon--Trophy" aria-hidden="true"></i>
+              <span>Badges and categories</span>
+            </router-link>
             <router-link class="spacing" to="/RulesAndPoints">
               <i class="ms-Icon ms-Icon--Bullseye" aria-hidden="true"></i>
               <span>Rules and points</span>
             </router-link>
-            <router-link class="spacing" to="/Jury2021">
+            <a href="https://acdc.blog/" class="spacing"><i aria-hidden="true" class="ms-Icon ms-Icon--PreviewLink"></i><span>Blog</span></a>
+            <!--<router-link class="spacing" to="/Jury2021">
               <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
               <span>Jury</span>
-            </router-link>
+            </router-link>-->
             <!-- <router-link class="spacing" to="/previous">
               <i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i>
               <span>Previous Events</span>
@@ -43,17 +44,14 @@
       <div class="navcontainer" v-responsive="['hidden-all', 'lg', 'xl', 'md']">
         <nav class="tabs">
           <div class="selector"></div>
-          <router-link class="spacing" to="/home">Home</router-link>
-          <router-link class="spacing" to="/about">About</router-link>
+          <router-link class="spacing" to="/home">Home</router-link>          
           <router-link class="spacing" to="/Technical">Teknisk oppsett</router-link>
           <router-link class="spacing" to="/Agenda">Agenda</router-link>
+          <router-link class="spacing" to="/badges">Badges and categories</router-link>
           <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
-          <router-link class="spacing" to="/Jury2021">Jury</router-link>
-          <!-- <router-link class="spacing" to="/previous"
-            >Previous Events</router-link
-          > -->
-          <router-link class="spacing" to="/contact">Contact us</router-link>
-          
+          <a href="https://acdc.blog/" class="spacing">Blog</a>
+          <!--<router-link class="spacing" to="/Jury2021">Jury</router-link>-->
+          <router-link class="spacing" to="/contact">Contact us</router-link>          
         </nav>
       </div>
     </div>

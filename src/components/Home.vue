@@ -60,11 +60,11 @@
             <p>
               ACDC is a 3 day Norwegian hackathon focusing on Microsoft
               technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT.
-              Azure, ML, Power BI. <br>Our goal is to push technology to new limits
-              while we learn from each other and socialize. This great event has
-              been hosted for over 10 years at the beautiful Voksenåsen. This
-              year we are forced to think new, so we are going online, and going
-              LIVE!
+              Azure, ML, Power BI. <br />Our goal is to push technology to new
+              limits while we learn from each other and socialize. This great
+              event has been hosted for over 10 years at the beautiful
+              Voksenåsen. This year we are forced to think new, so we are going
+              online, and going LIVE!
             </p>
           </div>
         </div>
@@ -79,7 +79,6 @@
           </div>
           <div class="categoriesTitle">
             <h1>Categories</h1>
-            <p>(Subject to change)</p>
           </div>
         </div>
         <div class="container">
@@ -129,59 +128,40 @@
                   <div class="categoryPicture">
                     <img
                       class="categoryPictureImg"
-                      src="../assets/images/BOOST.svg"
-                    />
-                  </div>
-                  <div class="categoryTitle">
-                    <h2>The Duplo invasion</h2>
-                  </div>
-                  <div class="categoryDescription">
-                    <p>
-                      Ohh no, there have been sightings of Duplo in the city.
-                      What can we do? Keyvault, GDPR, Secured Services
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="categoryCard col-md-4">
-                <div class="categoryContent">
-                  <div class="categoryPicture">
-                    <img
-                      class="categoryPictureImg"
                       src="../assets/images/StarWars.svg"
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>The hidden lego empire</h2>
+                    <h2>Queen Watevra Wa-Nabi</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Rumors of mythical Lego creations live among us all. Can
-                      you find them? AR/VR
+                      Show great UI / UX and glossy pixels and make the Queen
+                      happy.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="categoryCard col-md-4">
+              <div class="categoryCard col-md-6">
                 <div class="categoryContent">
                   <div class="categoryPicture">
                     <img
                       class="categoryPictureImg"
-                      src="../assets/images/Ninjago.svg"
+                      src="../assets/images/BOOST.svg"
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>Legoland</h2>
+                    <h2>Lego autobots</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Happy camper, spread the love, show your team spirit! Help
-                      others, build stuff, be positive
+                      A pile of bricks have no value. Your skills to build from
+                      them is what matters.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="categoryCard col-md-4">
+              <div class="categoryCard col-md-6">
                 <div class="categoryContent">
                   <div class="categoryPicture">
                     <img
@@ -212,8 +192,11 @@
           </div>
           <div class="theAwardTitle">
             <h1>The award</h1>
-            <img class="antlers" src="../assets/images/acdc_antlers.jpg"/>
-            <p>The winning team get to take home the ANTLERS to keep until next challenge.</p>
+            <img class="antlers" src="../assets/images/acdc_antlers.jpg" />
+            <p>
+              The winning team get to take home the ANTLERS to keep until next
+              challenge.
+            </p>
             <p>And all the glory they can carry!</p>
           </div>
         </div>
@@ -242,8 +225,14 @@
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Merethe Stave is Chief Customer Officer and Senior Cloud Architect at CloudWay. She is an Office Apps and Services MVP, was recognized as one of Norway’s 50 leading women in tech 2020 and is a board member of the Norwegian Microsoft 365 Community. She has worked for more than 10 years with the Office 365/SharePoint platform, and was behind the establishment of the SharePoint Saturday Conference (SPS) in Oslo early 2013. 
-
+                    Merethe Stave is Chief Customer Officer and Senior Cloud
+                    Architect at CloudWay. She is an Office Apps and Services
+                    MVP, was recognized as one of Norway’s 50 leading women in
+                    tech 2020 and is a board member of the Norwegian Microsoft
+                    365 Community. She has worked for more than 10 years with
+                    the Office 365/SharePoint platform, and was behind the
+                    establishment of the SharePoint Saturday Conference (SPS) in
+                    Oslo early 2013.
                   </p>
                 </div>
               </div>
@@ -282,7 +271,13 @@
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Mikael is a Principal Program Manager at Microsoft working on Microsoft Search (with a license to develop 🙂) He was awarded MVP in Office Apps & Services between 2011-2018 and has authored three books on search. He is also a member of Microsoft 365 Patterns and Practices (PnP).Closing on 50 he claims to still be youthful and humble - statements we'll just leave at that.
+                    Mikael is a Principal Program Manager at Microsoft working
+                    on Microsoft Search (with a license to develop 🙂) He was
+                    awarded MVP in Office Apps & Services between 2011-2018 and
+                    has authored three books on search. He is also a member of
+                    Microsoft 365 Patterns and Practices (PnP).Closing on 50 he
+                    claims to still be youthful and humble - statements we'll
+                    just leave at that.
                   </p>
                 </div>
               </div>
@@ -299,9 +294,16 @@
                   <h2>Martin Ehrnst</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Martin is a Microsoft Azure MVP, working in 'fintech' as a technical lead for cloud platforms at Vipps.
-For more than a decade he has worked with infrastructure management, automation, and monitoring. Martin is dedicated on sharing his findings, and does so via community contributions around the new IT-Pro role, where code meets operations. You can read more about his findings trough his blog, social media, conferences, and user groups.
-</p>
+                  <p>
+                    Martin is a Microsoft Azure MVP, working in 'fintech' as a
+                    technical lead for cloud platforms at Vipps. For more than a
+                    decade he has worked with infrastructure management,
+                    automation, and monitoring. Martin is dedicated on sharing
+                    his findings, and does so via community contributions around
+                    the new IT-Pro role, where code meets operations. You can
+                    read more about his findings trough his blog, social media,
+                    conferences, and user groups.
+                  </p>
                 </div>
               </div>
             </div>
@@ -317,13 +319,23 @@ For more than a decade he has worked with infrastructure management, automation,
                   <h2>Ida Bergum</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>Ida is a Data and AI Solution Architect in Avanade, and a Data Platform MVP. 
-                  Her passion is to help industries and people to become more data driven and data literate. One of her favorite platforms that she very often talks about on international conferences, and a very important part of that passion or mission of hers, is Power BI. She has been part of some cool large international implementations and rollouts over the years, both from a strategic and technical perspective. 
-                  She is also board member of local user groups like MDPUG Norway, and PPUG. While she is missing her community in person events these days, she are very much looking forward to meet you all virtually in her first ACDC.  
+                  <p>
+                    Ida is a Data and AI Solution Architect in Avanade, and a
+                    Data Platform MVP. Her passion is to help industries and
+                    people to become more data driven and data literate. One of
+                    her favorite platforms that she very often talks about on
+                    international conferences, and a very important part of that
+                    passion or mission of hers, is Power BI. She has been part
+                    of some cool large international implementations and
+                    rollouts over the years, both from a strategic and technical
+                    perspective. She is also board member of local user groups
+                    like MDPUG Norway, and PPUG. While she is missing her
+                    community in person events these days, she are very much
+                    looking forward to meet you all virtually in her first ACDC.
                   </p>
                 </div>
               </div>
-            </div>            
+            </div>
           </div>
           <div class="row separator"></div>
         </div>
@@ -351,7 +363,9 @@ For more than a decade he has worked with infrastructure management, automation,
                 <p>The event will be raising money for barnekreftforeningen.</p>
               </div>
               <div class="thePriceToPaySubheader">
-                <a href="https://www.barnekreftforeningen.no/"> <img src="../assets/images/barnekreftforeningen.svg" /></a>
+                <a href="https://www.barnekreftforeningen.no/">
+                  <img src="../assets/images/barnekreftforeningen.svg"
+                /></a>
               </div>
               <div class="thePriceToPayIncludes">
                 <p>
@@ -396,39 +410,47 @@ For more than a decade he has worked with infrastructure management, automation,
                 </p>
               </div>
             </div>
-          </div>  
-      </div>
+          </div>
+        </div>
       </div>
       <div class="row sponsors">
         <div class="container">
           <div class="sponsorsContainer">
             <div class="sponsorsHeader">
               <div class="sponsorsIcon">
-              <p><img
-                  class="sponsorsIconImg"
-                  src="../assets/images/icon-bilette.svg"
-                /></p></div>
-                <div class="sponsorsContent">
-             <div class="sponsorsTitle">
-            <h1>Sponsors</h1>            
-              <p><img class="sponsorsImg" src="../assets/sponsors/microsoft.png"/></p>
-              <!-- <p><img class="sponsorsImg" src="../assets/sponsors/PointTaken-Logo-White.png"/></p> -->
+                <p>
+                  <img
+                    class="sponsorsIconImg"
+                    src="../assets/images/icon-bilette.svg"
+                  />
+                </p>
+              </div>
+              <div class="sponsorsContent">
+                <div class="sponsorsTitle">
+                  <h1>Sponsors</h1>
+                  <p>
+                    <img
+                      class="sponsorsImg"
+                      src="../assets/sponsors/microsoft.png"
+                    />
+                  </p>
+                  <!-- <p><img class="sponsorsImg" src="../assets/sponsors/PointTaken-Logo-White.png"/></p> -->
+                </div>
+              </div>
             </div>
           </div>
-          </div>
-        </div>
         </div>
       </div>
-          <div class="row legodivider">
-            <a
-              class="registerbuttonlinkbottom"
-              href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
-              target="_blank"
-            >
-              <div class="registerbuttonbottom">REGISTER TODAY</div>
-            </a>
-          </div>
-        
+      <div class="row legodivider">
+        <a
+          class="registerbuttonlinkbottom"
+          href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
+          target="_blank"
+        >
+          <div class="registerbuttonbottom">REGISTER TODAY</div>
+        </a>
+      </div>
+
       <!-- <div class="row theCampSite">
         <div class="container theCampSiteContainer">
           <div class="theCampSiteHeader">
@@ -531,7 +553,7 @@ export default {
 }
 .registerbutton {
   color: black;
-  background-color:  #ffc800;
+  background-color: #ffc800;
   border-radius: 6pt;
   padding: 1em;
   border: rgb(29, 29, 29) 3pt solid;
@@ -567,10 +589,10 @@ export default {
 }
 .registerbuttonlink {
   width: 50vw;
-  margin-left:200px;
+  margin-left: 200px;
 }
-.registerButton{
-font-size: 30pt;
+.registerButton {
+  font-size: 30pt;
   font-weight: 500;
   line-height: 1.2;
   color: #ffc800;
@@ -580,7 +602,6 @@ font-size: 30pt;
 .registerbuttonlinkbottom {
   width: 50vw;
   margin: auto;
-  
 }
 .registerbuttonbottom {
   color: black;
@@ -588,7 +609,7 @@ font-size: 30pt;
   background-color: #ffc800;
   border-radius: 6pt;
   padding: 1em;
-  border:  white 3pt solid;
+  border: white 3pt solid;
   font-family: "Open Sans";
   font-weight: bold;
   margin-top: 3em;
@@ -617,7 +638,7 @@ font-size: 30pt;
   /* padding-top: 15vh; */
 }
 .sponsorsContainer {
-  background:white;
+  background: white;
   margin-top: 15vh;
   display: flex;
 }
@@ -635,7 +656,7 @@ font-size: 30pt;
   margin-bottom: 15px;
   max-width: 315px;
   max-height: 315px;
-  width:100%;
+  width: 100%;
   padding: 25px;
 }
 .sponsorsTitle h1 {
@@ -681,9 +702,9 @@ font-size: 30pt;
   padding-top: 15vh;
   margin-bottom: 15vh;
 }
-.antlers{
-  max-width:500px;
-  width:100%;
+.antlers {
+  max-width: 500px;
+  width: 100%;
 }
 .antlersStraight {
   height: 65px;
@@ -792,7 +813,7 @@ font-size: 30pt;
   max-width: 315px;
   max-height: 315px;
   padding: 25px;
-  width:100%
+  width: 100%;
 }
 .categoryTitle {
   font-size: 30pt;
@@ -992,7 +1013,7 @@ font-size: 30pt;
   flex-direction: column;
 }
 .theCampSiteContent {
-  color:#6d7c90;
+  color: #6d7c90;
   font-size: 30px;
   background-color: white;
 }
@@ -1105,7 +1126,7 @@ font-size: 30pt;
     margin-top: 0;
     margin-bottom: 0;
   }
-  
+
   .slogan-top {
     font-size: 4em;
   }
@@ -1148,8 +1169,8 @@ font-size: 30pt;
   .categoriesContent {
     background-color: transparent;
   }
-  .categoriesIcon{
-    display:none;
+  .categoriesIcon {
+    display: none;
   }
   .categoryIcon {
     margin-right: 1em;
@@ -1180,17 +1201,16 @@ font-size: 30pt;
     font-size: 12pt;
   }
   .thePriceToPay {
-
-  padding-top: 0;
-}
-  .thePriceToPayIcon{
-    display:none;
+    padding-top: 0;
+  }
+  .thePriceToPayIcon {
+    display: none;
   }
   .thePriceToPayTitle h1 {
     font-size: 30pt;
   }
-  .thePriceToPayHeader{
-    width:100%;
+  .thePriceToPayHeader {
+    width: 100%;
   }
   .thePriceToPayTitle p {
     font-size: 12pt;
@@ -1209,14 +1229,14 @@ font-size: 30pt;
     color: #6d7c90;
     font-size: 12pt;
   }
-  .sponsorsIcon{
-    display:none;
+  .sponsorsIcon {
+    display: none;
   }
-  .sponsorsHeader{
-    width:100%;
+  .sponsorsHeader {
+    width: 100%;
   }
-  .sponsorsContent{
-    margin-left:35px;
+  .sponsorsContent {
+    margin-left: 35px;
   }
   .theCampSiteTitle h1 {
     font-size: 30pt;
@@ -1262,13 +1282,13 @@ font-size: 30pt;
   .thePriceToPayTitle {
     font-size: 2.5rem;
   }
-  .brikk{
-    display:none;
+  .brikk {
+    display: none;
   }
   .judgesContent {
-    padding:0;
+    padding: 0;
   }
-  .About{
+  .About {
     padding-top: 5vh;
   }
 }
@@ -1329,7 +1349,7 @@ font-size: 30pt;
     font-size: 2.5rem;
   }
   .legoyellow {
-    display:none;
+    display: none;
   }
 }
 /* ----------- iPhone X ----------- */
@@ -1366,8 +1386,8 @@ font-size: 30pt;
   .brikk {
     display: none;
   }
-  .About{
-    padding-top:5vh;
+  .About {
+    padding-top: 5vh;
   }
 }
 </style>

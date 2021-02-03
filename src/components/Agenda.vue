@@ -87,8 +87,7 @@ export default {
 .agenda {
   padding: 20px;
   text-align: left;
-  background: black;
-  background: url(../assets/images/background-graa.svg) no-repeat center;
+  background: #2a2d35;
   background-size: cover;
   height: 40%;
   padding-top: 40px;
@@ -104,7 +103,7 @@ export default {
   color: black;
 }
 .agenda p {
-  color:#6d7c90;
+  color:white;
 }
 .agenda .card {
   background: transparent;
@@ -112,17 +111,18 @@ export default {
   margin-bottom: 15px;
 }
 .agenda h1{
-  color:black;
+  color:white;
   text-align: center;
   font-size: 30pt;
   font-weight: bold;
 }
 
 .agenda h4{
-  color: black;
+  color: white;
   font-size:20pt;
   font-weight:bold;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 10px;
 }
 .agenda .lightbrowntitle .title {
     margin-bottom: 30px;
