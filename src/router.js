@@ -20,6 +20,7 @@ import Sponsorship from '@/components/Sponsorship'
 import Jury2021 from '@/components/Jury2021'
 import Technical from '@/components/Technical'
 import Badges from '@/components/Badges'
+import Chart from '@/components/Chart'
 
 Vue.use(Router)
 
@@ -125,6 +126,11 @@ export default new Router({
       path: '/Badges',
       name:'Badges',
       component: Badges
+    },
+    {
+      path: '/Chart',
+      name:'Chart',
+      component: Chart
     }
   ]
 })

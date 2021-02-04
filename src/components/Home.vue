@@ -23,13 +23,14 @@
               <p class="event-date">February 04th-06th 2021</p>
             </div>
             <div class="row legodevider">
-              <a
+              <router-link class="registerbuttonlink registerbutton" to="/chart">SCOREBOARD</router-link>
+              <!--<a
                 class="registerbuttonlink"
                 href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
                 target="_blank"
               >
                 <div class="registerbutton">REGISTER TODAY</div>
-              </a>
+              </a>-->
             </div>
             <div class="row separator"></div>
             <div class="legoyellow">
@@ -442,13 +443,14 @@
         </div>
       </div>
       <div class="row legodivider">
-        <a
+        <router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>
+        <!--<a
           class="registerbuttonlinkbottom"
           href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
           target="_blank"
         >
           <div class="registerbuttonbottom">REGISTER TODAY</div>
-        </a>
+        </a>-->
       </div>
 
       <!-- <div class="row theCampSite">

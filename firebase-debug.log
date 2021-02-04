@@ -1,17 +1,18 @@
-[debug] [2021-02-03T15:03:20.009Z] ----------------------------------------------------------------------
-[debug] [2021-02-03T15:03:20.013Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\carlos.briceno\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2021-02-03T15:03:20.014Z] CLI Version:   9.2.1
-[debug] [2021-02-03T15:03:20.014Z] Platform:      win32
-[debug] [2021-02-03T15:03:20.015Z] Node Version:  v14.15.4
-[debug] [2021-02-03T15:03:20.019Z] Time:          Wed Feb 03 2021 16:03:20 GMT+0100 (sentraleuropeisk normaltid)
-[debug] [2021-02-03T15:03:20.020Z] ----------------------------------------------------------------------
-[debug] [2021-02-03T15:03:20.020Z] 
-[debug] [2021-02-03T15:03:20.033Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-02-03T15:03:20.034Z] > authorizing via signed-in user
-[debug] [2021-02-03T15:03:20.034Z] [iam] checking project acdc2019-3eff5 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2021-02-03T15:03:20.037Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2021-02-03T15:03:20.038Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2021-02-04T07:44:29.586Z] ----------------------------------------------------------------------
+[debug] [2021-02-04T07:44:29.589Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\carlos.briceno\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-02-04T07:44:29.589Z] CLI Version:   9.2.1
+[debug] [2021-02-04T07:44:29.589Z] Platform:      win32
+[debug] [2021-02-04T07:44:29.590Z] Node Version:  v14.15.4
+[debug] [2021-02-04T07:44:29.592Z] Time:          Thu Feb 04 2021 08:44:29 GMT+0100 (sentraleuropeisk normaltid)
+[debug] [2021-02-04T07:44:29.592Z] ----------------------------------------------------------------------
+[debug] [2021-02-04T07:44:29.592Z] 
+[debug] [2021-02-04T07:44:29.596Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-02-04T07:44:29.639Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-04T07:44:29.640Z] > authorizing via signed-in user
+[debug] [2021-02-04T07:44:29.640Z] [iam] checking project acdc2019-3eff5 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-02-04T07:44:29.644Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-02-04T07:44:29.645Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2021-02-03T15:03:20.332Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Wed, 03 Feb 2021 15:03:20 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-02-03T15:03:20.340Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/acdc2019-3eff5:testIamPermissions  
+[debug] [2021-02-04T07:44:29.788Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Thu, 04 Feb 2021 07:44:30 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-04T07:44:29.797Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/acdc2019-3eff5:testIamPermissions  
  {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}

@@ -228,7 +228,7 @@
                     <div class="badgesPicture">
                       <img
                         class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-CommunitySpokesman.png"
+                        src="../assets/badges/retro.png"
                       />
                     </div>
                     <div class="badgeTitle">
@@ -387,7 +387,7 @@
                     </div>
                     <div class="badgeDescription">
                       <p>
-                        Uses the features of HTML5 to make SharePoint
+                        Uses the features of HTML5 to make Solution 
                         supersmooth and modern. Make it nifty swifty and the
                         badge is yours.
                       </p>
