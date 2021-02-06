@@ -17,7 +17,7 @@
             <img src="../assets/images/scoreboard1.jpg"/>
               
           </div> -->
-<iframe width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiZjg5ZWNjMzctM2FlYi00YjVmLWFhMzYtYmYwZmZiNGI5ZWU0IiwidCI6IjMzM2RiM2Y5LTE0YmMtNDM4ZC05ODJmLTM3MzZiN2M4NTYzZSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>          </div>
+<iframe width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMWZhOGI2ZmYtYzYzMC00MTcwLTlkOWEtNmQ3NzdhM2VkMDQ2IiwidCI6IjMzM2RiM2Y5LTE0YmMtNDM4ZC05ODJmLTM3MzZiN2M4NTYzZSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>          </div>
         </div>
       </div>
     </div>
