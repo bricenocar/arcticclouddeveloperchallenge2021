@@ -65,8 +65,9 @@
               limits while we learn from each other and socialize. This great
               event has been hosted for over 10 years at the beautiful
               Voksenåsen. This year we are forced to think new, so we are going
-              online, and going LIVE!
+              online, and going LIVE! <br/>Follow us on <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
             </p>
+            
           </div>
         </div>
       </div>
@@ -99,7 +100,7 @@
                   <div class="categoryDescription">
                     <p>
                       If a Lego could speak, what would it say? Connect the Lego
-                      to the cloud and find out. IOT, Azure, “DevOps”
+                      to the cloud and find out. IOT, Arduino, Microcomputers, Microservices
                     </p>
                   </div>
                 </div>
@@ -157,7 +158,7 @@
                   <div class="categoryDescription">
                     <p>
                       A pile of bricks have no value. Your skills to build from
-                      them is what matters.
+                      them is what matters. Azure infrastructure as code, ARM, PowerShell, CI/CD
                     </p>
                   </div>
                 </div>

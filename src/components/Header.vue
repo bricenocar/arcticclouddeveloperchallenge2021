@@ -17,6 +17,10 @@
               <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
               <span>Agenda</span>
             </router-link>
+             <router-link class="spacing" to="/chart">
+              <i class="ms-Icon ms-Icon--Trophy" aria-hidden="true"></i>
+              <span>Scoreboard</span>
+            </router-link>
             <router-link class="spacing" to="/badges">
               <i class="ms-Icon ms-Icon--Trophy" aria-hidden="true"></i>
               <span>Badges and categories</span>
@@ -47,6 +51,7 @@
           <router-link class="spacing" to="/home">Home</router-link>          
           <router-link class="spacing" to="/Technical">Teknisk oppsett</router-link>
           <router-link class="spacing" to="/Agenda">Agenda</router-link>
+          <router-link class="spacing" to="/Chart">Scoreboard</router-link>
           <router-link class="spacing" to="/badges">Badges and categories</router-link>
           <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
           <a href="https://acdc.blog/" class="spacing">Blog</a>
