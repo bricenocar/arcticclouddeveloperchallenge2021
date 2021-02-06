@@ -13,14 +13,11 @@
             </div>
           </div>
           <div class="col-md-12">
-            <iframe
-              width="1140"
-              height="541.25"
-              src="https://app.powerbi.com/reportEmbed?reportId=8510eeb9-a916-4bc7-9638-fa23760dd56c&autoAuth=true&ctid=333db3f9-14bc-438d-982f-3736b7c8563e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcndheS1lYXN0LXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D"
-              frameborder="0"
-              allowFullScreen="true"
-            ></iframe>
-          </div>
+            <!-- <div class="imgscoreboard">
+            <img src="../assets/images/scoreboard1.jpg"/>
+              
+          </div> -->
+<iframe width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiZjg5ZWNjMzctM2FlYi00YjVmLWFhMzYtYmYwZmZiNGI5ZWU0IiwidCI6IjMzM2RiM2Y5LTE0YmMtNDM4ZC05ODJmLTM3MzZiN2M4NTYzZSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>          </div>
         </div>
       </div>
     </div>
@@ -87,5 +84,8 @@ export default {
 .legodividerimg3 {
   width: 50%;
   margin: auto;
+}
+.imgscoreboard img{
+  width:1140px;
 }
 </style>
