@@ -22,7 +22,7 @@
               If a Lego could speak, what would it say? Connect the Lego to the
               cloud and find out
             </p>
-            <p>Keywords: IOT, Azure, “DevOps”</p>
+            <p>Keywords: IOT, Arduino, Microcomputers, Microservices</p>
           </div>
           <div class="categTitle">
             <h2>Lego Power Bricks</h2>
