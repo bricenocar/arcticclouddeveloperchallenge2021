@@ -20,11 +20,11 @@
               />
             </div>
             <div class="row legodivider">
-              <p class="event-date">February 04th-06th 2021</p>
+              <p class="event-date">The date will soon be announced</p>
             </div>
             <div class="row legodevider">
-              <router-link class="registerbuttonlink registerbutton" to="/chart">SCOREBOARD</router-link>
-              <!--<a
+              <!--<router-link class="registerbuttonlink registerbutton" to="/chart">SCOREBOARD</router-link>
+              <a
                 class="registerbuttonlink"
                 href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
                 target="_blank"
@@ -95,12 +95,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>Blow my Mindstorm</h2>
+                    <h2>TBA</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      If a Lego could speak, what would it say? Connect the Lego
-                      to the cloud and find out. IOT, Arduino, Microcomputers, Microservices
+                      We are working on it!
                     </p>
                   </div>
                 </div>
@@ -114,13 +113,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>Lego Power Bricks</h2>
+                    <h2>TBA</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Emmet the Lego works hard every day, but can he work
-                      smarter? Power Automate, Power Apps, Power BI, Power
-                      Virtual Agent
+                      We are working on it!
                     </p>
                   </div>
                 </div>
@@ -134,12 +131,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>Queen Watevra Wa-Nabi</h2>
+                    <h2>TBA</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Show great UI / UX and glossy pixels and make the Queen
-                      happy.
+                      We are working on it!
                     </p>
                   </div>
                 </div>
@@ -153,12 +149,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>Lego autobots</h2>
+                    <h2>TBA</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      A pile of bricks have no value. Your skills to build from
-                      them is what matters. Azure infrastructure as code, ARM, PowerShell, CI/CD
+                      We are working on it!
                     </p>
                   </div>
                 </div>
@@ -172,13 +167,11 @@
                     />
                   </div>
                   <div class="categoryTitle">
-                    <h2>Lego Shark Tank</h2>
+                    <h2>TBA</h2>
                   </div>
                   <div class="categoryDescription">
                     <p>
-                      Running a business is tough. Do you have what it takes, or
-                      will you get FIRED? Usable Solutions, Feasable ideas, Real
-                      World Scenarios
+                      We are working on it!
                     </p>
                   </div>
                 </div>
@@ -219,22 +212,15 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/judges/judge_merethe_square.png"
+                    src="../assets/judges/ninjaturtleface.jpg"
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>Merethe Stave</h2>
+                  <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Merethe Stave is Chief Customer Officer and Senior Cloud
-                    Architect at CloudWay. She is an Office Apps and Services
-                    MVP, was recognized as one of Norway’s 50 leading women in
-                    tech 2020 and is a board member of the Norwegian Microsoft
-                    365 Community. She has worked for more than 10 years with
-                    the Office 365/SharePoint platform, and was behind the
-                    establishment of the SharePoint Saturday Conference (SPS) in
-                    Oslo early 2013.
+                    Coming soon!
                   </p>
                 </div>
               </div>
@@ -244,18 +230,15 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/judges/judge_marius_square.png"
+                    src="../assets/judges/ninjaturtleface.jpg"
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>Marius Agur</h2>
+                  <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Owner at Marius Agur Consulting and a Microsoft MVP in
-                    Business Applications. This CRMViking has both been a
-                    participant and judge before, so he knows what’s going on –
-                    most importantly, he can explain the points system.
+                    Coming soon!
                   </p>
                 </div>
               </div>
@@ -265,21 +248,15 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/judges/judge_mikael.png"
+                    src="../assets/judges/ninjaturtleface.jpg"
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>Mikael Svenson</h2>
+                  <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Mikael is a Principal Program Manager at Microsoft working
-                    on Microsoft Search (with a license to develop 🙂) He was
-                    awarded MVP in Office Apps & Services between 2011-2018 and
-                    has authored three books on search. He is also a member of
-                    Microsoft 365 Patterns and Practices (PnP).Closing on 50 he
-                    claims to still be youthful and humble - statements we'll
-                    just leave at that.
+                    Coming soon!
                   </p>
                 </div>
               </div>
@@ -289,22 +266,15 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/judges/judge_martin.png"
+                    src="../assets/judges/ninjaturtleface.jpg"
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>Martin Ehrnst</h2>
+                  <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Martin is a Microsoft Azure MVP, working in 'fintech' as a
-                    technical lead for cloud platforms at Vipps. For more than a
-                    decade he has worked with infrastructure management,
-                    automation, and monitoring. Martin is dedicated on sharing
-                    his findings, and does so via community contributions around
-                    the new IT-Pro role, where code meets operations. You can
-                    read more about his findings trough his blog, social media,
-                    conferences, and user groups.
+                    Coming soon!
                   </p>
                 </div>
               </div>
@@ -314,26 +284,15 @@
                 <div class="judgePicture">
                   <img
                     class="judgePictureImg"
-                    src="../assets/judges/judge_ida.png"
+                    src="../assets/judges/ninjaturtleface.jpg"
                   />
                 </div>
                 <div class="judgeTitle">
-                  <h2>Ida Bergum</h2>
+                  <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
                   <p>
-                    Ida is a Data and AI Solution Architect in Avanade, and a
-                    Data Platform MVP. Her passion is to help industries and
-                    people to become more data driven and data literate. One of
-                    her favorite platforms that she very often talks about on
-                    international conferences, and a very important part of that
-                    passion or mission of hers, is Power BI. She has been part
-                    of some cool large international implementations and
-                    rollouts over the years, both from a strategic and technical
-                    perspective. She is also board member of local user groups
-                    like MDPUG Norway, and PPUG. While she is missing her
-                    community in person events these days, she are very much
-                    looking forward to meet you all virtually in her first ACDC.
+                    Coming soon!
                   </p>
                 </div>
               </div>
@@ -357,59 +316,18 @@
               <div class="thePriceToPayTitle">
                 <h1>Tickets</h1>
               </div>
-              <div class="col-md-6 thePriceToPayAmount">
+              <div class="thePriceToPayAmount">
                 <p>From</p>
                 <p></p>
-                <h1>2.000 NOK</h1>
+                <h1>10.000 NOK</h1>
                 <p>excluding VAT</p>
-                <p>The event will be raising money for barnekreftforeningen.</p>
               </div>
-              <div class="thePriceToPaySubheader">
-                <a href="https://www.barnekreftforeningen.no/">
-                  <img src="../assets/images/barnekreftforeningen.svg"
-                /></a>
-              </div>
+             
               <div class="thePriceToPayIncludes">
-                <p>
-                  <strong>
-                    Why does this cost when it is an online event?</strong
-                  >
-                </p>
-                <p>
-                  Even though we are online, we still have cost running the
-                  event (judges,marketing,swag bag, prizes, etc). We also want
-                  dedicated tech geeks that want to learn and have fun.
-                </p>
-                <p><strong>Why do say from 2000 and up?</strong></p>
-                <div class="donation">
-                  <div></div>
-                  <p>
-                    At the same time we are focused on making this event
-                    memorable, we also wanted to make it special for people that
-                    are less fortunate. We have therefore decided that all
-                    surplus money we get is donated to a Norwegian charity for
-                    children,
-                    <a href="https://www.barnekreftforeningen.no/"
-                      >Barnekreftforeningen</a
-                    >. The more you pay, the more we can donate.
-                  </p>
-                </div>
-                <p><strong>What's in it for me as a participiant?</strong></p>
-                <p>
-                  During corona we can all agree that the learning between
-                  colleagues has been hard. We all need to dedicate some time to
-                  learn new things and be social with people we work with.
-                </p>
-                <p><strong>What's in it for me as an employer?</strong></p>
-                <p>
-                  Your emplyees need to have a bit of fun (while beeing safe)
-                  during these hard times. It will be a boost for your employees
-                  mental health, and it is good for your brand to be a part for
-                  community events. At the same time we will also post to social
-                  media with everything that happening, creating awareness. We
-                  will also be posting your logo with special thank you video
-                  from the organization we donate to.
-                </p>
+                
+                
+                
+               
               </div>
             </div>
           </div>

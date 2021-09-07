@@ -9,7 +9,7 @@
               <i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i>
               <span>Home</span>
             </router-link>            
-            <router-link class="spacing" to="/Technical">
+            <!--<router-link class="spacing" to="/Technical">
               <i class="ms-Icon ms-Icon--Settings" aria-hidden="true"></i>
               <span>Teknisk oppsett</span>
             </router-link>
@@ -30,7 +30,7 @@
               <span>Rules and points</span>
             </router-link>
             <a href="https://acdc.blog/" class="spacing"><i aria-hidden="true" class="ms-Icon ms-Icon--PreviewLink"></i><span>Blog</span></a>
-            <!--<router-link class="spacing" to="/Jury2021">
+            <router-link class="spacing" to="/Jury2021">
               <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
               <span>Jury</span>
             </router-link>-->
@@ -49,13 +49,13 @@
         <nav class="tabs">
           <div class="selector"></div>
           <router-link class="spacing" to="/home">Home</router-link>          
-          <router-link class="spacing" to="/Technical">Teknisk oppsett</router-link>
+          <!--<router-link class="spacing" to="/Technical">Teknisk oppsett</router-link>
           <router-link class="spacing" to="/Agenda">Agenda</router-link>
           <router-link class="spacing" to="/Chart">Scoreboard</router-link>
           <router-link class="spacing" to="/badges">Badges and categories</router-link>
           <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
           <a href="https://acdc.blog/" class="spacing">Blog</a>
-          <!--<router-link class="spacing" to="/Jury2021">Jury</router-link>-->
+          <router-link class="spacing" to="/Jury2021">Jury</router-link>-->
           <router-link class="spacing" to="/contact">Contact us</router-link>          
         </nav>
       </div>
