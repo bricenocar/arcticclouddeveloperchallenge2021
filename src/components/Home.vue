@@ -23,14 +23,7 @@
               <p class="event-date">The date will soon be announced</p>
             </div>
             <div class="row legodevider">
-              <!--<router-link class="registerbuttonlink registerbutton" to="/chart">SCOREBOARD</router-link>
-              <a
-                class="registerbuttonlink"
-                href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
-                target="_blank"
-              >
-                <div class="registerbutton">REGISTER TODAY</div>
-              </a>-->
+              <router-link class="registerbuttonlink registerbutton" to="/register">REGISTER TODAY</router-link>
             </div>
             <div class="row separator"></div>
             <div class="legoyellow">
