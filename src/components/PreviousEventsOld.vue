@@ -1,25 +1,21 @@
 <template>
-    <div class="container-fluid">
-      <div class="row contact">
-        <div class="container">
-          <div class="col-md-12">
+    <div class="container-fluid about">
+      <div class="container">
+        <div class="row">
+          <div class="column overview">
             <h1 class="title">Previous Events</h1>
             <div class="row legodivider">
               <img class="legodividerimg3" src="../assets/images/legoline.svg"/>
               </div>
-            <p>  
-              This great event has been hosted for over 10 years at the beautiful Voksenåsen.
-              <br>
-            Here you can see highlights for earlier events.
-          </p>
-            <h4>Comments from the jugdes:</h4>
+            <p>ACDC have had very nice moments and stories, we are very happy to share them with you...</p>
+            <h4>Comments from previous judges:</h4>
             <div class="center">
-             <div class="col-md-3">  <Tweet id="1235918009233010688" cards="visible"
+              <Tweet id="1235918009233010688" cards="visible"
     conversation="all"
     lang="en"
     theme="light"
     align="left"
-    :width="200"
+    :width="400"
     :dnt="false"
     @tweet-load-error="onTweetLoadError"
     @tweet-load-success="onTweetLoadSuccess"><template v-slot:loading>
@@ -29,17 +25,16 @@
     <template v-slot:error>
       <span>Sorry, that tweet doesn’t exist!</span>
     </template>
-  </Tweet></div>
-            <div class="col-md-3"><Tweet id="1226518271161184257"/></div>
-            <div class="col-md-3"><Tweet id="1226558090130198529"/></div>
-            <div class="col-md-3"><Tweet id="1102039120543731712"/></div>          
-            <div class="col-md-3"><Tweet id="1101061008125239301"/></div>
-            <div class="col-md-3"><Tweet id="1102146784934141952"/></div>
-            <div class="col-md-3"><Tweet id="962750232995024897"/></div>
-            <div class="col-md-3"><Tweet id="828378154741923841"/></div>
-            <!-- <div class="col-md-3"><Tweet id="963135881409425415"/></div> -->
-            <div class="col-md-3"><Tweet id="819226186123505664"/></div>
-                                                                     
+  </Tweet>
+              <Tweet id="1226518271161184257" :options="{theme: 'dark'}"/>
+              <Tweet id="1226558090130198529" :options="{ theme: 'dark' }"/>
+              <Tweet id="1102039120543731712" :options="{ theme: 'dark' }"/>              
+              <Tweet id="828378154741923841" :options="{ theme: 'dark' }"/>
+              <Tweet id="1101061008125239301" :options="{ theme: 'dark' }"/>
+              <Tweet id="962750232995024897" :options="{ theme: 'dark' }"/>              
+              <Tweet id="819226186123505664" :options="{ theme: 'dark' }"/>    
+              <Tweet id="963135881409425415" :options="{ theme: 'dark' }"/>
+              <Tweet id="1102146784934141952" :options="{ theme: 'dark' }"/>                        
             </div>             
           </div>
         </div>
@@ -217,7 +212,7 @@ export default {
   margin-bottom: 50px;
   padding: 0 15px;
 }
-/*.twitter-tweet twitter-tweet-rendered{
+.twitter-tweet twitter-tweet-rendered{
   width:100% !important;
-}*/
+}
 </style>

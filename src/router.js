@@ -21,6 +21,7 @@ import Jury2021 from '@/components/Jury2021'
 import Technical from '@/components/Technical'
 import Badges from '@/components/Badges'
 import Chart from '@/components/Chart'
+import PreviousEventsOld from '@/components/PreviousEventsOld'
 
 Vue.use(Router)
 
@@ -86,6 +87,11 @@ export default new Router({
       path: '/previous',
       name: 'previous',
       component: PreviousEvents
+    },
+    {
+      path: '/previousevents',
+      name: 'previousevents',
+      component: PreviousEventsOld
     },
     {
       path: '/values',

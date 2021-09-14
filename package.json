@@ -18,6 +18,7 @@
     "vue-burger-menu": "^2.0.2",
     "vue-responsive": "^1.1.0",
     "vue-router": "^3.0.2",
+    "vue-tweet": "^1.0.3",
     "vue-tweet-embed": "^2.3.0",
     "x5-gmaps": "^0.3.23"
   },
