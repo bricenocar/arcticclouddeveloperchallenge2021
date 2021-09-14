@@ -20,7 +20,7 @@
               />
             </div>
             <div class="row legodivider">
-              <p class="event-date">The date will soon be announced</p>
+              <p class="event-date">February 10-13th</p>
             </div>
             <div class="row legodevider">
               <router-link class="registerbuttonlink registerbutton" to="/register">REGISTER TODAY</router-link>
