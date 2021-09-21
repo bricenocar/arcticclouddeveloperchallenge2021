@@ -57,8 +57,8 @@
               Azure, ML, Power BI. <br />Our goal is to push technology to new
               limits while we learn from each other and socialize. This great
               event has been hosted for over 10 years at the beautiful
-              Voksenåsen. This year we are forced to think new, so we are going
-              online, and going LIVE! <br/>Follow us on <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
+              Voksenåsen.  
+              <br/>Follow us on <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
             </p>
             
           </div>
@@ -294,7 +294,7 @@
           <div class="row separator"></div>
         </div>
       </div>
-      <div class="row thePriceToPay">
+      <!-- <div class="row thePriceToPay">
         <div class="container">
           <div class="thePriceToPayContainer">
             <div class="thePriceToPayHeader">
@@ -347,16 +347,16 @@
                       src="../assets/sponsors/microsoft.png"
                     />
                   </p>
-                  <!-- <p><img class="sponsorsImg" src="../assets/sponsors/PointTaken-Logo-White.png"/></p> -->
+                   <p><img class="sponsorsImg" src="../assets/sponsors/PointTaken-Logo-White.png"/></p> 
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> 
       <div class="row legodivider">
         <router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>
-        <!--<a
+        <a
           class="registerbuttonlinkbottom"
           href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
           target="_blank"
