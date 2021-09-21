@@ -4,9 +4,9 @@
       <div class="container">
         <div class="col-md-12">
         <h1>Contact us!</h1>
-        <div class="row legodivider">
+        <!-- <div class="row legodivider">
           <img class="legodividerimg3" src="../assets/images/legoline.svg" />
-        </div>
+        </div> -->
         <p>
           Follow Dexter the Lynx on Twitter
           <a href="https://twitter.com/intent/user?screen_name=ArcticCloudDev"
@@ -81,7 +81,7 @@ export default {
 .contact {
   padding: 20px;
   background: white;
-  background: url(../assets/images/background-graa.svg) no-repeat center;
+  /* background: url(../assets/images/background-graa.svg) no-repeat center; */
   background-size: cover;
   height: 40%;
   padding-top: 40px;

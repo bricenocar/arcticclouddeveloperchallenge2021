@@ -46,7 +46,7 @@
           <div class="categoriesIcon">
             <img
               class="categoryIcon"
-              src="../assets/images/Icon-categories.svg"
+              src="../assets/badges/Badges 2014-CommunityChamp.png"
             />
           </div>
           <div class="aboutTitle">
@@ -69,8 +69,7 @@
           <div class="categoriesIcon">
             <img
               class="categoryIcon"
-              src="../assets/images/Icon-categories.svg"
-            />
+                src="../assets/badges/Badges 2014-CommunityChamp.png"/>
           </div>
           <div class="categoriesTitle">
             <h1>Categories</h1>
@@ -84,7 +83,7 @@
                   <div class="categoryPicture">
                     <img
                       class="categoryPictureImg"
-                      src="../assets/images/Mario.svg"
+                      src="../assets/badges/Badges 2014-CommunityChamp.png"
                     />
                   </div>
                   <div class="categoryTitle">
@@ -102,7 +101,7 @@
                   <div class="categoryPicture">
                     <img
                       class="categoryPictureImg"
-                      src="../assets/images/HarryPotter.svg"
+                      src="../assets/badges/Badges 2014-CommunityChamp.png"
                     />
                   </div>
                   <div class="categoryTitle">
@@ -120,7 +119,7 @@
                   <div class="categoryPicture">
                     <img
                       class="categoryPictureImg"
-                      src="../assets/images/StarWars.svg"
+                      src="../assets/badges/Badges 2014-CommunityChamp.png"
                     />
                   </div>
                   <div class="categoryTitle">
@@ -138,7 +137,7 @@
                   <div class="categoryPicture">
                     <img
                       class="categoryPictureImg"
-                      src="../assets/images/BOOST.svg"
+                      src="../assets/badges/Badges 2014-CommunityChamp.png"
                     />
                   </div>
                   <div class="categoryTitle">
@@ -156,7 +155,7 @@
                   <div class="categoryPicture">
                     <img
                       class="categoryPictureImg"
-                      src="../assets/images/Marvel.svg"
+                      src="../assets/badges/Badges 2014-CommunityChamp.png"
                     />
                   </div>
                   <div class="categoryTitle">
@@ -176,7 +175,7 @@
       <div class="row theAward">
         <div class="categoriesHeader">
           <div class="categoriesIcon">
-            <img class="categoryIcon" src="../assets/images/icon-award.svg" />
+            <img class="categoryIcon" src="../assets/badges/Badges 2014-CommunityChamp.png"/>
           </div>
           <div class="theAwardTitle">
             <h1>The award</h1>
@@ -404,8 +403,8 @@
       <gmaps-map :options="mapOptions">
         <gmaps-marker :position="{ lat: 59.96, lng: 10.665 }" />
       </gmaps-map>
-    </div> -->
-  </div>
+    </div>
+  </div> -->
 </template>
 
 <script>

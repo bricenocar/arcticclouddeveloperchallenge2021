@@ -14,8 +14,12 @@
               <span>Register</span>
             </router-link>
             <router-link class="spacing" to="/ConvinceYourBoss">
-              <i class="ms-Icon ms-Icon--Settings" aria-hidden="true"></i>
+              <i class="ms-Icon ms-Icon--Bullseye" aria-hidden="true"></i>
               <span>Convince your boss</span>
+            </router-link>
+            <router-link class="spacing" to="/Sponsorship">
+              <i class="ms-Icon ms-Icon--Heart" aria-hidden="true"></i>
+              <span>Sponsorship</span>
             </router-link>
             <!--<router-link class="spacing" to="/agenda">
               <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
@@ -55,6 +59,7 @@
           <router-link class="spacing" to="/home">Home</router-link>          
           <router-link class="spacing" to="/Register">Register</router-link>
           <router-link class="spacing" to="/ConvinceYourBoss">Convince your boss</router-link>
+          <router-link class="spacing" to="/Sponsorship">Sponsorship</router-link>
           <!--<router-link class="spacing" to="/Agenda">Agenda</router-link>
           <router-link class="spacing" to="/Chart">Scoreboard</router-link>
           <router-link class="spacing" to="/badges">Badges and categories</router-link>
