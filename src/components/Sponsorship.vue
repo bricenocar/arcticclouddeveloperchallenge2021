@@ -84,20 +84,18 @@ export default {
 </script>
 <style>
 .sponsorship {
-  padding: 20px;
+   padding: 20px;
   text-align: left;
   background: white;
-  /* background: url(../assets/images/background-legos.svg) no-repeat center; */
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat center;
   background-size: cover;
   height: 40%;
   padding-top: 40px;
-  padding-bottom: 40%;
+  padding-bottom: 40px;
 }
 .sponsorship .title {
-  margin-bottom: 30px;
   margin-top: 20px;
-  text-align: center;
-  color: #000;
+  color: #adc002;
 }
 .sponsorship ul {
   list-style-type: none;
