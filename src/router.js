@@ -22,6 +22,7 @@ import Technical from '@/components/Technical'
 import Badges from '@/components/Badges'
 import Chart from '@/components/Chart'
 import PreviousEventsOld from '@/components/PreviousEventsOld'
+import ConvinceYourBoss from '@/components/ConvinceYourBoss'
 
 Vue.use(Router)
 
@@ -107,6 +108,11 @@ export default new Router({
       path: '/judges',
       name: 'judges',
       component: Judges
+    },
+    {
+      path: '/ConvinceYourBoss',
+      name: 'ConvinceYourBoss',
+      component: ConvinceYourBoss
     },
     {
       path: '/RulesAndPoints',

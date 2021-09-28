@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div class="container-fluid">
-      <div v-responsive="['hidden-all', 'xl']" class="legoLeft">
-        <img class="legoleftpicture" src="../assets/images/biglego.svg" />
-      </div>
+    <div class="container-fluid">      
       <div class="row quickSummary">
         <div class="container">
           <div class="main-section-top">
@@ -26,18 +23,6 @@
               <router-link class="registerbuttonlink registerbutton" to="/register">REGISTER TODAY</router-link>
             </div>
             <div class="row separator"></div>
-            <div class="legoyellow">
-              <img class="brikk" src="../assets/images/legoyellow.svg" />
-            </div>
-            <div class="legoredleft">
-              <img class="brikk" src="../assets/images/legoredleft.svg" />
-            </div>
-            <div class="legoblue">
-              <img class="brikk" src="../assets/images/legoblue.svg" />
-            </div>
-            <div class="legoredright">
-              <img class="brikk" src="../assets/images/legoredright.svg" />
-            </div>
           </div>
         </div>
       </div>
@@ -355,7 +340,7 @@
         </div>
       </div>
       <div class="row legodivider">
-        <router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>
+        <!--<router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>-->
         <!--<a
           class="registerbuttonlinkbottom"
           href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
@@ -483,7 +468,7 @@ export default {
   margin-bottom: 5%;
 }
 .quickSummary {
-  background-image: linear-gradient(to right, black, rgb(73, 71, 67));
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat center;
   background-size: cover;
   height: 40%;
   padding-top: 40px;
@@ -830,7 +815,8 @@ export default {
   flex-direction: column;
 }
 .judges {
-  background: #2a2d35;
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat center;
+  background-size: cover;
 }
 .judgesTitle {
   margin-top: 30px;

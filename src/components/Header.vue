@@ -13,6 +13,10 @@
               <i class="ms-Icon ms-Icon--Settings" aria-hidden="true"></i>
               <span>Register</span>
             </router-link>
+            <router-link class="spacing" to="/ConvinceYourBoss">
+              <i class="ms-Icon ms-Icon--Bullseye" aria-hidden="true"></i>
+              <span>Convince your boss</span>
+            </router-link>
             <!--<router-link class="spacing" to="/agenda">
               <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
               <span>Agenda</span>
@@ -50,6 +54,7 @@
           <div class="selector"></div>
           <router-link class="spacing" to="/home">Home</router-link>          
           <router-link class="spacing" to="/Register">Register</router-link>
+          <router-link class="spacing" to="/ConvinceYourBoss">Convince your boss</router-link>
           <!--<router-link class="spacing" to="/Agenda">Agenda</router-link>
           <router-link class="spacing" to="/Chart">Scoreboard</router-link>
           <router-link class="spacing" to="/badges">Badges and categories</router-link>
@@ -130,15 +135,9 @@ export default {
 }
 
 .header {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(black),
-    to(rgb(73, 71, 67))
-  );
-  background-image: linear-gradient(to right, black, rgb(73, 71, 67));
-  height: 10vh;
+  top: 0;
+  right: 5%;
+  position: fixed;
 }
 
 .navcontainer {
@@ -158,7 +157,7 @@ export default {
 
 .tabs a {
   text-decoration: none;
-  color: white;
+  color: #cfd0d2;
   text-transform: uppercase;
   display: flex;
   position: relative;
@@ -172,7 +171,7 @@ export default {
 }
 
 .router-link-active {
-  color: #ffc800 !important;
+  color: #adc002 !important;
 }
 
 .tabs a i {
@@ -223,7 +222,7 @@ export default {
     position: relative;
   }
   .header {
-    height: 10vh;
+     /*height: 10vh;*/
   }
 }
 
@@ -246,7 +245,7 @@ export default {
     position: relative;
   }
   .header {
-    height: 10vh;
+    /*height: 10vh;*/
   }
 }
 </style>
