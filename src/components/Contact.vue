@@ -1,11 +1,11 @@
 <template>
-  <div class="container-fluid">
-    <div class="row contact">
+  <div class="container-fluid contact">
+    <!-- <div class="row contact"> -->
       <div class="container">
-        <div class="col-md-12">
-        <h1>Contact us!</h1>
-        <div class="row legodivider">
-        </div>
+         
+        <div class="column overview">
+       <h3 class="title">Contact us!</h3>
+       
         <p>
           Follow Dexter the Lynx on Twitter
           <a href="https://twitter.com/intent/user?screen_name=ArcticCloudDev"
@@ -54,7 +54,7 @@
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/mikaels/"><img src="../assets/images/linkedin.svg" /></a></span><p> Mikael Svenson</p></li>
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/idabergum/"><img src="../assets/images/linkedin.svg" /></a></span><p> Ida Bergum</p></li>
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/martinehrnst/"><img src="../assets/images/linkedin.svg" /></a></span><p> Martin Erhnst</p></li>
-                        <!-- <li><span class="linkedinicon"><a href=""><img src="../assets/images/linkedin.svg" /></a></span><p> Håkan</p></li> -->
+                       
                        </ul>                  
                     </p>
                 </div>
@@ -62,7 +62,7 @@
             </div>
             </div>
           </div>
-    </div>        
+    <!-- </div>         -->
   </div>
 </template>
 
