@@ -40,11 +40,13 @@
             <h1>About</h1>
             <p>
               ACDC is a 3 day Norwegian hackathon focusing on Microsoft
-              technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT.
-              Azure, ML, Power BI. <br />Our goal is to push technology to new
-              limits while we learn from each other and socialize. This great
-              event has been hosted for over 10 years at the beautiful
-              Voksenåsen. <br />Follow us on
+              Cloud technology, such as M365, D365, Azure, Teams, IOT, ML, Power BI. 
+              <br />
+              Our goal is to see if we can push the technology to its limits, while we learn from each other and socialize. 
+              <br />
+              This great event has been hosted for over 10 years at the beautiful
+              Voksenåsen. <br />
+              Follow us on
               <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
             </p>
           </div>
