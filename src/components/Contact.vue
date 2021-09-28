@@ -4,9 +4,8 @@
       <div class="container">
         <div class="col-md-12">
         <h1>Contact us!</h1>
-        <!-- <div class="row legodivider">
-          <img class="legodividerimg3" src="../assets/images/legoline.svg" />
-        </div> -->
+        <div class="row legodivider">
+        </div>
         <p>
           Follow Dexter the Lynx on Twitter
           <a href="https://twitter.com/intent/user?screen_name=ArcticCloudDev"
@@ -81,14 +80,14 @@ export default {
 .contact {
   padding: 20px;
   background: white;
-  /* background: url(../assets/images/background-graa.svg) no-repeat center; */
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat center;
   background-size: cover;
   height: 40%;
   padding-top: 40px;
   padding-bottom: 40%;
 }
 .contact h1{
-  color: black;
+  color: #adc002;
   text-align: center;
   font-size: 30pt;
   font-weight: bold;
@@ -96,7 +95,7 @@ export default {
 .contact h3 {
   margin-top: 20px;
   margin-bottom: 30px;
-  color: black;
+  color: #adc002;
 }
 .contact ul {
   list-style-type: none;
@@ -105,7 +104,7 @@ export default {
   text-align: left;
 }
 .contact h4{
-  color: black;
+  color: #adc002;
   font-size:20pt;
   font-weight:bold;
   text-align: center;
@@ -114,10 +113,10 @@ export default {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 20px;
-  color: #000;
+  color: #adc002;
 }
 .contact p {
-  color: #6d7c90;
+  color: white;
   padding-top:3px;
 }
 .contact .lightbrowntitle {

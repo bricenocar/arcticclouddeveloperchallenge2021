@@ -87,6 +87,10 @@ h6 {
 .lightbrowntitle {
   color:#fff0df;
 }
+
+.lightgreentitle {
+  color:#adc002;
+}
 @media only screen and (min-device-width: 800px) {
   .overview p {
     font-size: 25px;

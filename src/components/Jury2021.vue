@@ -153,25 +153,6 @@ export default {
 };
 </script>
 <style>
-.judges {
-  background: #2a2d35;
-}
-.judgesTitle {
-  margin-top: 30px;
-}
-.judgesTitle h1 {
-  color: white;
-  text-align: center;
-  font-size: 30pt;
-  font-weight: bold;
-}
-.judgesContent {
-  color: white;
-  font-size: 25px;
-  margin-top: 5%;
-  width: 80%;
-  margin: auto;
-}
 .column {
   padding-bottom: 50px;
   margin-bottom: 50px;

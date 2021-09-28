@@ -1,9 +1,6 @@
 <template>
   <div>
     <div class="container-fluid">
-      <div v-responsive="['hidden-all', 'xl']" class="legoLeft">
-        <img class="legoleftpicture" src="../assets/images/biglego.svg" />
-      </div>
       <div class="row quickSummary">
         <div class="container">
           <div class="main-section-top">
@@ -23,21 +20,13 @@
               <p class="event-date">February 10-13th</p>
             </div>
             <div class="row legodevider">
-              <router-link class="registerbuttonlink registerbutton" to="/register">REGISTER TODAY</router-link>
+              <router-link
+                class="registerbuttonlink registerbutton"
+                to="/register"
+                >REGISTER TODAY</router-link
+              >
             </div>
             <div class="row separator"></div>
-            <div class="legoyellow">
-              <img class="brikk" src="../assets/images/legoyellow.svg" />
-            </div>
-            <div class="legoredleft">
-              <img class="brikk" src="../assets/images/legoredleft.svg" />
-            </div>
-            <div class="legoblue">
-              <img class="brikk" src="../assets/images/legoblue.svg" />
-            </div>
-            <div class="legoredright">
-              <img class="brikk" src="../assets/images/legoredright.svg" />
-            </div>
           </div>
         </div>
       </div>
@@ -57,19 +46,19 @@
               Azure, ML, Power BI. <br />Our goal is to push technology to new
               limits while we learn from each other and socialize. This great
               event has been hosted for over 10 years at the beautiful
-              Voksenåsen.  
-              <br/>Follow us on <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
+              Voksenåsen. <br />Follow us on
+              <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
             </p>
-            
           </div>
         </div>
       </div>
-      <div class="row Categories">
+      <!--<div class="row Categories">
         <div class="categoriesHeader">
           <div class="categoriesIcon">
             <img
               class="categoryIcon"
-                src="../assets/badges/Badges 2014-CommunityChamp.png"/>
+              src="../assets/badges/Badges 2014-CommunityChamp.png"
+            />
           </div>
           <div class="categoriesTitle">
             <h1>Categories</h1>
@@ -90,9 +79,7 @@
                     <h2>TBA</h2>
                   </div>
                   <div class="categoryDescription">
-                    <p>
-                      We are working on it!
-                    </p>
+                    <p>We are working on it!</p>
                   </div>
                 </div>
               </div>
@@ -108,9 +95,7 @@
                     <h2>TBA</h2>
                   </div>
                   <div class="categoryDescription">
-                    <p>
-                      We are working on it!
-                    </p>
+                    <p>We are working on it!</p>
                   </div>
                 </div>
               </div>
@@ -126,9 +111,7 @@
                     <h2>TBA</h2>
                   </div>
                   <div class="categoryDescription">
-                    <p>
-                      We are working on it!
-                    </p>
+                    <p>We are working on it!</p>
                   </div>
                 </div>
               </div>
@@ -144,9 +127,7 @@
                     <h2>TBA</h2>
                   </div>
                   <div class="categoryDescription">
-                    <p>
-                      We are working on it!
-                    </p>
+                    <p>We are working on it!</p>
                   </div>
                 </div>
               </div>
@@ -162,20 +143,21 @@
                     <h2>TBA</h2>
                   </div>
                   <div class="categoryDescription">
-                    <p>
-                      We are working on it!
-                    </p>
+                    <p>We are working on it!</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
       <div class="row theAward">
         <div class="categoriesHeader">
           <div class="categoriesIcon">
-            <img class="categoryIcon" src="../assets/badges/Badges 2014-CommunityChamp.png"/>
+            <img
+              class="categoryIcon"
+              src="../assets/badges/Badges 2014-CommunityChamp.png"
+            />
           </div>
           <div class="theAwardTitle">
             <h1>The award</h1>
@@ -188,7 +170,7 @@
           </div>
         </div>
       </div>
-      <div class="row judges">
+      <!--<div class="row judges">
         <div class="container">
           <div class="judgesTitle darktext">
             <h1>Judges</h1>
@@ -211,9 +193,7 @@
                   <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>
-                    Coming soon!
-                  </p>
+                  <p>Coming soon!</p>
                 </div>
               </div>
             </div>
@@ -229,9 +209,7 @@
                   <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>
-                    Coming soon!
-                  </p>
+                  <p>Coming soon!</p>
                 </div>
               </div>
             </div>
@@ -247,9 +225,7 @@
                   <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>
-                    Coming soon!
-                  </p>
+                  <p>Coming soon!</p>
                 </div>
               </div>
             </div>
@@ -265,9 +241,7 @@
                   <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>
-                    Coming soon!
-                  </p>
+                  <p>Coming soon!</p>
                 </div>
               </div>
             </div>
@@ -283,17 +257,15 @@
                   <h2>TBA</h2>
                 </div>
                 <div class="judgeDescription">
-                  <p>
-                    Coming soon!
-                  </p>
+                  <p>Coming soon!</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="row separator"></div>
         </div>
-      </div>
-      <!-- <div class="row thePriceToPay">
+      </div>-->
+      <!--<div class="row thePriceToPay">
         <div class="container">
           <div class="thePriceToPayContainer">
             <div class="thePriceToPayHeader">
@@ -314,18 +286,11 @@
                 <h1>10.000 NOK</h1>
                 <p>excluding VAT</p>
               </div>
-             
-              <div class="thePriceToPayIncludes">
-                
-                
-                
-               
-              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row sponsors">
+      </div>-->
+      <!--<div class="row sponsors">
         <div class="container">
           <div class="sponsorsContainer">
             <div class="sponsorsHeader">
@@ -352,19 +317,18 @@
             </div>
           </div>
         </div>
-      </div> 
-      <div class="row legodivider">
-        <router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>
-        <a
+      </div>--> 
+        <!--<router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>-->
+      <!--<a
           class="registerbuttonlinkbottom"
           href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
           target="_blank"
         >
           <div class="registerbuttonbottom">REGISTER TODAY</div>
         </a>-->
-      </div>
+    </div>
 
-      <!-- <div class="row theCampSite">
+    <!-- <div class="row theCampSite">
         <div class="container theCampSiteContainer">
           <div class="theCampSiteHeader">
             <div class="theCampSiteIconContainer">
@@ -398,8 +362,8 @@
           </div>
         </div>
       </div> -->
-    </div>
-    <!-- <div class="theLocation">
+  </div>
+  <!-- <div class="theLocation">
       <gmaps-map :options="mapOptions">
         <gmaps-marker :position="{ lat: 59.96, lng: 10.665 }" />
       </gmaps-map>
@@ -482,7 +446,8 @@ export default {
   margin-bottom: 5%;
 }
 .quickSummary {
-  background-image: linear-gradient(to right, black, rgb(73, 71, 67));
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
+    center;
   background-size: cover;
   height: 40%;
   padding-top: 40px;
@@ -829,7 +794,9 @@ export default {
   flex-direction: column;
 }
 .judges {
-  background: #2a2d35;
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
+    center;
+  background-size: cover;
 }
 .judgesTitle {
   margin-top: 30px;

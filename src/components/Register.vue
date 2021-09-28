@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid">
-    <div class="row contact">
+    <div class="row register">
       <div class="col-md-12 overview">
-        <h3 class="lightbrowntitle">
+        <h3 class="lightgreentitle">
           Register your team here, registration is binding
         </h3>
         <iframe
@@ -34,22 +34,22 @@ export default {
 };
 </script>
 <style>
-.contact {
+.register {
   padding: 20px;
   background: white;
-  background: url(../assets/images/background-graa.svg) no-repeat center;
+  background: url(../assets/images/ninjaturtlebackground.jpeg) no-repeat center;
   background-size: cover;
   height: 40%;
   padding-top: 40px;
   /* padding-bottom: 40%; */
 }
 
-.contact h3 {
+.register h3 {
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
-.contact .lightbrowntitle {
+.register .lightgreentitle {
   margin-bottom: 30px;
   margin-top: 20px;
   text-align: center;

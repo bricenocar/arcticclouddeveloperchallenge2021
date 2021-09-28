@@ -19,19 +19,5 @@ export default {
 }
 </script>
 <style>
-.contact {
-  padding: 20px;
-   background: white;
-   background: url(../assets/images/background-graa.svg) no-repeat
-    center; 
-  background-size: cover;
-  height: 40%;
-  padding-top: 40px;
-  padding-bottom: 40%;
-}
 
-.contact h3 {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
 </style>

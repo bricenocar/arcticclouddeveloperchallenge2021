@@ -110,6 +110,11 @@ export default new Router({
       component: Judges
     },
     {
+      path: '/ConvinceYourBoss',
+      name: 'ConvinceYourBoss',
+      component: ConvinceYourBoss
+    },
+    {
       path: '/RulesAndPoints',
       name: 'RulesAndPoints',
       component: RulesAndPoints
