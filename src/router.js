@@ -143,6 +143,11 @@ export default new Router({
       path: '/Chart',
       name:'Chart',
       component: Chart
+    },
+    {
+      path: '/ConvinceYourBoss',
+      name:'ConvinceYourBoss',
+      component: ConvinceYourBoss
     }
   ]
 })
