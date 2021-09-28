@@ -5,26 +5,11 @@
          
         <div class="column overview">
        <h3 class="title">Contact us!</h3>
-       
-        <p>
-          Follow Dexter the Lynx on Twitter
-          <a href="https://twitter.com/intent/user?screen_name=ArcticCloudDev"
-            ><span>@ArcticCloudDev</span></a
-          >
-        </p>
-        <p>
-          Follow Dexter the Lynx on 
-          <a href="https://www.facebook.com/ArcticCloudDeveloperChallenge/"
-            ><span
-              >Facebook</span
-            ></a
-          >
-        </p>
-        <p>
-          Follow Dexter the Lynx on
-          <a href="https://www.linkedin.com/company/arctic-cloud-developer-challenge/"><span>LinkedIn</span></a></p>
-      </div>
+             
+ 
+      
             <div class="row devider">
+                  
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
@@ -36,7 +21,8 @@
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/carlos-briceno84/"><img src="../assets/images/linkedin.svg" /></a></span><p> Carlos Briceno</p></li>
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/sandsor/"><img src="../assets/images/linkedin.svg" /></a></span><p> Thomas Sandsør</p></li>
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/mariusborresen/"><img src="../assets/images/linkedin.svg" /></a></span><p> Marius Børresen</p></li>
-                        <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/ragnhild-baumann-b1400839/"><img src="../assets/images/linkedin.svg" /></a></span><p> Ragnhild Baumann</p></li>
+                        <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/eirik-christiansen-29343811/"><img src="../assets/images/linkedin.svg" /></a></span><p> Eirik Christiansen</p></li>
+                        
              
                       </ul>                  
                     </p>
@@ -44,6 +30,20 @@
               </div>
             </div>
             <div class="col-sm-6">
+              <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-name">Follow us</h4>
+                    <p class="card-text">
+                      <ul>
+                        <li>Dexter the Lynx on Twitter <a href="https://twitter.com/intent/user?screen_name=ArcticCloudDev"><span>@ArcticCloudDev</span></a></li>
+                        <li>Dexter the Lynx on <a href="https://www.facebook.com/ArcticCloudDeveloperChallenge/"><span>Facebook</span></a><li>
+                        <li>Dexter the Lynx on <a href="https://www.linkedin.com/company/arctic-cloud-developer-challenge/"><span>LinkedIn</span></a></li>
+                        </ul>                  
+                    </p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-name">Judges 2021</h4>
@@ -59,6 +59,7 @@
                     </p>
                 </div>
               </div>
+            </div> -->
             </div>
             </div>
           </div>
@@ -106,8 +107,8 @@ export default {
 .contact h4{
   color: #adc002;
   font-size:20pt;
-  font-weight:bold;
-  text-align: center;
+  /* font-weight:bold;
+  text-align: center; */
 }
 .contact .title {
   text-align: center;
@@ -125,7 +126,7 @@ export default {
   text-align: center;
 }
 .linkedinicon{
-  width:20px;
+  width:18px;
   float:left;
   margin-right:5px;
 }
@@ -138,5 +139,8 @@ export default {
   background: transparent;
   border: 0;
   margin-bottom: 15px;
+}
+h4.card-name {
+  text-align: left;
 }
 </style>
