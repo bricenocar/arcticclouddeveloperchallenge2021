@@ -29,6 +29,44 @@
             <div class="row separator"></div>
           </div>
         </div>
+        <div class="aboutHeader">
+          <div class="categoriesIcon">
+            <img
+              class="categoryIcon"
+              src="../assets/badges/Badges 2014-CommunityChamp.png"
+            />
+          </div>
+          <div class="aboutTitle">
+            <h1>About</h1>
+            <p>
+              ACDC is a 3 day Norwegian hackathon focusing on Microsoft
+              technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT.
+              Azure, ML, Power BI. <br />Our goal is to push technology to new
+              limits while we learn from each other and socialize. This great
+              event has been hosted for over 10 years at the beautiful
+              Voksenåsen. <br />Follow us on
+              <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
+            </p>
+          </div>
+        </div>
+        
+        <div class="theAwardHeader">
+          <div class="categoriesIcon">
+            <img
+              class="theAwardIcon"
+              src="../assets/badges/Badges 2014-CommunityChamp.png"
+            />
+          </div>
+          <div class="theAwardTitle">
+            <h1>The award</h1>
+            <img class="antlers" src="../assets/images/acdc_antlers.jpg" />
+            <p>
+              The winning team get to take home the ANTLERS to keep until next
+              challenge.
+            </p>
+            <p>And all the glory they can carry!</p>
+          </div>
+        </div>
       </div>
       <!--<div class="row About">
         <div class="aboutHeader">
@@ -151,7 +189,7 @@
           </div>
         </div>
       </div>-->
-      <div class="row theAward">
+      <!--<div class="row theAward">
         <div class="aboutHeader">
           <div class="categoriesIcon">
             <img
@@ -190,7 +228,7 @@
             <p>And all the glory they can carry!</p>
           </div>
         </div>
-      </div>
+      </div>-->
       <!--<div class="row judges">
         <div class="container">
           <div class="judgesTitle darktext">
