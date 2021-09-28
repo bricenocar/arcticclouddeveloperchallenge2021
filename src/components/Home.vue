@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="row About">
+      <!--<div class="row About">
         <div class="aboutHeader">
           <div class="categoriesIcon">
             <img
@@ -51,7 +51,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div>-->
       <!--<div class="row Categories">
         <div class="categoriesHeader">
           <div class="categoriesIcon">
@@ -152,10 +152,31 @@
         </div>
       </div>-->
       <div class="row theAward">
-        <div class="categoriesHeader">
+        <div class="aboutHeader">
           <div class="categoriesIcon">
             <img
               class="categoryIcon"
+              src="../assets/badges/Badges 2014-CommunityChamp.png"
+            />
+          </div>
+          <div class="aboutTitle">
+            <h1>About</h1>
+            <p>
+              ACDC is a 3 day Norwegian hackathon focusing on Microsoft
+              technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT.
+              Azure, ML, Power BI. <br />Our goal is to push technology to new
+              limits while we learn from each other and socialize. This great
+              event has been hosted for over 10 years at the beautiful
+              Voksenåsen. <br />Follow us on
+              <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
+            </p>
+          </div>
+        </div>
+        
+        <div class="theAwardHeader">
+          <div class="categoriesIcon">
+            <img
+              class="theAwardIcon"
               src="../assets/badges/Badges 2014-CommunityChamp.png"
             />
           </div>
@@ -317,8 +338,8 @@
             </div>
           </div>
         </div>
-      </div>--> 
-        <!--<router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>-->
+      </div>-->
+      <!--<router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>-->
       <!--<a
           class="registerbuttonlinkbottom"
           href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
@@ -576,9 +597,12 @@ export default {
 
 .theAward {
   background: white;
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
+    center;
+  background-size: cover;
   height: 30%;
   padding-top: 15vh;
-  margin-bottom: 15vh;
+  padding-bottom: 15vh;
 }
 .antlers {
   max-width: 500px;
@@ -601,8 +625,8 @@ export default {
   width: 100%;
   margin-bottom: 10px;
 }
-.theAwardTitle {
-  color: #27343c;
+.theAwardTitle h1 {
+  color: #adc002;
   font-size: 30pt;
   text-align: left;
   font-weight: bold;
@@ -614,29 +638,43 @@ export default {
   margin-bottom: 80px;
   text-align: left;
 }
-.theAwardContent p {
-  margin: 0;
+.theAwardTitle p {
+  color: white;
+  text-align: left;
+  font-size: 12pt;
+}
+.theAwardHeader {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+.theAwardIcon {
+  margin-right: 2em;
 }
 .About {
   background: white;
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
+    center;
+  background-size: cover;
   /* background: url(../assets/images/background-legos.svg) no-repeat center; */
   height: 30%;
-  padding-top: 25vh;
+  padding-top: 9vh;
   flex-direction: column;
 }
 .aboutHeader {
   display: flex;
   width: 60%;
   margin: auto;
+  margin-bottom: 10vh;;
 }
 .aboutHeader h1 {
-  color: black;
+  color: #adc002;
   text-align: left;
   font-size: 30pt;
   font-weight: bold;
 }
 .aboutHeader p {
-  color: #6d7c90;
+  color: white;
   text-align: left;
   font-size: 12pt;
 }

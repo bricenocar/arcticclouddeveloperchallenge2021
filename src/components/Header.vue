@@ -19,7 +19,7 @@
               <span>Convince your boss</span>
             </router-link>
             <router-link class="spacing" to="/Sponsorship">
-              <i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i>
+              <i class="ms-Icon ms-Icon--Heart" aria-hidden="true"></i>
               <span>Sponsorship</span>
             </router-link>
             <!--<router-link class="spacing" to="/agenda">
