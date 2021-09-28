@@ -21,6 +21,7 @@
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/carlos-briceno84/"><img src="../assets/images/linkedin.svg" /></a></span><p> Carlos Briceno</p></li>
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/sandsor/"><img src="../assets/images/linkedin.svg" /></a></span><p> Thomas Sandsør</p></li>
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/mariusborresen/"><img src="../assets/images/linkedin.svg" /></a></span><p> Marius Børresen</p></li>
+                        <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/ragnhild-baumann-b1400839/"><img src="../assets/images/linkedin.svg" /></a></span><p> Ragnhild Baumann</p></li>
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/eirik-christiansen-29343811/"><img src="../assets/images/linkedin.svg" /></a></span><p> Eirik Christiansen</p></li>
                         
              
