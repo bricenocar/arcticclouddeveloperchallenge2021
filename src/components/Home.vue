@@ -10,50 +10,6 @@
                 ><div class="register-text">REGISTER TODAY</div></router-link
               >
             </div>
-<<<<<<< HEAD
-=======
-            <div class="row separator"></div>
-          </div>
-        </div>
-        <div class="aboutHeader">
-          <div class="categoriesIcon">
-            <img
-              class="categoryIcon"
-              src="../assets/badges/Badges 2014-CommunityChamp.png"
-            />
-          </div>
-          <div class="aboutTitle">
-            <h1>About</h1>
-            <p>
-              ACDC is a 3 day Norwegian hackathon focusing on Microsoft
-              Cloud technology, such as M365, D365, Azure, Teams, IOT, ML, AI, Power BI. 
-              <br />
-              Our goal is to see if we can push the technology to its limits, while we learn from each other and socialize. 
-              <br />
-              This great event has been hosted for over 10 years at the beautiful
-              Voksenåsen. <br />
-              Follow us on
-              <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
-            </p>
-          </div>
-        </div>
-        
-        <div class="theAwardHeader">
-          <div class="categoriesIcon">
-            <img
-              class="theAwardIcon"
-              src="../assets/badges/Badges 2014-CommunityChamp.png"
-            />
-          </div>
-          <div class="theAwardTitle">
-            <h1>The award</h1>
-            <img class="antlers" src="../assets/images/acdc_antlers.jpg" />
-            <p>
-              The winning team get to take home the ANTLERS to keep until next
-              challenge.
-            </p>
-            <p>And all the glory they can carry!</p>
->>>>>>> 2921aabccc6f09a29fbeb761944a2ac61b814526
           </div>
         </div>
       </div>
