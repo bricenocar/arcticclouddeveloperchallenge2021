@@ -29,24 +29,26 @@
             you want to sponsor.
           </p>
           <br />
-          <p><b>Bronze</b></p>
-          <p>SharePint thursday, 10.000,-</p>
-          <p>GeekBeer friday, 10.000,-</p>
-          <p><b>Silver</b></p>
-          <p>Dinner thursday, 20.000,-</p>
-          <p>Dinner friday, 20.000,-</p>
-          <p><b>Gold</b></p>
-          <p>Activity saturday, 30.000,-</p>
-          <p>Dinner saturday, 30.000,-</p>
+          <h4>Bronze</h4>
+          <p>SharePint thursday, 10.000,-<br>
+          GeekBeer friday, 10.000,-</p>
+          <br/>
+          <h4>Silver</h4>
+          <p>Dinner thursday, 20.000,-<br>
+          Dinner friday, 20.000,-</p>
+          <br/>
+          <h4>Gold</h4>
+          <p>Activity saturday, 30.000,-<br>
+          Dinner saturday, 30.000,-</p>
 
           <br />
-          <p><b>Included in Bronze</b></p>
+          <h4>Included in Bronze</h4>
           <p>
-            Flags, labels on bottles or similar on food/beer<br />
+            Flags, labels on bottles or similar on food/beer<br/>
             Logo on web and SOME
           </p>
           <br />
-          <p><b>Included in Silver</b></p>
+          <h4>Included in Silver</h4>
           <p>
             Flags, labels on bottles or similar on food/beer<br />
             1 people can attend the dinner on the last day with presentations of
@@ -56,7 +58,7 @@
             Logo on web and SOME
           </p>
           <br />
-          <p><b>Included in Gold</b></p>
+          <h4>Included in Gold</h4>
           <p>
             Flags, labels on bottles or similar on food/beer<br />
             Appeal, speech, PPT presentation or short video<br />
