@@ -115,7 +115,7 @@ export default {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 20px;
-  color: #adc002;
+  color: #84AF0F;
 }
 .contact p {
   color: white;

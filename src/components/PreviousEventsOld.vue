@@ -176,12 +176,12 @@ export default {
   font-size: 50pt;
   font-weight: bold;
 }
-.overview h4{
+/* .overview h4{
   color: #6d7c90;
   font-size:30pt;
   font-weight:bold;
   text-align: center;
-}
+} */
 .overview p {
   color: #6d7c90;
   font-size: 15pt;

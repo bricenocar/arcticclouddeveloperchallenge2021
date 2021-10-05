@@ -20,6 +20,7 @@
     "vue-router": "^3.0.2",
     "vue-tweet": "^1.0.3",
     "vue-tweet-embed": "^2.3.0",
+    "vue-vcard": "^1.0.2",
     "x5-gmaps": "^0.3.23"
   },
   "devDependencies": {

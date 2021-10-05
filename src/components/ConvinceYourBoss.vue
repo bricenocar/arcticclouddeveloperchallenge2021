@@ -4,6 +4,7 @@
       <div class="row">
         <div class="column overview">
           <h3 class="title">Arctic Cloud Developer Challenge</h3>
+          <div class="overview">
           <h4>What is Arctic Cloud Developer Challenge (ACDC)?</h4>
           <p>
            Arctic Cloud Developer Challenge is the most awesome hackaton in the Nordic. 
@@ -67,6 +68,7 @@
             <br><br>
             It's all about learning - but winning does feel good :) 
           </p>
+          </div>
         </div>
       </div>
     </div>
@@ -97,7 +99,7 @@ export default {
   font-weight: bold;
 }
 .overview h4{
-  color: #adc002;
+  color: #84AF0F;
   font-size:18px;
   font-weight:bold;
   text-align: left;
@@ -122,7 +124,7 @@ export default {
 }
 .convinceyourboss .title {
   margin-top: 20px;
-  color: #adc002;
+  color: #84AF0F;
 }
 .convinceyourboss ul {
   list-style-type: none;
