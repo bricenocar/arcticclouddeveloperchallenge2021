@@ -1,82 +1,29 @@
 <template>
-  <div>
-    <div class="container-fluid">
-      <div class="row quickSummary">
-        <div class="container">
-          <div class="main-section-top">
-            <div class="row logo-container">
-              <img class="logotop" src="../assets/images/logo-2021.svg" />
-            </div>
-            <div class="row legodivider">
-              <img class="legodividerimg" src="../assets/images/legoline.svg" />
-            </div>
-            <div class="row legodivider">
-              <img
-                class="legodividerimg"
-                src="../assets/images/texto-home.svg"
-              />
-            </div>
-            <div class="row legodivider">
-              <p class="event-date">February 10-13th</p>
-            </div>
-            <div class="row legodevider">
-              <router-link
-                class="registerbuttonlink registerbutton"
-                to="/register"
-                >REGISTER TODAY</router-link
+  <div class="container-fluid">
+    <div class="row quickSummary">
+      <div class="container">
+        <div class="main-section-top">
+          <div class="row logo-container">
+            <img class="logotop" src="../assets/images/2022/home.svg" />
+            <div class="registerbutton">
+              <router-link class="registerbuttonlink" to="/register"
+                ><div class="register-text">REGISTER TODAY</div></router-link
               >
             </div>
-            <div class="row separator"></div>
-          </div>
-        </div>
-        <div class="aboutHeader">
-          <div class="categoriesIcon">
-            <img
-              class="categoryIcon"
-              src="../assets/badges/Badges 2014-CommunityChamp.png"
-            />
-          </div>
-          <div class="aboutTitle">
-            <h1>About</h1>
-            <p>
-              ACDC is a 3 day Norwegian hackathon focusing on Microsoft
-              technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT.
-              Azure, ML, Power BI. <br />Our goal is to push technology to new
-              limits while we learn from each other and socialize. This great
-              event has been hosted for over 10 years at the beautiful
-              Voksenåsen. <br />Follow us on
-              <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
-            </p>
-          </div>
-        </div>
-        
-        <div class="theAwardHeader">
-          <div class="categoriesIcon">
-            <img
-              class="theAwardIcon"
-              src="../assets/badges/Badges 2014-CommunityChamp.png"
-            />
-          </div>
-          <div class="theAwardTitle">
-            <h1>The award</h1>
-            <img class="antlers" src="../assets/images/acdc_antlers.jpg" />
-            <p>
-              The winning team get to take home the ANTLERS to keep until next
-              challenge.
-            </p>
-            <p>And all the glory they can carry!</p>
           </div>
         </div>
       </div>
-      <!--<div class="row About">
-        <div class="aboutHeader">
-          <div class="categoriesIcon">
+    </div>
+    <div class="row about">
+      <div class="about-container">
+        <div class="ms-Grid about-content" dir="ltr">
+          <div class="ms-Grid-col ms-sm12 ms-md6 ms-lg6">
             <img
               class="categoryIcon"
               src="../assets/badges/Badges 2014-CommunityChamp.png"
             />
           </div>
-          <div class="aboutTitle">
+          <div class="ms-Grid-col ms-sm12 ms-md6 ms-lg6">
             <h1>About</h1>
             <p>
               ACDC is a 3 day Norwegian hackathon focusing on Microsoft
@@ -89,8 +36,9 @@
             </p>
           </div>
         </div>
-      </div>-->
-      <!--<div class="row Categories">
+      </div>
+    </div>
+    <!--<div class="row Categories">
         <div class="categoriesHeader">
           <div class="categoriesIcon">
             <img
@@ -189,7 +137,7 @@
           </div>
         </div>
       </div>-->
-      <!--<div class="row theAward">
+    <!--<div class="row theAward">
         <div class="aboutHeader">
           <div class="categoriesIcon">
             <img
@@ -229,7 +177,7 @@
           </div>
         </div>
       </div>-->
-      <!--<div class="row judges">
+    <!--<div class="row judges">
         <div class="container">
           <div class="judgesTitle darktext">
             <h1>Judges</h1>
@@ -324,7 +272,7 @@
           <div class="row separator"></div>
         </div>
       </div>-->
-      <!--<div class="row thePriceToPay">
+    <!--<div class="row thePriceToPay">
         <div class="container">
           <div class="thePriceToPayContainer">
             <div class="thePriceToPayHeader">
@@ -349,7 +297,7 @@
           </div>
         </div>
       </div>-->
-      <!--<div class="row sponsors">
+    <!--<div class="row sponsors">
         <div class="container">
           <div class="sponsorsContainer">
             <div class="sponsorsHeader">
@@ -377,17 +325,17 @@
           </div>
         </div>
       </div>-->
-      <!--<router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>-->
-      <!--<a
+    <!--<router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>-->
+    <!--<a
           class="registerbuttonlinkbottom"
           href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
           target="_blank"
         >
           <div class="registerbuttonbottom">REGISTER TODAY</div>
         </a>-->
-    </div>
+  </div>
 
-    <!-- <div class="row theCampSite">
+  <!-- <div class="row theCampSite">
         <div class="container theCampSiteContainer">
           <div class="theCampSiteHeader">
             <div class="theCampSiteIconContainer">
@@ -421,7 +369,6 @@
           </div>
         </div>
       </div> -->
-  </div>
   <!-- <div class="theLocation">
       <gmaps-map :options="mapOptions">
         <gmaps-marker :position="{ lat: 59.96, lng: 10.665 }" />
@@ -467,8 +414,12 @@ export default {
   position: absolute;
   left: -5%;
 }
+.register-button-container {
+  display: flex;
+}
 .logotop {
   margin: auto;
+  width: 100%;
 }
 .legodividerimg {
   width: 100%;
@@ -487,35 +438,20 @@ export default {
   margin-bottom: -5%;
   justify-content: center;
 }
-.registerbutton {
-  color: black;
-  background-color: #ffc800;
-  border-radius: 6pt;
-  padding: 1em;
-  border: rgb(29, 29, 29) 3pt solid;
-  font-family: "Open Sans";
-  font-weight: bold;
-}
-.legoleftpicture {
-  max-width: 450px;
-}
-.legodivider {
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
+.logo-container {
+  position: relative;
+  height: 80vh;
 }
 .quickSummary {
   background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
     center;
   background-size: cover;
-  height: 40%;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
 .quickSummary .container {
   padding-top: 2em;
 }
-
 .quickSummary .event-date {
   font-size: 30px;
   font-weight: 500;
@@ -524,17 +460,36 @@ export default {
   text-align: right;
   width: 100%;
 }
-.registerbuttonlink {
-  width: 50vw;
-  margin-left: 200px;
-}
-.registerButton {
-  font-size: 30pt;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #ffc800;
-  text-align: right;
+.registerbutton {
+  position: absolute;
+  bottom: 20%;
+  display: flex;
+  height: 100px;
   width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url("../assets/images/2022/boton.svg") no-repeat center;
+}
+.registerbuttonlink:hover {
+  color: black;
+  text-decoration: none;
+}
+.register-text {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  font-family: "Turtles";
+  font-weight: normal;
+  font-size: 42px;
+  letter-spacing: 0px;
+  color: #000000;
+  text-shadow: 0px 1px 0px #ffffff;
+  opacity: 1;
+}
+.registerbuttonlink {
+  width: 80%;
+
+  margin: 0 auto;
 }
 .registerbuttonlinkbottom {
   width: 50vw;
@@ -550,6 +505,41 @@ export default {
   font-family: "Open Sans";
   font-weight: bold;
   margin-top: 3em;
+}
+.about {
+  background: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+.about-container {
+  position: absolute;
+  height: 100vh;
+  /* background: white; */
+  background-image: url(../assets/images/2022/bg1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 106%;
+  margin-left: -3%;
+  margin-right: 3%;
+  display: flex;
+  top: -170px;
+}
+.about-content {
+  margin: auto;
+}
+.aboutHeader h1 {
+  color: #adc002;
+  text-align: left;
+  font-size: 30pt;
+  font-weight: bold;
+}
+.aboutHeader p {
+  color: white;
+  text-align: left;
+  font-size: 12pt;
 }
 .rectangle {
   border: solid 10px;
@@ -688,33 +678,6 @@ export default {
 }
 .theAwardIcon {
   margin-right: 2em;
-}
-.About {
-  background: white;
-  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
-    center;
-  background-size: cover;
-  /* background: url(../assets/images/background-legos.svg) no-repeat center; */
-  height: 30%;
-  padding-top: 9vh;
-  flex-direction: column;
-}
-.aboutHeader {
-  display: flex;
-  width: 60%;
-  margin: auto;
-  margin-bottom: 10vh;;
-}
-.aboutHeader h1 {
-  color: #adc002;
-  text-align: left;
-  font-size: 30pt;
-  font-weight: bold;
-}
-.aboutHeader p {
-  color: white;
-  text-align: left;
-  font-size: 12pt;
 }
 
 .Categories {
@@ -1051,7 +1014,7 @@ export default {
 }
 
 .separator {
-  height: 10vh;
+  height: 25vh;
 }
 
 .line-style {

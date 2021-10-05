@@ -33,17 +33,6 @@ export default {
     margin-bottom: 30px;
     margin-top: 20px;
 }
-.about {
-  padding: 20px;
-  text-align: left;
-   background: white;
-  background: url("../assets/images/isai-ramos-46821-unsplash.png") no-repeat
-    center;
-  background-size: cover;
-  height: 40%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
 .about .title {
   margin-top: 20px;
 }

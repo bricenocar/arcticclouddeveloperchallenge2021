@@ -24,8 +24,12 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=Nobile");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans");
 @font-face { 
-    font-family: "PR Viking";
-    src: url("assets/fonts/PR Viking.ttf"); 
+    font-family: "Turtles";
+    src: url("assets/fonts/Turtles.otf"); 
+}
+@font-face { 
+    font-family: "Rubik";
+    src: url("assets/fonts/Rubik-VariableFont_wght.ttf"); 
 }
 
 h1,
@@ -34,11 +38,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", Georgia, Times, serif !important;
+  font-family: "Rubik", Georgia, Times, serif !important;
+}
+
+a{
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
 }
 
 p{
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
 }
 
 @import url("https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css");
@@ -48,14 +56,13 @@ p{
   text-align: center;
   color: white;
   font-size: 12pt;
-  overflow-x: hidden;
 }
 #app ul {
   padding: 0;
 }
 
 body {
-  font-family: "Open Sans", Georgia, Times, serif;
+  font-family: "Rubik", Georgia, Times, serif;
   overflow-x: hidden;
 }
 
@@ -89,7 +96,7 @@ h6 {
 }
 
 .lightgreentitle {
-  color:#adc002;
+  color:#84AF0F;
 }
 @media only screen and (min-device-width: 800px) {
   .overview p {

@@ -141,17 +141,6 @@ export default {
 </script>
 <style>
 
-.about {
-  padding: 20px;
-  text-align: left;
-   background: white;
-   background: url(../assets/images/background-graa.svg) no-repeat
-    center;
-  background-size: cover;
-  height: 40%;
-  padding-top: 40px;
-  padding-bottom: 40%;
-}
 .about .title {
   margin-top: 20px;
 }

@@ -144,6 +144,7 @@ export default {
   top: 0;
   right: 5%;
   position: fixed;
+  z-index: 1000;
 }
 
 .navcontainer {
