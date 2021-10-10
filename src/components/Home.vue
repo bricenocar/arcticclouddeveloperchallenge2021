@@ -18,21 +18,63 @@
       <div class="about-container">
         <div class="ms-Grid about-content" dir="ltr">
           <div class="ms-Grid-col ms-sm12 ms-md6 ms-lg6">
-            <img
-              class="categoryIcon"
-              src="../assets/badges/Badges 2014-CommunityChamp.png"
-            />
+            <img class="aboutimage" src="../assets/images/2022/about.svg" />
           </div>
           <div class="ms-Grid-col ms-sm12 ms-md6 ms-lg6">
-            <h1>About</h1>
+            <div class="about-text">
+              <p>
+                <span class="bold-text">ACDC</span> is a 3 day Norwegian
+                hackathon focusing on Microsoft technology, such as Microsoft
+                365, SharePoint, Dynamics 365, IOT. Azure, ML, Power BI.
+                <br /><br />Our goal is to push technology to new limits while
+                we learn from each other and socialize. This great event has
+                been hosted for over 10 years at the beautiful Voksenåsen.
+                <br />Follow us on
+                <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc"
+                  >YouTube</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row theaward">
+      <div class="theaward-container">
+        <div class="ms-Grid theaward-content" dir="ltr">
+          <div class="ms-Grid-col ms-sm12 ms-md6 ms-lg6">
+            <img class="antlers" src="../assets/images/acdc_antlers.jpg" />
+            <h1>The award</h1>
             <p>
-              ACDC is a 3 day Norwegian hackathon focusing on Microsoft
-              technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT.
-              Azure, ML, Power BI. <br />Our goal is to push technology to new
-              limits while we learn from each other and socialize. This great
-              event has been hosted for over 10 years at the beautiful
-              Voksenåsen. <br />Follow us on
-              <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
+              The winning team get to take home the ANTLERS to keep until next
+              challenge.<br /><br />And all the glory they can carry!
+            </p>
+          </div>
+          <div class="ms-Grid-col ms-sm12 ms-md6 ms-lg6">
+            <img class="theawardimage" src="../assets/images/2022/the_award.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row contactus">
+      <div class="contactus-container">
+        <div class="ms-Grid contactus-content" dir="ltr">
+          <div class="ms-sm12 ms-md12 ms-lg12">
+            <img
+              class="contactusimage"
+              src="../assets/images/2022/bg2-contac.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row contactusfooter">
+      <div class="contactusfooter-container">
+        <div class="ms-Grid contactusfooter-content" dir="ltr">
+          <div class="ms-sm12 ms-md12 ms-lg12">
+            <p>
+              <span>inf@arcticclouddeveloperchalenge.net</span
+              ><br /><br />Follow Dexter the Lynx
             </p>
           </div>
         </div>
@@ -522,25 +564,90 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   width: 106%;
-  margin-left: -3%;
-  margin-right: 3%;
   display: flex;
   top: -170px;
 }
 .about-content {
   margin: auto;
+  width: 80%;
+  padding-top: 170px;
 }
-.aboutHeader h1 {
-  color: #adc002;
+.about h1 {
   text-align: left;
   font-size: 30pt;
   font-weight: bold;
 }
-.aboutHeader p {
-  color: white;
+.about p {
+  color: black;
+  text-align: left;
+  font-size: 27px;
+}
+
+.theaward {
+  background: white;
+  height: 60vh;
+  margin: auto;
+  position: relative;
+}
+.theaward-container {
+  height: 60vh;
+  background: white;
+  width: 100%;
+  display: flex;
+}
+.theaward-content {
+  margin: auto;
+}
+.theaward h1 {
+  text-align: left;
+  font-size: 30pt;
+  font-weight: bold;
+}
+.theaward p {
+  color: black;
   text-align: left;
   font-size: 12pt;
 }
+.theawardimage {
+      max-height: 450px;
+}
+
+.contactus {
+  background: white;
+  margin: auto;
+}
+.contactus-container {
+  background: white;
+  width: 100%;
+  display: flex;
+}
+.contactus-content {
+  margin: auto;
+}
+.contactus p {
+  color: black;
+  text-align: center;
+  font-size: 12pt;
+}
+
+.contactusfooter {
+  background: white;
+  margin: auto;
+}
+.contactusfooter-container {
+  background: white;
+  width: 100%;
+  display: flex;
+  height: 25vh;
+}
+.contactusfooter-content {
+  margin: 0 auto;
+}
+.contactusfooter p {
+  color: black;
+  font-size: 12pt;
+}
+
 .rectangle {
   border: solid 10px;
   margin-top: 100px;
@@ -622,16 +729,6 @@ export default {
   width: 45%;
   padding-top: 70px;
 }
-
-.theAward {
-  background: white;
-  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
-    center;
-  background-size: cover;
-  height: 30%;
-  padding-top: 15vh;
-  padding-bottom: 15vh;
-}
 .antlers {
   max-width: 500px;
   width: 100%;
@@ -653,33 +750,6 @@ export default {
   width: 100%;
   margin-bottom: 10px;
 }
-.theAwardTitle h1 {
-  color: #adc002;
-  font-size: 30pt;
-  text-align: left;
-  font-weight: bold;
-}
-.theAwardContent {
-  margin-top: 2vh;
-  color: #6d7c90;
-  font-size: 12pt;
-  margin-bottom: 80px;
-  text-align: left;
-}
-.theAwardTitle p {
-  color: white;
-  text-align: left;
-  font-size: 12pt;
-}
-.theAwardHeader {
-  display: flex;
-  width: 60%;
-  margin: auto;
-}
-.theAwardIcon {
-  margin-right: 2em;
-}
-
 .Categories {
   background: lightgray;
   background: url(../assets/images/background-legos.svg) no-repeat center;

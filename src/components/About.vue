@@ -144,18 +144,6 @@ export default {
 .about .title {
   margin-top: 20px;
 }
-.about h1{
-  color: black;
-  text-align: center;
-  font-size: 30pt;
-  font-weight: bold;
-}
-
-.about p{
-  color: #6d7c90;
-  text-align: left;
-  font-size: 12pt;
-}
 
 .about ul {
   list-style-type: none;

@@ -141,10 +141,10 @@ export default {
 }
 
 .header {
-  top: 0;
-  right: 5%;
   position: fixed;
   z-index: 1000;
+  width: 100%;
+  background: black;
 }
 
 .navcontainer {
