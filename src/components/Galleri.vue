@@ -1,20 +1,21 @@
 <template>
-  <div class="container-fluid">
-    <div class="row galleri">
-      <div class="container">
+  <div class="container-fluid convinceyourboss">
+    <div class="container">
+      <div class="column overview">
+
         <div class="col-md-12">
-          <h3 class="yellowtitle">ACDC 2018</h3>
-          <div class="row">
+          <h3 class="title">ACDC 2018</h3>
+          <div>
             <lightbox :images="ACDC2018"></lightbox>
           </div>
-          <h3 class="yellowtitle">ASPC 2017</h3>
-          <div class="row">
+          <h3 class="title">ASPC 2017</h3>
+          <div>
             <lightbox :images="ACDC2017"></lightbox>
           </div>
         </div>
+        </div>
       </div>
     </div>
-  </div>
 </template>
  
 <script>
@@ -117,9 +118,20 @@ export default {
 </script> 
  
 <style>
-.galleri{
-  background: url(../assets/images/background-graa.svg)no-repeat
-  center;
+
+.galleri {
+  padding: 20px;
+  text-align: left;
+  background: white;
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat center;
   background-size: cover;
+  height: 40%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
+.galleri .title {
+  margin-top: 20px;
+  color: #84AF0F;
+}
+
 </style> 

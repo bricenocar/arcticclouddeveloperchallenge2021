@@ -57,6 +57,29 @@
                 </div>
               </div>
             </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                   
+                    <!-- <h4 class="card-name">Bronze</h4> -->
+                    <p class="card-text">
+                       <ul>
+                         <li></li>
+                        <h4>Bronze</h4>
+                        <li>GeekBeer Friday, 10.000,- </li>
+                        <br>
+                        <h4>Included in Bronze</h4>
+                        <li> - Flags, labels on bottles or similar on food/beer</li>
+                        <li> - Logo on web and SOME</li>
+                        <br>
+                        <li></li>
+                      </ul>   
+                       <!-- <img class="img-hor-vert" src="../assets/images/2022/bg-brick2.svg"/> -->
+                      <!-- <img class="bottom" src="../assets/images/2022/bg-brick2.svg"/>                -->
+                    </p>
+                </div>
+              </div>
+            </div>
             <div class="col-sm-4">
                 <div class="card">
                   <div class="card-body">
@@ -66,6 +89,28 @@
                        <ul>
                         <h4>Silver</h4>
                         <li>Dinner Thursday, 20.000,- </li>
+                        <br>
+                        <h4>Included in Silver</h4>
+                        <li> - Flags, labels on bottles or similar on food/beer</li>
+                        <li> - 1 people can attend the dinner on the last day with presentations of solutions. </li>
+                        <li> - We present food/beer/activity as sponsored by the company</li>
+                        <li> - Logo on slides in general and mentioned at the beginning </li>
+                        <li> - Logo on web and SOME</li>
+                      </ul>                  
+                    </p>
+                    <!-- <img class="rotateimg180 bottom" src="../assets/images/2022/bg-brick2.svg"/> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <!-- <h4 class="card-name">Bronze</h4> -->
+                    <!-- <img class="flipimg180" src="../assets/images/2022/bg-brick2.svg"/> -->
+                    <p class="card-text">
+                       <ul>
+                        <h4>Silver</h4>
+                        <li>Dinner Friday, 20.000,- </li>
                         <br>
                         <h4>Included in Silver</h4>
                         <li> - Flags, labels on bottles or similar on food/beer</li>
@@ -103,51 +148,8 @@
                 </div>
               </div>
             </div>
-                        <div class="col-sm-4">
-                <div class="card">
-                  <div class="card-body">
-                   
-                    <!-- <h4 class="card-name">Bronze</h4> -->
-                    <p class="card-text">
-                       <ul>
-                         <li></li>
-                        <h4>Bronze</h4>
-                        <li>GeekBeer Friday, 10.000,- </li>
-                        <br>
-                        <h4>Included in Bronze</h4>
-                        <li> - Flags, labels on bottles or similar on food/beer</li>
-                        <li> - Logo on web and SOME</li>
-                        <br>
-                        <li></li>
-                      </ul>   
-                       <!-- <img class="img-hor-vert" src="../assets/images/2022/bg-brick2.svg"/> -->
-                      <!-- <img class="bottom" src="../assets/images/2022/bg-brick2.svg"/>                -->
-                    </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                  <div class="card-body">
-                    <!-- <h4 class="card-name">Bronze</h4> -->
-                    <!-- <img class="flipimg180" src="../assets/images/2022/bg-brick2.svg"/> -->
-                    <p class="card-text">
-                       <ul>
-                        <h4>Silver</h4>
-                        <li>Dinner Friday, 20.000,- </li>
-                        <br>
-                        <h4>Included in Silver</h4>
-                        <li> - Flags, labels on bottles or similar on food/beer</li>
-                        <li> - 1 people can attend the dinner on the last day with presentations of solutions. </li>
-                        <li> - We present food/beer/activity as sponsored by the company</li>
-                        <li> - Logo on slides in general and mentioned at the beginning </li>
-                        <li> - Logo on web and SOME</li>
-                      </ul>                  
-                    </p>
-                    <!-- <img class="rotateimg180 bottom" src="../assets/images/2022/bg-brick2.svg"/> -->
-                </div>
-              </div>
-            </div>
+
+
             <div class="col-sm-4">
                 <div class="card">
                   <div class="card-body">
