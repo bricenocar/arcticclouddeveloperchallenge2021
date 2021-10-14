@@ -45,10 +45,10 @@ export default {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_070141401_iOS.jpg?alt=media&token=b48aaaf3-d8ff-4c7d-b864-fcae458503fc',
           caption: 'Pre challenge',
         }, 
-        {
-          src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_070200530_iOS.jpg?alt=media&token=6991ca60-ec6b-4375-ac80-f12c5d2118fd',
-          caption: 'Awsome id cards !',
-        }, 
+        // {
+        //   src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_070200530_iOS.jpg?alt=media&token=6991ca60-ec6b-4375-ac80-f12c5d2118fd',
+        //   caption: 'Awsome id cards !',
+        // }, 
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_070504379_iOS.jpg?alt=media&token=dfd254ef-44a0-4fcb-a904-d037fb6b7b52',
           caption: 'A little drone action',
@@ -73,6 +73,10 @@ export default {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_123757370_iOS.jpg?alt=media&token=06da24b8-48a5-44ab-9d3b-1b1179404081',
           caption: 'Participants in action',
         }, 
+        {
+          src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180209_180925490_iOS.jpg?alt=media&token=46f9233f-b997-4fa1-a9df-c2299020ada0',
+          capiton: 'Image',
+        },
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_123812493_iOS.jpg?alt=media&token=5b9274fc-196b-4b80-a54f-5b76c5080709',
           caption: 'Participants in action',
@@ -103,14 +107,14 @@ export default {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2017%2F16487437_847638462044453_4634700620952498234_o.jpg?alt=media&token=50ff510f-d3ae-4c84-a7f9-ad2bf83503ce',
           caption: 'Image 1',
         },
-        {
-          src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2017%2FAttF2D3.tmp.jpg?alt=media&token=6b72ed62-a903-48d1-be02-42993bf9a237',
-          caption: 'Image 1',
-        },  
-        {
-          src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2017%2FAtt480B.tmp.jpg?alt=media&token=b8480b28-0ca7-4ecf-8b22-3068dbb2c2b1',
-          caption: 'Image 1',
-        },    
+        // {
+        //   src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2017%2FAttF2D3.tmp.jpg?alt=media&token=6b72ed62-a903-48d1-be02-42993bf9a237',
+        //   caption: 'Image 1',
+        // },  
+        // {
+        //   src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2017%2FAtt480B.tmp.jpg?alt=media&token=b8480b28-0ca7-4ecf-8b22-3068dbb2c2b1',
+        //   caption: 'Image 1',
+        // },    
      ],
     };
   },
