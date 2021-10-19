@@ -4,10 +4,13 @@
       <div class="column overview">
 
         <div class="col-md-12">
-          <h3 class="title">Earlier events</h3>
-          <div>
+          <h3 class="title">Previous events</h3>
+          <p> <video-embed ref="youtube" css="embed-responsive-16by9" src="https://www.youtube.com/watch?v=MG2lQlGLLmM"></video-embed></p>
+          <p><video-embed ref="youtube" css="embed-responsive-16by9" src="https://youtu.be/BeFcDY8-PX8"></video-embed></p>
+          <p><video-embed ref="youtube" css="embed-responsive-16by9" src="https://youtu.be/z5HYGWnkjHc"></video-embed></p>
+
             <lightbox :images="EARLIEREVENTS"></lightbox>
-          </div>
+        </div>
           <!-- <h3 class="title">ASPC 2017</h3>
           <div>
             <lightbox :images="ACDC2017"></lightbox>
@@ -15,13 +18,14 @@
         </div>
         </div>
       </div>
-    </div>
 </template>
- 
+
 <script>
 import lightbox from "vlightbox";
 import Vue from "vue";
+import Embed from 'v-video-embed';
 Vue.use(lightbox);
+Vue.use(Embed);
 
 export default {
   name: "galleri",
@@ -44,15 +48,15 @@ export default {
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_070141401_iOS.jpg?alt=media&token=b48aaaf3-d8ff-4c7d-b864-fcae458503fc',
           caption: 'Pre challenge',
-        }, 
+        },
         // {
         //   src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_070200530_iOS.jpg?alt=media&token=6991ca60-ec6b-4375-ac80-f12c5d2118fd',
         //   caption: 'Awsome id cards !',
-        // }, 
+        // },
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_070504379_iOS.jpg?alt=media&token=dfd254ef-44a0-4fcb-a904-d037fb6b7b52',
           caption: 'A little drone action',
-        }, 
+        },
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_071239571_iOS.jpg?alt=media&token=ed61c160-9918-4296-a0eb-c713c073f27f',
           caption: 'Awsome breakfast',
@@ -68,11 +72,11 @@ export default {
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_081339226_iOS.jpg?alt=media&token=97001872-840e-4377-87de-9e43b4655f2d',
           caption: 'Keynote',
-        }, 
+        },
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_123757370_iOS.jpg?alt=media&token=06da24b8-48a5-44ab-9d3b-1b1179404081',
           caption: 'Participants in action',
-        }, 
+        },
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180209_180925490_iOS.jpg?alt=media&token=46f9233f-b997-4fa1-a9df-c2299020ada0',
           capiton: 'Image',
@@ -80,7 +84,7 @@ export default {
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_123812493_iOS.jpg?alt=media&token=5b9274fc-196b-4b80-a54f-5b76c5080709',
           caption: 'Participants in action',
-        }, 
+        },
         {
           src:'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180209_180925490_iOS.jpg?alt=media&token=46f9233f-b997-4fa1-a9df-c2299020ada0',
           caption: 'Participants in action',
@@ -88,7 +92,7 @@ export default {
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_204840737_iOS.jpg?alt=media&token=3a4cc81f-2689-43c6-a851-6528380be22f',
           caption: 'Hackaton room',
-        },   
+        },
      ],
       ACDC2017: [
         {
@@ -114,11 +118,11 @@ export default {
         // {
         //   src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2017%2FAttF2D3.tmp.jpg?alt=media&token=6b72ed62-a903-48d1-be02-42993bf9a237',
         //   caption: 'Image 1',
-        // },  
+        // },
         // {
         //   src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2017%2FAtt480B.tmp.jpg?alt=media&token=b8480b28-0ca7-4ecf-8b22-3068dbb2c2b1',
         //   caption: 'Image 1',
-        // },    
+        // },
      ],EARLIEREVENTS:[
        {
          src:'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2020%2Facdc_1.jpg?alt=media&token=cfade870-6f62-4b15-8789-6d58ca322b0f',
@@ -139,11 +143,11 @@ export default {
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_070141401_iOS.jpg?alt=media&token=b48aaaf3-d8ff-4c7d-b864-fcae458503fc',
           caption: 'Pre challenge',
-        }, 
+        },
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_070504379_iOS.jpg?alt=media&token=dfd254ef-44a0-4fcb-a904-d037fb6b7b52',
           caption: 'A little drone action',
-        }, 
+        },
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_071239571_iOS.jpg?alt=media&token=ed61c160-9918-4296-a0eb-c713c073f27f',
           caption: 'Awsome breakfast',
@@ -159,15 +163,15 @@ export default {
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_081339226_iOS.jpg?alt=media&token=97001872-840e-4377-87de-9e43b4655f2d',
           caption: 'Keynote',
-        }, 
+        },
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_123757370_iOS.jpg?alt=media&token=06da24b8-48a5-44ab-9d3b-1b1179404081',
           caption: 'Participants in action',
-        }, 
+        },
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_123812493_iOS.jpg?alt=media&token=5b9274fc-196b-4b80-a54f-5b76c5080709',
           caption: 'Participants in action',
-        }, 
+        },
         {
           src:'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180209_180925490_iOS.jpg?alt=media&token=46f9233f-b997-4fa1-a9df-c2299020ada0',
           caption: 'Participants in action',
@@ -175,7 +179,7 @@ export default {
         {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_204840737_iOS.jpg?alt=media&token=3a4cc81f-2689-43c6-a851-6528380be22f',
           caption: 'Hackaton room',
-        },   
+        },
        {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2017%2F16387216_847344022073897_8177006631614962715_n.jpg?alt=media&token=b06aa4e1-fad7-4302-b890-6c7c49674ea8',
           caption: 'Image 1',
@@ -253,8 +257,8 @@ export default {
     };
   },
 };
-</script> 
- 
+</script>
+
 <style>
 
 .galleri {
@@ -272,4 +276,4 @@ export default {
   color: #84AF0F;
 }
 
-</style> 
+</style>

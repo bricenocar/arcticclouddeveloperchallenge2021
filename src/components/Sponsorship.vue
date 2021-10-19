@@ -2,8 +2,6 @@
   <div class="container-fluid sponsorship">
     <div class="container">
       <div class="row">
-        <!-- <h3 class="title">Sponsorship packages</h3> -->
-
         <div class="column">
           <div class="overview">
           <h3 class="title">Dear sponsors</h3>
@@ -36,8 +34,6 @@
             <div class="col-sm-4">
                 <div class="card">
                   <div class="card-body">
-                   
-                    <!-- <h4 class="card-name">Bronze</h4> -->
                     <p class="card-text">
                        <ul>
                          <li></li>
@@ -49,19 +45,18 @@
                         <li> - Logo on web and SOME</li>
                         <br>
                         <li></li>
-                      </ul>   
-                      
-                       <!-- <img class="img-hor-vert" src="../assets/images/2022/bg-brick2.svg"/> -->
-                      <!-- <img class="bottom" src="../assets/images/2022/bg-brick2.svg"/>                -->
+                        
+                      </ul>  
                     </p>
-                </div>
+                    <div class="registerbutton_">
+                    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose sponsorship</a>
+                    </div>
+                </div>              
               </div>
             </div>
               <div class="col-sm-4">
                 <div class="card">
                   <div class="card-body">
-                   
-                    <!-- <h4 class="card-name">Bronze</h4> -->
                     <p class="card-text">
                        <ul>
                          <li></li>
@@ -74,8 +69,6 @@
                         <br>
                         <li></li>
                       </ul>   
-                       <!-- <img class="img-hor-vert" src="../assets/images/2022/bg-brick2.svg"/> -->
-                      <!-- <img class="bottom" src="../assets/images/2022/bg-brick2.svg"/>                -->
                     </p>
                 </div>
               </div>
@@ -83,8 +76,6 @@
             <div class="col-sm-4">
                 <div class="card">
                   <div class="card-body">
-                    <!-- <h4 class="card-name">Bronze</h4> -->
-                    <!-- <img class="flipimg180" src="../assets/images/2022/bg-brick2.svg"/> -->
                     <p class="card-text">
                        <ul>
                         <h4>Silver</h4>
@@ -98,15 +89,12 @@
                         <li> - Logo on web and SOME</li>
                       </ul>                  
                     </p>
-                    <!-- <img class="rotateimg180 bottom" src="../assets/images/2022/bg-brick2.svg"/> -->
                 </div>
               </div>
             </div>
             <div class="col-sm-4">
                 <div class="card">
                   <div class="card-body">
-                    <!-- <h4 class="card-name">Bronze</h4> -->
-                    <!-- <img class="flipimg180" src="../assets/images/2022/bg-brick2.svg"/> -->
                     <p class="card-text">
                        <ul>
                         <h4>Silver</h4>
@@ -120,15 +108,12 @@
                         <li> - Logo on web and SOME</li>
                       </ul>                  
                     </p>
-                    <!-- <img class="rotateimg180 bottom" src="../assets/images/2022/bg-brick2.svg"/> -->
                 </div>
               </div>
             </div>
             <div class="col-sm-4">
                 <div class="card">
-                  <div class="card-body">
-                    <!-- <h4 class="card-name">Bronze</h4> -->
-                    
+                  <div class="card-body">                    
                     <p class="card-text">
                        <ul>
                         <h4>Gold</h4>
@@ -143,18 +128,12 @@
                         <li> - Logo on web and SOME</li>
                       </ul>                  
                     </p>
-                         <!-- <img class="rotateimg180" src="../assets/images/2022/bg-brick2.svg"/> -->
-                    <!-- <img class="flipimg180 bottom" src="../assets/images/2022/bg-brick2.svg"/> -->
                 </div>
               </div>
             </div>
-
-
             <div class="col-sm-4">
                 <div class="card">
                   <div class="card-body">
-                    <!-- <h4 class="card-name">Bronze</h4> -->
-                    
                     <p class="card-text">
                        <ul>
                         <h4>Gold</h4>
@@ -169,56 +148,11 @@
                         <li> - Logo on web and SOME</li>
                       </ul>                  
                     </p>
-                   
-                    <!-- <img class="rotateimg180" src="../assets/images/2022/bg-brick2.svg"/> -->
-                    <!-- <img class="flipimg180 bottom" src="../assets/images/2022/bg-brick2.svg"/> -->
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        
-<!-- 
-          
-          <p>SharePint thursday, 10.000,-<br>
-          GeekBeer friday, 10.000,-</p>
-          <br/>
-          <h4>Silver</h4>
-          <p>Dinner thursday, 20.000,-<br>
-          Dinner friday, 20.000,-</p>
-          <br/>
-          <h4>Gold</h4>
-          <p>Activity saturday, 30.000,-<br>
-          Dinner saturday, 30.000,-</p>
-
-          <br />
-          <h4>Included in Bronze</h4>
-          <p>
-            Flags, labels on bottles or similar on food/beer<br/>
-            Logo on web and SOME
-          </p>
-          <br />
-          <h4>Included in Silver</h4>
-          <p>
-            Flags, labels on bottles or similar on food/beer<br />
-            1 people can attend the dinner on the last day with presentations of
-            solutions.<br />
-            We present food/beer/activity as sponsored by the company<br />
-            Logo on slides in general and mentioned at the beginning<br />
-            Logo on web and SOME
-          </p>
-          <br />
-          <h4>Included in Gold</h4>
-          <p>
-            Flags, labels on bottles or similar on food/beer<br />
-            Appeal, speech, PPT presentation or short video<br />
-            2 people can attend the dinner on the last day with presentations of
-            solutions.<br />
-            We present food/beer/activity as sponsored by the company<br />
-            Logo on slides in general and mentioned at the beginning<br />
-            Logo on web and SOME
-          </p> -->
-        
+        </div>       
       </div>
     </div>
   </div>
@@ -301,6 +235,32 @@ transform: rotateX(180deg);
   height:400px;
 }
 
+.registerSpons{
+  width:100%;
 
+}
+/* .card img{
+  width:90%;
+  position: absolute;
+  bottom: 5px;
+  
+} */
+/* .card a{
 
+   background: url("../assets/images/2022/boton.svg") no-repeat center;
+   width:90%;
+
+} */
+.card a img{
+    width:90%;
+  position: absolute;
+  bottom: 5px;
+}
+.registerbutton_{
+  background: url("../assets/images/2022/boton.svg") no-repeat center;
+  width:300px;
+  height:40px;
+  align-items: center;
+  text-align: center;
+}
 </style>
