@@ -48,12 +48,15 @@
                         <li> - Flags, labels on bottles or similar on food/beer</li>
                         <li> - Logo on web and SOME</li>
                         <br>
-                        <li></li>
+                        
                       </ul>   
                       
                        <!-- <img class="img-hor-vert" src="../assets/images/2022/bg-brick2.svg"/> -->
                       <!-- <img class="bottom" src="../assets/images/2022/bg-brick2.svg"/>                -->
                     </p>
+                    <div class="greenbutton">
+                      <router-link to="/register">REGISTER TODAY</router-link>       
+                    </div>
                 </div>
               </div>
             </div>
@@ -236,10 +239,11 @@ export default {
 </script>
 <style>
 .sponsorship {
-   padding: 20px;
+  padding: 20px;
   text-align: left;
   background: white;
-  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat center;
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
+    center;
   background-size: cover;
   height: 40%;
   padding-top: 40px;
@@ -247,7 +251,7 @@ export default {
 }
 .sponsorship .title {
   margin-top: 20px;
-  color: #84AF0F;
+  color: #84af0f;
 }
 .sponsorship ul {
   list-style-type: none;
@@ -255,52 +259,61 @@ export default {
 .sponsorship p {
   color: #000;
 }
-.card{
+.card {
   margin-bottom: 5px;
 }
-.card-text{
-  color:black;
+.card-text {
+  color: black;
 }
-
-.card-text h4{
-  color: #84AF0F;
-  font-size:18px;
-  font-weight:bold;
+.greenbutton {
+  width: 100%;
+  background: url(/img/boton.3ead3a9b.svg) no-repeat center;
+  background-size: contain;
+  height: 40px;
+}
+.greenbutton a {
+  font-family: "Turtles";
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.card-text h4 {
+  color: #84af0f;
+  font-size: 18px;
+  font-weight: bold;
   text-align: left;
 }
 .rotateimg180 {
-  -webkit-transform:rotate(180deg);
+  -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .flipimg180 {
-    -webkit-transform:scaleX(-1);
+  -webkit-transform: scaleX(-1);
   -moz-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
   -o-transform: scaleX(-1);
-   transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 .img-hor-vert {
-  -webkit-transform:rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
   -moz-transform: rotateX(180deg);
   -ms-transform: rotateX(180deg);
   -o-transform: rotateX(180deg);
-transform: rotateX(180deg);
+  transform: rotateX(180deg);
 }
 /* .column {
   padding-bottom: 50px;
   margin-bottom: 50px;
   padding: 0 15px;
 } */
-.card{
+.card {
   margin-bottom: 30px;
 }
-.card-body{
-  height:400px;
+.card-body {
+  height: 400px;
 }
-
-
-
 </style>
