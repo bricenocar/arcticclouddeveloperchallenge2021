@@ -269,6 +269,7 @@ export default {
   width: 100%;
   background: url(/img/boton.3ead3a9b.svg) no-repeat center;
   background-size: contain;
+  background-position-x: left;
   height: 40px;
 }
 .greenbutton a {
