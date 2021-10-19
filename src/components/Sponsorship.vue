@@ -46,12 +46,9 @@
                         <br>
                         
                       </ul>   
-                      
-                       <!-- <img class="img-hor-vert" src="../assets/images/2022/bg-brick2.svg"/> -->
-                      <!-- <img class="bottom" src="../assets/images/2022/bg-brick2.svg"/>                -->
                     </p>
                     <div class="greenbutton">
-                      <router-link to="/register">REGISTER TODAY</router-link>       
+                      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
                     </div>
                 </div>
               </div>
@@ -72,6 +69,9 @@
                         <li></li>
                       </ul>   
                     </p>
+                    <div class="greenbutton">
+                      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
+                    </div>
                 </div>
               </div>
             </div>
@@ -91,6 +91,9 @@
                         <li> - Logo on web and SOME</li>
                       </ul>                  
                     </p>
+                    <div class="greenbutton">
+                        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
+                    </div>
                 </div>
               </div>
             </div>
@@ -110,6 +113,9 @@
                         <li> - Logo on web and SOME</li>
                       </ul>                  
                     </p>
+                    <div class="greenbutton">
+                      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
+                    </div>
                 </div>
               </div>
             </div>
@@ -130,6 +136,9 @@
                         <li> - Logo on web and SOME</li>
                       </ul>                  
                     </p>
+                    <div class="greenbutton">
+                      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
+                    </div>
                 </div>
               </div>
             </div>
@@ -150,6 +159,9 @@
                         <li> - Logo on web and SOME</li>
                       </ul>                  
                     </p>
+                    <div class="greenbutton">
+                      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
+                    </div>
                 </div>
               </div>
             </div>
@@ -197,20 +209,26 @@ export default {
 }
 .card-text {
   color: black;
+  height:380px;
 }
 .greenbutton {
   width: 100%;
-  background: url(/img/boton.3ead3a9b.svg) no-repeat center;
+  background: url("../assets/images/2022/boton.svg") no-repeat center;
   background-size: contain;
-  background-position-x: left;
-  height: 40px;
+  /* background-position-x: left; */
+  height: 60px;
+  bottom:20px;
 }
 .greenbutton a {
   font-family: "Turtles";
   font-weight: normal;
-  font-size: 18px;
+  font-size: 26px;
   letter-spacing: 0px;
   color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
 }
 .card-text h4 {
   color: #84af0f;
@@ -218,36 +236,10 @@ export default {
   font-weight: bold;
   text-align: left;
 }
-.rotateimg180 {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-.flipimg180 {
-  -webkit-transform: scaleX(-1);
-  -moz-transform: scaleX(-1);
-  -ms-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-.img-hor-vert {
-  -webkit-transform: rotateX(180deg);
-  -moz-transform: rotateX(180deg);
-  -ms-transform: rotateX(180deg);
-  -o-transform: rotateX(180deg);
-  transform: rotateX(180deg);
-}
-/* .column {
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-  padding: 0 15px;
-} */
 .card {
   margin-bottom: 30px;
 }
 .card-body {
-  height: 400px;
+  height: 490px;
 }
 </style>

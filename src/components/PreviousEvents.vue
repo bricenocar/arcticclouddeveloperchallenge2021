@@ -1,13 +1,22 @@
 <template>
-    <div class="container-fluid">
-      <div class="row contact">
-        <div class="container">
-          <div class="col-md-12">
-            <h1 class="title">Previous Events</h1>            
-          </div>
+  <div class="container-fluid convinceyourboss">
+    <div class="container">
+      <div class="column overview">
+        <div class="col-md-12">
+          <h3 class="title">Previous events</h3>
+          <p> <video-embed ref="youtube" css="embed-responsive-16by9" src="https://www.youtube.com/watch?v=MG2lQlGLLmM"></video-embed></p>
+          <p><video-embed ref="youtube" css="embed-responsive-16by9" src="https://youtu.be/BeFcDY8-PX8"></video-embed></p>
+          <p><video-embed ref="youtube" css="embed-responsive-16by9" src="https://youtu.be/z5HYGWnkjHc"></video-embed></p>
+        </div>
+         <div class="greenbutton">
+            <!-- <router-link to="/galleri"
+                  ><div class="register-text">Go to image gallery</div></router-link
+                > -->
+            <a href="https://arcticclouddeveloperchallenge.net/#/Galleri">Go to image gallery</a>
+        </div>
+        </div>
         </div>
       </div>
-    </div>
 </template>
 
 <script>
@@ -24,52 +33,24 @@ export default {
 };
 </script>
 <style>
-
-.twitter-tweet {
-  margin-right: 20px;
+.greenbutton {
+  width: 100%;
+  background: url("../assets/images/2022/boton.svg") no-repeat center;
+  background-size: contain;
+  /* background-position-x: left; */
+  height: 60px;
+  bottom:20px;
 }
-.center{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-.title {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    color:black;
-}
-.overview h1{
-  color:black;
-  text-align: center;
-  font-size: 50pt;
-  font-weight: bold;
-}
-/* .overview h4{
-  color: #6d7c90;
-  font-size:30pt;
-  font-weight:bold;
-  text-align: center;
-} */
-.overview p {
-  color: #6d7c90;
-  font-size: 15pt;
-  text-align: center;
+.greenbutton a {
+  font-family: "Turtles";
+  font-weight: normal;
+  font-size: 26px;
+  letter-spacing: 0px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
 }
 
-.about .title {
-  margin-top: 20px;
-}
-.about ul {
-  list-style-type: none;
-}
-.column {  
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-  padding: 0 15px;
-}
-/*.twitter-tweet twitter-tweet-rendered{
-  width:100% !important;
-}*/
 </style>

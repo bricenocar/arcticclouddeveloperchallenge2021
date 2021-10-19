@@ -43,7 +43,7 @@
               <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
               <span>Jury</span>
             </router-link>-->
-            <router-link class="spacing" to="/galleri">
+            <router-link class="spacing" to="/previous">
               <i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i>
               <span>Previous Events</span>
             </router-link>
@@ -66,7 +66,7 @@
           <router-link class="spacing" to="/badges">Badges and categories</router-link>
           <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
           <a href="https://acdc.blog/" class="spacing">Blog</a>-->
-          <router-link class="spacing" to="/Galleri">Previous events</router-link>
+          <router-link class="spacing" to="/Previous">Previous events</router-link>
           <router-link class="spacing" to="/contact">Contact us</router-link>          
         </nav>
       </div>
