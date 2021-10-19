@@ -5,10 +5,12 @@
         <div class="main-section-top">
           <div class="row logo-container">
             <img class="logotop" src="../assets/images/2022/home.svg" />
-            <div class="registerbutton">
-              <router-link class="registerbuttonlink" to="/register"
-                ><div class="register-text">REGISTER TODAY</div></router-link
-              >
+            <div class="registerbuttoncontainer">
+              <div class="registerbutton">
+                <router-link class="registerbuttonlink" to="/register"
+                  ><div class="register-text">REGISTER TODAY</div></router-link
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -17,10 +19,10 @@
     <div class="row about">
       <div class="about-container">
         <div class="ms-Grid about-content" dir="ltr">
-          <div class="ms-Grid-col ms-sm12 ms-md6 ms-lg6">
+          <div class=" margincolumn ms-Grid-col ms-sm12 ms-md6 ms-lg6">
             <img class="aboutimage" src="../assets/images/2022/about.svg" />
           </div>
-          <div class="ms-Grid-col ms-sm12 ms-md6 ms-lg6">
+          <div class="margincolumn ms-Grid-col ms-sm12 ms-md6 ms-lg6">
             <div class="about-text">
               <p>
                 <span class="bold-text">ACDC</span> is a 3 day Norwegian
@@ -42,7 +44,7 @@
     <div class="row theaward">
       <div class="theaward-container">
         <div class="ms-Grid theaward-content" dir="ltr">
-          <div class="ms-Grid-col ms-sm12 ms-md6 ms-lg6">
+          <div class="margincolumn ms-Grid-col ms-sm12 ms-md6 ms-lg6">
             <img class="antlers" src="../assets/images/acdc_antlers.jpg" />
             <h1>The award</h1>
             <p>
@@ -50,8 +52,11 @@
               challenge.<br /><br />And all the glory they can carry!
             </p>
           </div>
-          <div class="ms-Grid-col ms-sm12 ms-md6 ms-lg6">
-            <img class="theawardimage" src="../assets/images/2022/the_award.svg" />
+          <div class="margincolumn ms-Grid-col ms-sm12 ms-md6 ms-lg6">
+            <img
+              class="theawardimage"
+              src="../assets/images/2022/the_award.svg"
+            />
           </div>
         </div>
       </div>
@@ -502,8 +507,13 @@ export default {
   text-align: right;
   width: 100%;
 }
-.registerbutton {
+.registerbuttoncontainer {
+  display: flex;
+  width: 100%;
   position: absolute;
+  bottom: 20vh;
+}
+.registerbutton {
   bottom: 20%;
   display: flex;
   height: 100px;
@@ -530,7 +540,6 @@ export default {
 }
 .registerbuttonlink {
   width: 80%;
-
   margin: 0 auto;
 }
 .registerbuttonlinkbottom {
@@ -609,7 +618,7 @@ export default {
   font-size: 12pt;
 }
 .theawardimage {
-      max-height: 450px;
+  max-height: 450px;
 }
 
 .contactus {
@@ -1126,10 +1135,69 @@ export default {
     margin: auto;
     width: 80%;
   }
-  .registerbuttonlink {
-    margin: auto;
+  .registerbuttoncontainer {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 20vh;
+  }
+
+  .registerbutton {
+    margin: 0 auto;
+    bottom: 20%;
+    height: 70px;
     width: 80%;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: url("../assets/images/2022/boton.svg") no-repeat center;
+    background-size: contain;
+  }
+  .registerbuttonlink:hover {
+    color: black;
+    text-decoration: none;
+  }
+  .register-text {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    font-family: "Turtles";
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: 0px 1px 0px #ffffff;
+    opacity: 1;
+  }
+  .registerbuttonlink {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .aboutimage {
+    width: 100%;
+  }
+  .about p {
+    font-size: 18px;
+  }
+  .theaward {
+    height: 100%;
+  }
+  .theaward-container {
+    height: 100%;
+    background: white;
+    display: block;
+  }
+  .theaward-content {
+    display:flex;
+    flex-direction: column-reverse;;
+  }
+  .margincolumn {
+    margin: 20px 0;
+  }  
+  .theawardimage {
+    max-height: 350px;
+  }
+  .contactusimage {
+    width: 100%;
   }
   .brikk {
     max-width: 35vw;
