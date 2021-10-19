@@ -165,10 +165,6 @@ export default {
           caption: 'Participants in action',
         }, 
         {
-          src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180209_180925490_iOS.jpg?alt=media&token=46f9233f-b997-4fa1-a9df-c2299020ada0',
-          capiton: 'Image',
-        },
-        {
           src: 'https://firebasestorage.googleapis.com/v0/b/acdc2019-3eff5.appspot.com/o/ACDC2018%2F20180208_123812493_iOS.jpg?alt=media&token=5b9274fc-196b-4b80-a54f-5b76c5080709',
           caption: 'Participants in action',
         }, 
