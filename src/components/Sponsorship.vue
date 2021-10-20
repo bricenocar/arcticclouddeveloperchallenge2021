@@ -37,7 +37,7 @@
                     <p class="card-text">
                        <ul>
                          <li></li>
-                        <h4>Bronze</h4>
+                        <h3>Bronze</h3>
                         <li>SharePint Thursday, 10.000,-</li>
                         <br>
                         <h4>Included in Bronze</h4>

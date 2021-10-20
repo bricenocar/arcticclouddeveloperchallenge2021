@@ -21,7 +21,6 @@
 
 <script>
 
-
 export default {
 
   name: "previous", //this is the name of the component
