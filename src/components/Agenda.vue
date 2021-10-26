@@ -96,12 +96,6 @@ export default {
 .agenda ul {
   list-style-type: none;
 }
-.agenda .title {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  color: black;
-}
 .agenda p {
   color:white;
 }
@@ -124,7 +118,7 @@ export default {
   text-align: left;
   margin-bottom: 10px;
 }
-.agenda .lightbrowntitle .title {
+.agenda .lightbrowntitle{
     margin-bottom: 30px;
     margin-top: 20px;
     text-align: center;

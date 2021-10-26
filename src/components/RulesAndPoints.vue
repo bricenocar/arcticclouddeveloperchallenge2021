@@ -219,12 +219,6 @@ export default {
   padding-top: 40px;
   padding-bottom: 5%;
 }
-.rulesandpoints .title {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  color: #000;
-}
 .rulesandpoints ul {
   list-style-type: none;
 }

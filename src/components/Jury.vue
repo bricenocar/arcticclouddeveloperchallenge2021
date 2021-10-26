@@ -74,14 +74,6 @@ export default {
 .judge-devider{
   margin-left: 15px !important;
 }
-.title {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-.about .title {
-  margin-top: 20px;
-}
 .about ul {
   list-style-type: none;
 }

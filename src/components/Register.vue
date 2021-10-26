@@ -1,24 +1,26 @@
 <template>
-  <div class="container-fluid">
-    <div class="row register">
-      <div class="col-md-12 overview">
-        <h3 class="lightgreentitle">
-          Register your team here, registration is binding
-        </h3>
-        <iframe
-          width="1024px"
-          height="2024px"
-          src="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPuELJf8HUnlNoyQLcDPDWu5UN0hLMkJLUEFUNDE3ODlGTUVWSTBBUTQ2Ry4u&embed=true"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          style="border: none; max-width: 100%; max-height: 260vh"
-          allowfullscreen
-          webkitallowfullscreen
-          mozallowfullscreen
-          msallowfullscreen
-        >
-        </iframe>
+  <div class="container-fluid overview-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="title">
+            Register your team here, registration is binding
+          </h1>
+          <iframe
+            width="1024px"
+            height="2024px"
+            src="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPuELJf8HUnlNoyQLcDPDWu5UN0hLMkJLUEFUNDE3ODlGTUVWSTBBUTQ2Ry4u&embed=true"
+            frameborder="0"
+            marginwidth="0"
+            marginheight="0"
+            style="border: none; max-width: 100%; max-height: 260vh"
+            allowfullscreen
+            webkitallowfullscreen
+            mozallowfullscreen
+            msallowfullscreen
+          >
+          </iframe>
+        </div>
       </div>
     </div>
   </div>

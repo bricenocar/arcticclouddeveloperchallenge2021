@@ -141,17 +141,9 @@ export default {
 </script>
 <style>
 
-.about .title {
-  margin-top: 20px;
-}
 
 .about ul {
   list-style-type: none;
-}
-.title {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;    
 }
 .column {  
   padding-bottom: 50px;

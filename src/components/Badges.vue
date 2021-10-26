@@ -717,12 +717,6 @@ export default {
   padding-top: 40px;
   padding-bottom: 40%;
 }
-.badges .title {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  color: #000;
-}
 .badges h1 {
   color: black;
   text-align: center;

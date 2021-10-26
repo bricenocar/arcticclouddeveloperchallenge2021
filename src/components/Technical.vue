@@ -64,12 +64,6 @@ export default {
   padding-top: 40px;
   padding-bottom: 40%;
 }
-/* .technical .title {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  color: #000;
-} */
 
 .technical p {
   color: #000;

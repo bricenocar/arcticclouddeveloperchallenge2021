@@ -111,12 +111,6 @@ export default {
   /* font-weight:bold;
   text-align: center; */
 }
-.contact .title {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  color: #84AF0F;
-}
 .contact p {
   color: white;
   padding-top:3px;
