@@ -221,6 +221,7 @@ export default {
 }
 .card-text {
   color: black;
+  height:380px;
 }
 .greenbutton {
   width: 100%;
@@ -244,32 +245,6 @@ export default {
   font-weight: bold;
   text-align: left;
 }
-.rotateimg180 {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-.flipimg180 {
-  -webkit-transform: scaleX(-1);
-  -moz-transform: scaleX(-1);
-  -ms-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-.img-hor-vert {
-  -webkit-transform: rotateX(180deg);
-  -moz-transform: rotateX(180deg);
-  -ms-transform: rotateX(180deg);
-  -o-transform: rotateX(180deg);
-  transform: rotateX(180deg);
-}
-/* .column {
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-  padding: 0 15px;
-} */
 .card {
   margin-bottom: 30px;
 }

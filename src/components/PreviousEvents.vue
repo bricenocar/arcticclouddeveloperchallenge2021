@@ -3,59 +3,36 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="title">Previous Events</h1>
+          <h1 class="title">Previous events</h1>
           <p>
-            This great event has been hosted for over 10 years at the beautiful
-            Voksenåsen.
-            <br />
-            Here you can see highlights for earlier events.
+            <video-embed
+              ref="youtube"
+              css="embed-responsive-16by9"
+              src="https://www.youtube.com/watch?v=MG2lQlGLLmM"
+            ></video-embed>
           </p>
-          <h4>Comments from the jugdes:</h4>
-          <div class="center">
-            <div class="col-md-3">
-              <Tweet
-                id="1235918009233010688"
-                cards="visible"
-                conversation="all"
-                lang="en"
-                theme="light"
-                align="left"
-                :width="200"
-                :dnt="false"
-                @tweet-load-error="onTweetLoadError"
-                @tweet-load-success="onTweetLoadSuccess"
-                ><template v-slot:loading>
-                  <span>Loading...</span>
-                </template>
-
-                <template v-slot:error>
-                  <span>Sorry, that tweet doesn’t exist!</span>
-                </template>
-              </Tweet>
-            </div>
-            <div class="col-md-3"><Tweet id="1226518271161184257" /></div>
-            <div class="col-md-3"><Tweet id="1226558090130198529" /></div>
-            <div class="col-md-3"><Tweet id="1102039120543731712" /></div>
-            <div class="col-md-3"><Tweet id="1101061008125239301" /></div>
-            <div class="col-md-3"><Tweet id="1102146784934141952" /></div>
-            <div class="col-md-3"><Tweet id="962750232995024897" /></div>
-            <div class="col-md-3"><Tweet id="828378154741923841" /></div>
-            <div class="col-md-3"><Tweet id="819226186123505664" /></div>
-          </div>
-          <div id="app">
-            <img
-              class="image"
-              v-for="(image, i) in images"
-              :src="image"
-              :key="i"
-              @click="index = i"
-            />
-            <vue-gallery-slideshow
-              :images="images"
-              :index="index"
-              @close="index = null"
-            ></vue-gallery-slideshow>
-          </div>
+          <p>
+            <video-embed
+              ref="youtube"
+              css="embed-responsive-16by9"
+              src="https://youtu.be/BeFcDY8-PX8"
+            ></video-embed>
+          </p>
+          <p>
+            <video-embed
+              ref="youtube"
+              css="embed-responsive-16by9"
+              src="https://youtu.be/z5HYGWnkjHc"
+            ></video-embed>
+          </p>
+        </div>
+        <div class="greenbutton">
+          <!-- <router-link to="/galleri"
+                  ><div class="register-text">Go to image gallery</div></router-link
+                > -->
+          <a href="https://arcticclouddeveloperchallenge.net/#/Galleri"
+            >Go to image gallery</a
+          >
         </div>
       </div>
     </div>
@@ -63,13 +40,8 @@
 </template>
 
 <script>
-import { Tweet } from "vue-tweet-embed";
-
 export default {
   name: "previous", //this is the name of the component
-  components: {
-    Tweet: Tweet,
-  },
   methods: {
     track() {
       this.$ga.page("/");
@@ -78,41 +50,23 @@ export default {
 };
 </script>
 <style>
-.twitter-tweet {
-  margin-right: 20px;
+.greenbutton {
+  width: 100%;
+  background: url("../assets/images/2022/boton.svg") no-repeat center;
+  background-size: contain;
+  /* background-position-x: left; */
+  height: 60px;
+  bottom: 20px;
 }
-.center {
+.greenbutton a {
+  font-family: "Turtles";
+  font-weight: normal;
+  font-size: 26px;
+  letter-spacing: 0px;
+  color: #000000;
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
 }
-.overview h1 {
-  color: black;
-  text-align: center;
-  font-size: 50pt;
-  font-weight: bold;
-}
-/* .overview h4{
-  color: #6d7c90;
-  font-size:30pt;
-  font-weight:bold;
-  text-align: center;
-} */
-.overview p {
-  color: #6d7c90;
-  font-size: 15pt;
-  text-align: center;
-}
-.about ul {
-  list-style-type: none;
-}
-.column {
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-  padding: 0 15px;
-}
-/*.twitter-tweet twitter-tweet-rendered{
-  width:100% !important;
-}*/
 </style>
