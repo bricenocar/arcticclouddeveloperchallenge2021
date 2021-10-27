@@ -1,34 +1,52 @@
 <template>
-  <div class="container-fluid convinceyourboss">
+  <div class="container-fluid overview-header">
     <div class="container">
-      <div class="column overview">
+      <div class="row">
         <div class="col-md-12">
-          <h3 class="title">Previous events</h3>
-          <p> <video-embed ref="youtube" css="embed-responsive-16by9" src="https://www.youtube.com/watch?v=MG2lQlGLLmM"></video-embed></p>
-          <p><video-embed ref="youtube" css="embed-responsive-16by9" src="https://youtu.be/BeFcDY8-PX8"></video-embed></p>
-          <p><video-embed ref="youtube" css="embed-responsive-16by9" src="https://youtu.be/z5HYGWnkjHc"></video-embed></p>
+          <h1 class="title">Previous events</h1>
+          <p>
+            <video-embed
+              ref="youtube"
+              css="embed-responsive-16by9"
+              src="https://www.youtube.com/watch?v=MG2lQlGLLmM"
+            ></video-embed>
+          </p>
+          <p>
+            <video-embed
+              ref="youtube"
+              css="embed-responsive-16by9"
+              src="https://youtu.be/BeFcDY8-PX8"
+            ></video-embed>
+          </p>
+          <p>
+            <video-embed
+              ref="youtube"
+              css="embed-responsive-16by9"
+              src="https://youtu.be/z5HYGWnkjHc"
+            ></video-embed>
+          </p>
         </div>
-         <div class="greenbutton">
-            <!-- <router-link to="/galleri"
+        <div class="greenbutton">
+          <!-- <router-link to="/galleri"
                   ><div class="register-text">Go to image gallery</div></router-link
                 > -->
-            <a href="https://arcticclouddeveloperchallenge.net/#/Galleri">Go to image gallery</a>
-        </div>
-        </div>
+          <a href="https://arcticclouddeveloperchallenge.net/#/Galleri"
+            >Go to image gallery</a
+          >
         </div>
       </div>
+    </div>
+  </div>
 </template>
 
 <script>
-
 export default {
-
   name: "previous", //this is the name of the component
   methods: {
-    track () {
-      this.$ga.page('/')
-    }
-  }
+    track() {
+      this.$ga.page("/");
+    },
+  },
 };
 </script>
 <style>
@@ -38,7 +56,7 @@ export default {
   background-size: contain;
   /* background-position-x: left; */
   height: 60px;
-  bottom:20px;
+  bottom: 20px;
 }
 .greenbutton a {
   font-family: "Turtles";
@@ -51,5 +69,4 @@ export default {
   align-items: center;
   padding-top: 10px;
 }
-
 </style>

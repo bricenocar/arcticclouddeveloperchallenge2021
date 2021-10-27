@@ -48,12 +48,6 @@ export default {
 .chart ul {
   list-style-type: none;
 }
-.chart .title {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  color: black;
-}
 .chart p {
   color: white;
 }
@@ -76,7 +70,7 @@ export default {
   text-align: left;
   margin-bottom: 10px;
 }
-.chart .lightbrowntitle .title {
+.chart .lightbrowntitle {
   margin-bottom: 30px;
   margin-top: 20px;
   text-align: center;

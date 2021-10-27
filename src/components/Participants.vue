@@ -53,14 +53,6 @@ export default {
 };
 </script>
 <style>
-.title {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-.about .title {
-  margin-top: 20px;
-}
 .about ul {
   list-style-type: none;
 }

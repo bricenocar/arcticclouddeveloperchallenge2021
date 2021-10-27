@@ -712,28 +712,6 @@ export default {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.badges .title {
-  margin-top: 20px;
-  color: #84AF0F;
-}
-.overview h4{
-  color: #84AF0F;
-  font-size:18px;
-  font-weight:bold;
-  text-align: left;
-}
-.owerview p{
-  color: white;
-  font-size: 18px;
-  padding: 0 20px;
-  text-align: left;
-  }
-/* .badges .title {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  color: #000;
-} */
 .badges h1 {
   color: black;
   text-align: center;

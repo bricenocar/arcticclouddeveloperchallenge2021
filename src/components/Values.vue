@@ -38,11 +38,6 @@ export default {
 };
 </script>
 <style>
-.title {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
 .values {
   padding: 20px;
   text-align: left;
@@ -53,9 +48,6 @@ export default {
   height: 40%;
   padding-top: 40px;
   padding-bottom: 40%;
-}
-.values .title {
-  margin-top: 20px;
 }
 .values ul {
   list-style-type:circle;

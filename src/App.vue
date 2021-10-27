@@ -59,6 +59,7 @@ p{
 }
 #app ul {
   padding: 0;
+  list-style-type: none;
 }
 
 body {
@@ -101,6 +102,26 @@ h6 {
 
 .bold-text {
   font-weight: bold;
+}
+
+.overview-header {
+  padding: 20px;
+  text-align: left;
+  background: white;
+  background: url("./assets/images/ninjaturtlebackground.jpeg") no-repeat
+    center;
+  background-size: cover;
+  height: 40%;
+  padding-top: 10vh;
+  padding-bottom: 40px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #84af0f;
+  font-family: "Turtles" !important;
 }
 @media only screen and (min-device-width: 800px) {
   .overview p {

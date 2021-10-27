@@ -164,12 +164,6 @@ export default {
     margin: 0 auto;
     padding: 0 20px;
 }
-.title {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    color:black;
-}
 .overview h1{
   color:black;
   text-align: center;
@@ -186,10 +180,6 @@ export default {
   color: #6d7c90;
   font-size: 15pt;
   text-align: center;
-}
-
-.about .title {
-  margin-top: 20px;
 }
 .about ul {
   list-style-type: none;

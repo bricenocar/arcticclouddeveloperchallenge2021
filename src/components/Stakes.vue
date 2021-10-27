@@ -83,11 +83,6 @@ export default {
     margin: 0 auto;
     padding: 0 20px;
 }
-.title {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
 .anniversary {
   padding: 20px;
   text-align: left;
@@ -98,9 +93,6 @@ export default {
   height: 40%;
   padding-top: 40px;
   padding-bottom: 40%;
-}
-.about .title {
-  margin-top: 20px;
 }
 .about ul {
   list-style-type: none;
