@@ -1,13 +1,11 @@
 <template>
-  <div class="container-fluid">
-    <div class="row badges">
-      <div class="container">
-        <div class="col-md-12 categoriestext">
-          <h1>Categories</h1>
-          <div class="row legodivider">
-            <img class="legodividerimg3" src="../assets/images/legoline.svg" />
-          </div>
-          <br />
+  <div class="container-fluid badges">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <div class="overview">
+          <h3 class="title">Categories</h3>
+
           <div class="categDescription">
             <p>
               Each of the judges have from 1-10 points to give out to each team
@@ -15,43 +13,39 @@
             </p>
           </div>
           <div class="categTitle">
-            <h2>Blow my Mindstorm</h2>
+            <h4>Excellent User Experience</h4>
           </div>
           <div class="categDescription">
             <p>
-              If a Lego could speak, what would it say? Connect the Lego to the
-              cloud and find out
+              Visually appealing and an engaging experience surpassing expectations of simplicity, attractiveness and a look that just speaks of blings. 
             </p>
-            <p>Keywords: IOT, Arduino, Microcomputers, Microservices</p>
+            <p>Keywords: </p>
           </div>
           <div class="categTitle">
-            <h2>Lego Power Bricks</h2>
+            <h4>Most Extreme Business Value</h4>
           </div>
           <div class="categDescription">
-            <p>Emmet the Lego works hard every day, but can he work smarter?</p>
-            <p>
-              Keywords: Power Automate, Power Apps, Power BI, Power Virtual
-              Agent
-            </p>
+            <p>Running a business is though. Usable Solutions, Feasable ideas, Real World Scenarios </p>
+            <p>Keywords:</p>
           </div>
           <div class="categTitle">
-            <h2>Queen Watevra Wa-Nabi </h2>
+            <h4>Rock Solid Geeknes</h4>
           </div>
           <div class="categDescription">
             <p>
-              Show great UI / UX and glossy pixels and make the Queen happy.  
+             Best use of tools and technologies. 
             </p>
-            <p>Keywords: UI, UX</p>
-          </div>          
+            <p>Keywords: </p>
+          </div>
           <div class="categTitle">
-            <h2>Lego autobots</h2>
+            <h4>Killer App</h4>
           </div>
           <div class="categDescription">
-            <p>A pile of bricks have no value. Your skills to build from them is what matters. </p>
-            <p>Keywords: Azure infrastructure as code, ARM, PowerShell, CI/CD </p>
+            <p>Built the best killer app, the best solution.  (Kan bygge en kul løsning, selv om den ikke gir business value) </p>
+            <p>Keywords: </p>
           </div>
-          <div class="categTitle">
-            <h2>Lego Shark Tank</h2>
+          <!-- <div class="categTitle">
+            <h4>Lego Shark Tank</h4>
           </div>
           <div class="categDescription">
             <p>
@@ -61,18 +55,17 @@
             <p>
               Keywords: Usable Solutions, Feasable ideas, Real World Scenarios
             </p>
-          </div>
-          <div class="row legodivider">
-          </div>
+          </div> -->
+         <h3 class="title">Badges</h3>
         </div>
+
         <div class="col-md-12">
-          <h1>Badges 2021</h1>
-          <div class="row legodivider">
-            <img class="legodividerimg3" src="../assets/images/legoline.svg" />
-          </div>
+
+
           <div class="container">
-            <div class="categoriesContent">
+            <div class="">
               <div class="row">
+
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
@@ -82,7 +75,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Nasty Hacker</h2>
+                      <h4>Nasty Hacker</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>Creating superdirty hacks to achieve awesomeness</p>
@@ -98,7 +91,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Remarkable Teamspirit</h2>
+                      <h4>Remarkable Teamspirit</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -116,7 +109,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Glossy Pixels</h2>
+                      <h4>Glossy Pixels</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -135,7 +128,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Hipster</h2>
+                      <h4>Hipster</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -155,7 +148,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Head 2 Head</h2>
+                      <h4>Head 2 Head</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -175,7 +168,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Happy Camper</h2>
+                      <h4>Happy Camper</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -195,7 +188,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Community Champion</h2>
+                      <h4>Community Champion</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -213,7 +206,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Dooh</h2>
+                      <h4>Dooh</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -232,7 +225,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Retro badgen</h2>
+                      <h4>Retro badgen</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -250,7 +243,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Thieving Bastards</h2>
+                      <h4>Thieving Bastards</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -269,7 +262,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Sharing is Caring</h2>
+                      <h4>Sharing is Caring</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -288,7 +281,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Crawler</h2>
+                      <h4>Crawler</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -308,7 +301,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Morning Glory</h2>
+                      <h4>Morning Glory</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>Starting the day before the sun rises.</p>
@@ -324,7 +317,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Early Delivery</h2>
+                      <h4>Early Delivery</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -342,7 +335,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Right Now</h2>
+                      <h4>Right Now</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -362,7 +355,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Feauture Bombing</h2>
+                      <h4>Feauture Bombing</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -383,11 +376,11 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>High 5</h2>
+                      <h4>High 5</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
-                        Uses the features of HTML5 to make Solution 
+                        Uses the features of HTML5 to make Solution
                         supersmooth and modern. Make it nifty swifty and the
                         badge is yours.
                       </p>
@@ -403,7 +396,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Show And Tell</h2>
+                      <h4>Show And Tell</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -422,7 +415,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Go With The Flow</h2>
+                      <h4>Go With The Flow</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -441,7 +434,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Chameleon</h2>
+                      <h4>Chameleon</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -460,7 +453,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Dash It Out</h2>
+                      <h4>Dash It Out</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -478,7 +471,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Dataminer</h2>
+                      <h4>Dataminer</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -498,7 +491,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Embedding numbuts</h2>
+                      <h4>Embedding numbuts</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>Integrate into everything that flips bits</p>
@@ -514,7 +507,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Stairway To Heaven</h2>
+                      <h4>Stairway To Heaven</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -533,7 +526,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Go Native</h2>
+                      <h4>Go Native</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -552,7 +545,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>The Existential Risk</h2>
+                      <h4>The Existential Risk</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -571,7 +564,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Plug N' Play</h2>
+                      <h4>Plug N' Play</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -592,11 +585,11 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Web Bytes Code</h2>
+                      <h4>Web Bytes Code</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
-                        Use WebAssembly to present front-end magic. Have you noticed Blazor is the  new kid in town? 
+                        Use WebAssembly to present front-end magic. Have you noticed Blazor is the  new kid in town?
                       </p>
                     </div>
                   </div>
@@ -610,7 +603,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>ACDC Craftsman</h2>
+                      <h4>ACDC Craftsman</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -628,7 +621,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Power User Love</h2>
+                      <h4>Power User Love</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -648,7 +641,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Power Of The Shell</h2>
+                      <h4>Power Of The Shell</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -667,7 +660,7 @@
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h2>Client Side Salsa</h2>
+                      <h4>Client Side Salsa</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -685,6 +678,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -711,18 +705,35 @@ export default {
   padding: 20px;
   text-align: left;
   background: white;
-  background: url(../assets/images/background-graa.svg) no-repeat center;
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
+    center;
   background-size: cover;
   height: 40%;
   padding-top: 40px;
-  padding-bottom: 40%;
+  padding-bottom: 40px;
 }
 .badges .title {
+  margin-top: 20px;
+  color: #84AF0F;
+}
+.overview h4{
+  color: #84AF0F;
+  font-size:18px;
+  font-weight:bold;
+  text-align: left;
+}
+.owerview p{
+  color: white;
+  font-size: 18px;
+  padding: 0 20px;
+  text-align: left;
+  }
+/* .badges .title {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 20px;
   color: #000;
-}
+} */
 .badges h1 {
   color: black;
   text-align: center;
@@ -733,11 +744,12 @@ export default {
   padding: 1em 2em;
 } */
 .badgeContent {
-  background-color: white;
+  /* background-color: white; */
   height: 100%;
 }
-.badgePicture {
+.badgesPicture {
   width: 100%;
+  height:150px;
 }
 .badgePictureImg {
   margin-bottom: 15px;
@@ -745,6 +757,7 @@ export default {
   max-height: 315px; */
   padding: 25px;
   width: 100%;
+  
 }
 img.badgesPictureImg {
   display: block;
@@ -757,10 +770,10 @@ img.badgesPictureImg {
   margin: 0px 1.75vw;
   margin-bottom: 10px;
 }
-.badgeTitle h2 {
-  color: black;
+.badgeTitle h4 {
+  color:#84AF0F;
   text-align: center;
-  font-size: 20pt;
+  font-size: 18px;
   font-weight: bold;
 }
 .categTitle {
@@ -785,4 +798,10 @@ img.badgesPictureImg {
   color: #6d7c90;
   margin: 0px 1.75vw;
 }
+.badgeDescription p {
+color: white;
+  font-size: 18px;
+  /* padding: 0 20px; */
+  text-align: left;
+  }
 </style>
