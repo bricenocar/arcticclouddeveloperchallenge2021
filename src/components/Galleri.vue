@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="title">Image gallery</h1>
+          <h1 class="title">Image Gallery</h1>
           <lightbox :images="EARLIEREVENTS"></lightbox>
         </div>
       </div>

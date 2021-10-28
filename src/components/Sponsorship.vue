@@ -4,7 +4,7 @@
       <div class="row">
         <div class="column">
           <div>
-            <h1 class="title">Dear sponsors</h1>
+            <h1 class="title">Dear Sponsors</h1>
             <p>
               ACDC is the Nordic region's coolest hackathon with the best
               consultants. We gather once a year to show the world what we can
@@ -41,7 +41,7 @@
           </div>
           <div class="row devider">
             <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="sponsorshipCard">
                 <div class="card-body card-text">
                   <h4>Bronze</h4>
                   <ul>
@@ -53,13 +53,13 @@
                     <li>- Logo on web and SOME</li>
                   </ul>
                   <div class="greenbutton">
-                    <router-link to="/register">REGISTER TODAY</router-link>
+                     <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="sponsorshipCard">
                 <div class="card-body card-text">
                   <h4>Bronze</h4>
                   <ul>
@@ -71,13 +71,14 @@
                     <li>- Logo on web and SOME</li>
                   </ul>
                   <div class="greenbutton">
-                    <router-link to="/register">REGISTER TODAY</router-link>
+                     <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
                   </div>
                 </div>
+                
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="sponsorshipCard">
                 <div class="card-body card-text">
                   <h4>Silver</h4>
                   <ul>
@@ -100,13 +101,13 @@
                     <li>- Logo on web and SOME</li>
                   </ul>
                   <div class="greenbutton">
-                    <router-link to="/register">REGISTER TODAY</router-link>
+                     <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="sponsorshipCard">
                 <div class="card-body card-text">
                   <h4>Silver</h4>
                   <ul>
@@ -129,13 +130,13 @@
                     <li>- Logo on web and SOME</li>
                   </ul>
                   <div class="greenbutton">
-                    <router-link to="/register">REGISTER TODAY</router-link>
+                     <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="sponsorshipCard">
                 <div class="card-body card-text">
                   <h4>Gold</h4>
                   <ul>
@@ -159,15 +160,16 @@
                     <li>- Logo on web and SOME</li>
                   </ul>
                   <div class="greenbutton">
-                    <router-link to="/register">REGISTER TODAY</router-link>
+                     <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="sponsorshipCard">
                 <div class="card-body card-text">
                   <h4>Gold</h4>
+                  
                   <ul>
                     <li>Dinner Saturday, 30.000,-</li>
                   </ul>
@@ -189,7 +191,7 @@
                     <li>- Logo on web and SOME</li>
                   </ul>
                   <div class="greenbutton">
-                    <router-link to="/register">REGISTER TODAY</router-link>
+                    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPp5v-4iYUt1CipVNT3ggjshUNUlOSlNHNUZEVEZCVFJYSjROSVNIS1g5VCQlQCN0PWcu">Choose Sponsorship</a>
                   </div>
                 </div>
               </div>
@@ -216,20 +218,21 @@ export default {
 .sponsorship ul {
   list-style-type: none;
 }
-.card {
-  margin-bottom: 5px;
-}
+
 .card-text {
   color: black;
   height:380px;
 }
+
 .greenbutton {
+  position:absolute;
   width: 100%;
   background: url("../assets/images/2022/boton.svg") no-repeat center;
   background-size: contain;
   background-position-x: left;
   height: 40px;
-  display: flex;
+  bottom: 40px;
+  /* display: flex; */
 }
 .greenbutton a {
   font-family: "Turtles";
@@ -237,7 +240,8 @@ export default {
   font-size: 18px;
   letter-spacing: 0px;
   color: #000000;
-  padding: 5px 10px;
+  padding: 5px 20px;
+  position: absolute;
 }
 .card-text h4 {
   color: #84af0f;
@@ -245,10 +249,35 @@ export default {
   font-weight: bold;
   text-align: left;
 }
-.card {
+.sponsorshipCard {
   margin-bottom: 30px;
+  height: 470px;
+  background-color: white;
 }
-.card-body {
-  min-height: 400px;
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+.sponsorshipCard {
+  min-height: 500px;
+}
+}
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 920px) and (max-device-width: 1600px) {
+.sponsorshipCard {
+  min-height: 450px;
+}
+}
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+ .sponsorshipCard {
+  min-height: 480px;
+} 
+}
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 180px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+   .sponsorshipCard {
+  min-height: 480px;
+}
 }
 </style>

@@ -4,14 +4,15 @@
       <div class="row">
         <div class="column">
           <h1 class="title">Rules and Points</h1>
-          <h4 class="lightgreentitle">Judging</h4>
+         <div class="overview"> 
+          <h4>Judging</h4>
           <p>
-            Every judge can hand out a maximum of 60 points to each team at
-            every jury duty each day. It means: 5 juries * 6 categories * 10
-            points * 3 days = 900 max pr. team
+            Every judge can hand out a maximum of 50 points to each team at
+            every jury duty each day. It means: 5 juries * 5 categories * 10
+            points * 3 days = 750 max pr. team
           </p>
           <p>
-            This year badges are back. Each team can get upto 33 badges. Each
+            Each team can get upto 33 badges. Each
             badge gives 10 points, but there is 1 badge that removes 10 points
             and 1 special badge that adds 25 point for the team that gets it. It
             means that there are 325 extra points available.
@@ -21,7 +22,7 @@
             the team they feel deserves it the most. There are 500 additional
             points.
           </p>
-          <h4 class="lightgreentitle">The Grand Finale</h4>
+          <h4>The Grand Finale</h4>
           <p>
             The last day of the hackaton each team has to deliver a short
             written presentation of the solution they have created as a blog
@@ -35,18 +36,21 @@
             The judges will present top 3 teams, and finally announce the winner
             of ACDC 2021
           </p>
-          <h4 class="lightgreentitle">
+          <br/>
+          <p>
             The winning team gets to take home the antlers and also gets to
             inscribe their company name at the very honorable winning teams
             plate placed on the antlers.
-          </h4>
+          </p>
           <p>
             The winning team then gets to keep the antlers for 1 year until the
             next ACDC event.
           </p>
+          <br/>
         </div>
       </div>
     </div>
+  </div>
     <!--<div class="row judges">
       <div class="container">
         <div class="judgesTitle darktext">

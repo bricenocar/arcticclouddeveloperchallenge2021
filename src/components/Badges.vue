@@ -19,14 +19,14 @@
             <p>
               Visually appealing and an engaging experience surpassing expectations of simplicity, attractiveness and a look that just speaks of blings. 
             </p>
-            <p>Keywords: </p>
+            <!-- <p>Keywords: </p> -->
           </div>
           <div class="categTitle">
             <h4>Most Extreme Business Value</h4>
           </div>
           <div class="categDescription">
             <p>Running a business is though. Usable Solutions, Feasable ideas, Real World Scenarios </p>
-            <p>Keywords:</p>
+            <!-- <p>Keywords:</p> -->
           </div>
           <div class="categTitle">
             <h4>Rock Solid Geeknes</h4>
@@ -35,14 +35,14 @@
             <p>
              Best use of tools and technologies. 
             </p>
-            <p>Keywords: </p>
+            <!-- <p>Keywords: </p> -->
           </div>
           <div class="categTitle">
             <h4>Killer App</h4>
           </div>
           <div class="categDescription">
-            <p>Built the best killer app, the best solution.  (Kan bygge en kul løsning, selv om den ikke gir business value) </p>
-            <p>Keywords: </p>
+            <p>Built the best killer app, the best solution.</p>
+            <!-- <p>Keywords: </p> -->
           </div>
           <!-- <div class="categTitle">
             <h4>Lego Shark Tank</h4>
@@ -59,86 +59,12 @@
          <h3 class="title">Badges</h3>
         </div>
 
-        <div class="col-md-12">
+        <!-- <div class="col-md-12">
 
 
           <div class="container">
-            <div class="">
-              <div class="row">
-
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-NastyHacker.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h4>Nasty Hacker</h4>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>Creating superdirty hacks to achieve awesomeness</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-TeamSpirit.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h4>Remarkable Teamspirit</h4>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>
-                        Keeps a extraordinary good team spirit throught the day
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
-                        src="../assets/badges/Badges-Glossy.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h4>Glossy Pixels</h4>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>
-                        Shiny, glossy user interfaces would earn this badge, it
-                        won't break on small screens right?
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-Hipster.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h4>Hipster</h4>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>
-                        Use hip tech, like node.js, Clojure, functional
-                        programming style, Nancy. Hate on Visual Studio, embrace
-                        new Microsoft and use open technologies
-                      </p>
-                    </div>
-                  </div>
-                </div>
+            <div class="">-->
+              <div class="row"> 
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
@@ -159,7 +85,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="badgeCard col-md-3">
+                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
                       <img
@@ -179,7 +105,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="badgeCard col-md-3">
+                                <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
                       <img
@@ -221,24 +147,6 @@
                     <div class="badgesPicture">
                       <img
                         class="badgesPictureImg"
-                        src="../assets/badges/retro.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h4>Retro badgen</h4>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>
-                        Doing something cool with late technologies. It's all legacy now, baby!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-31-Thief.png"
                       />
                     </div>
@@ -253,7 +161,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="badgeCard col-md-3">
+              
+                                <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
                       <img
@@ -269,6 +178,40 @@
                         Solution is uploaded to an open repository, and you do a
                         sensible pull request on a competing teams code.
                       </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                      <img
+                        class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-TeamSpirit.png"
+                      />
+                    </div>
+                    <div class="badgeTitle">
+                      <h4>Remarkable Teamspirit</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>
+                        Keeps a extraordinary good team spirit throught the day
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                      <img
+                        class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-MorningGlory.png"
+                      />
+                    </div>
+                    <div class="badgeTitle">
+                      <h4>Morning Glory</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>Starting the day before the sun rises.</p>
                     </div>
                   </div>
                 </div>
@@ -297,22 +240,6 @@
                     <div class="badgesPicture">
                       <img
                         class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-MorningGlory.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h4>Morning Glory</h4>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>Starting the day before the sun rises.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-EarlyDelivery.png"
                       />
                     </div>
@@ -323,6 +250,22 @@
                       <p>
                         Make a blog post of the solution you plan to make during the event. Must be submitted before Lunch the first day of the event
                       </p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                      <img
+                        class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-NastyHacker.png"
+                      />
+                    </div>   
+                    <div class="badgeTitle">
+                      <h4>Nasty Hacker</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>Creating superdirty hacks to achieve awesomeness</p>
                     </div>
                   </div>
                 </div>
@@ -346,7 +289,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="badgeCard col-md-3">
+                                <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
                       <img
@@ -363,6 +306,25 @@
                         this time cram as many user features into one screen as
                         you can. Five or more and you might get some points. If
                         you go all aboard and it all makes sense, extra points
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                      <img
+                        class="badgesPictureImg"
+                        src="../assets/badges/Badges-Glossy.png"
+                      />
+                    </div>
+                    <div class="badgeTitle">
+                      <h4>Glossy Pixels</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>
+                        Shiny, glossy user interfaces would earn this badge, it
+                        won't break on small screens right?
                       </p>
                     </div>
                   </div>
@@ -392,6 +354,26 @@
                     <div class="badgesPicture">
                       <img
                         class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-Hipster.png"
+                      />
+                    </div>
+                    <div class="badgeTitle">
+                      <h4>Hipster</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>
+                        Use hip tech, like node.js, Clojure, functional
+                        programming style, Nancy. Hate on Visual Studio, embrace
+                        new Microsoft and use open technologies
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                      <img
+                        class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-ShowNTell.png"
                       />
                     </div>
@@ -406,6 +388,7 @@
                     </div>
                   </div>
                 </div>
+                
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
@@ -617,6 +600,27 @@
                     <div class="badgesPicture">
                       <img
                         class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-24-Salsa.png"
+                      />
+                    </div>
+                    <div class="badgeTitle">
+                      <h4>Client Side Salsa</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>
+                        Most of their solutions are extremely fluent by running
+                        in the client's browser. But how to avoid creating a
+                        heavy monolith front-end. Show use of modern front-end
+                        frameworks. React, Angular, State management, Streams.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                      <img
+                        class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-TestDriver.png"
                       />
                     </div>
@@ -651,35 +655,33 @@
                     </div>
                   </div>
                 </div>
+                
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
                       <img
                         class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-24-Salsa.png"
+                        src="../assets/badges/retro.png"
                       />
                     </div>
                     <div class="badgeTitle">
-                      <h4>Client Side Salsa</h4>
+                      <h4>Retro badgen</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
-                        Most of their solutions are extremely fluent by running
-                        in the client's browser. But how to avoid creating a
-                        heavy monolith front-end. Show use of modern front-end
-                        frameworks. React, Angular, State management, Streams.
+                        Doing something cool with late technologies. It's all legacy now, baby!
                       </p>
                     </div>
                   </div>
-                </div>
+                </div>                
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+       </div>
+ <!--   </div>
   </div>
-  </div>
+  </div> -->
 </template>
 
 <script>

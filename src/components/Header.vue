@@ -8,6 +8,10 @@
             <router-link class="spacing" to="/home">
               <i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i>
               <span>Home</span>
+            </router-link>      
+            <router-link class="spacing" to="/about">
+              <i class="ms-Icon ms-Icon--Info" aria-hidden="true"></i>
+              <span>About</span>
             </router-link>            
             <router-link class="spacing" to="/Register">
               <i class="ms-Icon ms-Icon--Settings" aria-hidden="true"></i>
@@ -29,20 +33,20 @@
              <router-link class="spacing" to="/chart">
               <i class="ms-Icon ms-Icon--Trophy" aria-hidden="true"></i>
               <span>Scoreboard</span>
-            </router-link>
+            </router-link>-->
             <router-link class="spacing" to="/badges">
               <i class="ms-Icon ms-Icon--Trophy" aria-hidden="true"></i>
-              <span>Badges and categories</span>
+              <span>Badges & categories</span>
             </router-link>
             <router-link class="spacing" to="/RulesAndPoints">
               <i class="ms-Icon ms-Icon--Bullseye" aria-hidden="true"></i>
-              <span>Rules and points</span>
+              <span>Rules & points</span>
             </router-link>
-            <a href="https://acdc.blog/" class="spacing"><i aria-hidden="true" class="ms-Icon ms-Icon--PreviewLink"></i><span>Blog</span></a>
+            <!-- <a href="https://acdc.blog/" class="spacing"><i aria-hidden="true" class="ms-Icon ms-Icon--PreviewLink"></i><span>Blog</span></a>
             <router-link class="spacing" to="/Jury2021">
               <i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i>
               <span>Jury</span>
-            </router-link>-->
+            </router-link> -->
             <router-link class="spacing" to="/previous">
               <i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i>
               <span>Previous Events</span>
@@ -57,15 +61,16 @@
       <div class="navcontainer" v-responsive="['hidden-all', 'lg', 'xl', 'md']">
         <nav class="tabs">
           <div class="selector"></div>
-          <router-link class="spacing" to="/home">Home</router-link>          
+          <router-link class="spacing" to="/home">Home</router-link>
+           <router-link class="spacing" to="/about">About</router-link>           
           <router-link class="spacing" to="/Register">Register</router-link>
           <router-link class="spacing" to="/ConvinceYourBoss">Convince your boss</router-link>
           <router-link class="spacing" to="/Sponsorship">Sponsorship</router-link>
           <!--<router-link class="spacing" to="/Agenda">Agenda</router-link>
-          <router-link class="spacing" to="/Chart">Scoreboard</router-link>
-          <router-link class="spacing" to="/badges">Badges and categories</router-link>
-          <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
-          <a href="https://acdc.blog/" class="spacing">Blog</a>-->
+          <router-link class="spacing" to="/Chart">Scoreboard</router-link>-->
+          <router-link class="spacing" to="/badges">Badges & categories</router-link>
+          <router-link class="spacing" to="/RulesAndPoints">Rules & points</router-link>
+          <!-- <a href="https://acdc.blog/" class="spacing">Blog</a> -->
           <router-link class="spacing" to="/Previous">Previous events</router-link>
           <router-link class="spacing" to="/contact">Contact us</router-link>          
         </nav>
@@ -183,6 +188,7 @@ export default {
 
 .tabs a i {
   margin-right: 5px;
+  font-size: 26px;
 }
 
 .tabs .selector {
