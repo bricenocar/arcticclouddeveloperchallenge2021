@@ -8,14 +8,13 @@
           <h4>Judging</h4>
           <p>
             Every judge can hand out a maximum of 50 points to each team at
-            every jury duty each day. It means: 5 juries * 5 categories * 10
-            points * 3 days = 750 max pr. team
+            every jury duty each day. It means: 5 juries * 4 categories * 10
+            points * 3 days = 600 max pr. team
           </p>
           <p>
             Each team can get upto 33 badges. Each
             badge gives 10 points, but there is 1 badge that removes 10 points
-            and 1 special badge that adds 25 point for the team that gets it. It
-            means that there are 325 extra points available.
+            and 1 special badge that adds 25 point for the team that gets it.
           </p>
           <p>
             At Final Jury Delivery each judge has 100 points each to hand out to
@@ -34,7 +33,7 @@
           </p>
           <p>
             The judges will present top 3 teams, and finally announce the winner
-            of ACDC 2021
+            of ACDC.
           </p>
           <br/>
           <p>
