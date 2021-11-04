@@ -238,10 +238,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/earlydelivery/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-EarlyDelivery.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Early Delivery</h4>
@@ -332,10 +332,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/high5/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-HighFive.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>High 5</h4>
