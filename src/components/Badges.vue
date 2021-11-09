@@ -1,11 +1,13 @@
 <template>
-  <div class="container-fluid badges">
+  <div class="container-fluid badges overview-header">
     <div class="container">
       <div class="row">
         <div class="column">
-          <div class="overview">
-          <h3 class="title">Categories</h3>
+          <h1 class="title">Categories and Badges</h1>
+           <h1 class="titleSmall">Categories</h1>
 
+          <div class="overview">
+         
           <div class="categDescription">
             <p>
               Each of the judges have from 1-10 points to give out to each team
@@ -56,22 +58,27 @@
               Keywords: Usable Solutions, Feasable ideas, Real World Scenarios
             </p>
           </div> -->
-         <h3 class="title">Badges</h3>
+        
         </div>
-
         <!-- <div class="col-md-12">
 
 
-          <div class="container">
-            <div class="">-->
-              <div class="row"> 
+          <div class="container">-->
+            <h1 class="titleSmall">Badges</h1>
+            
+
+            <div class="overview">
+              <div class="categDescription">
+                <p>If you want to see examples on how to claim for badges, click on the badge to see the previous blogposts for this badge.</p>
+              </div>
+              <div class="row">                
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/head2head/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-37-H2H.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Head 2 Head</h4>
@@ -88,10 +95,10 @@
                  <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/team-spirit/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-HappyCamper.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Happy Camper</h4>
@@ -108,10 +115,10 @@
                                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/communitychampion/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-CommunityChamp.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Community Champion</h4>
@@ -126,10 +133,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/dooh/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges-Dooh.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Dooh</h4>
@@ -145,10 +152,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/theivingbastard/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-31-Thief.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Thieving Bastards</h4>
@@ -165,10 +172,10 @@
                                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                    <a href="https://acdc.blog/tag/sharingiscaring/">  <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-CommunityChamp.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Sharing is Caring</h4>
@@ -184,10 +191,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/remarkableteamspirit/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-TeamSpirit.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Remarkable Teamspirit</h4>
@@ -202,10 +209,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/morningglory/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-MorningGlory.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Morning Glory</h4>
@@ -218,10 +225,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/crawler/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-Crawler.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Crawler</h4>
@@ -256,10 +263,10 @@
                   <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/nastyhacker/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-NastyHacker.png"
-                      />
+                      /></a>
                     </div>   
                     <div class="badgeTitle">
                       <h4>Nasty Hacker</h4>
@@ -272,10 +279,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/rightnow/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-29-RightNow.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Right Now</h4>
@@ -292,10 +299,10 @@
                                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/featurebombing/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-FeatureBombing.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Feauture Bombing</h4>
@@ -313,10 +320,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/glossypixels/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges-Glossy.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Glossy Pixels</h4>
@@ -352,10 +359,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/hipster/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-Hipster.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Hipster</h4>
@@ -372,10 +379,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/showandtell/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-ShowNTell.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Show And Tell</h4>
@@ -392,10 +399,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/gowiththeflow/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-33-Flow.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Go With The Flow</h4>
@@ -411,10 +418,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/chameleon/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-25-Chameleon.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Chameleon</h4>
@@ -430,10 +437,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/dashitout/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-38-Dash.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Dash It Out</h4>
@@ -448,10 +455,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/dataminer/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-DataMiner.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Dataminer</h4>
@@ -468,10 +475,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/embeddingnumbuts/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-EmbeddingNumbnut.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Embedding numbuts</h4>
@@ -484,10 +491,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/stairwaytoheaven/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-StairwayToHeaven.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Stairway To Heaven</h4>
@@ -503,10 +510,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/gonative/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-GoNative.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Go Native</h4>
@@ -522,10 +529,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/theexistentialrisk/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/existentialrisk.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>The Existential Risk</h4>
@@ -541,10 +548,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/plugnplay/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges-Plug.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Plug N' Play</h4>
@@ -562,10 +569,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/webbytescode/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-EmbeddingNumbnut.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Web Bytes Code</h4>
@@ -580,10 +587,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/acdccraftsman/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-SPCraftsman.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>ACDC Craftsman</h4>
@@ -598,10 +605,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/clientsidesalsa/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-24-Salsa.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Client Side Salsa</h4>
@@ -619,10 +626,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/poweruserlove/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-TestDriver.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Power User Love</h4>
@@ -639,10 +646,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/poweroftheshell/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-39-Powershell.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Power Of The Shell</h4>
@@ -659,10 +666,10 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/retro/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/retro.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
                       <h4>Retro badgen</h4>
@@ -679,8 +686,8 @@
           </div>
         </div>
        </div>
- <!--   </div>
-  </div>
+   </div>
+ <!--  </div>
   </div> -->
 </template>
 
@@ -703,7 +710,7 @@ export default {
   width: 50%;
   margin: auto;
 }
-.badges {
+/* .badges {
   padding: 20px;
   text-align: left;
   background: white;
@@ -713,13 +720,13 @@ export default {
   height: 40%;
   padding-top: 40px;
   padding-bottom: 40px;
-}
-.badges h1 {
+} */
+/* .badges h1 {
   color: black;
   text-align: center;
   font-size: 30pt;
   font-weight: bold;
-}
+} */
 /* .badgeCard {
   padding: 1em 2em;
 } */
