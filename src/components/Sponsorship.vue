@@ -249,6 +249,6 @@ export default {
   margin-bottom: 30px;
 }
 .card-body {
-  min-height: 400px;
+  min-height: 450px;
 }
 </style>

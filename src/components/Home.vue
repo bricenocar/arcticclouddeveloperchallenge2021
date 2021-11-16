@@ -19,22 +19,25 @@
     <div class="row about">
       <div class="about-container">
         <div class="ms-Grid about-content" dir="ltr">
-          <div class=" margincolumn ms-Grid-col ms-sm12 ms-md6 ms-lg6">
+          <div class="margincolumn ms-Grid-col ms-sm12 ms-md6 ms-lg6">
             <img class="aboutimage" src="../assets/images/2022/about.svg" />
           </div>
           <div class="margincolumn ms-Grid-col ms-sm12 ms-md6 ms-lg6">
             <div class="about-text">
               <p>
                 <span class="bold-text">ACDC</span> is a 3 day Norwegian
-                hackathon focusing on Microsoft technology, such as Microsoft
-                365, SharePoint, Dynamics 365, IOT. Azure, ML, Power BI.
+                hackathon focusing on Microsoft cloud technology, such as
+                Microsoft 365, Dynamics 365, IOT, Azure ML and Power Platform.
                 <br /><br />Our goal is to push technology to new limits while
                 we learn from each other and socialize. This great event has
                 been hosted for over 10 years at the beautiful Voksenåsen.
-                <br />Follow us on
-                <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc"
-                  >YouTube</a
-                >
+                <br /><br />
+                <span class="bold-text">Place:</span> Voksenåsen Culture and
+                Conference Hotel (Ullveien 4, 0791 Oslo)
+                <br />
+                <span class="bold-text">Date:</span> From 10th february to 13th
+                february
+                <br />
               </p>
             </div>
           </div>
@@ -46,7 +49,6 @@
         <div class="ms-Grid theaward-content" dir="ltr">
           <div class="margincolumn ms-Grid-col ms-sm12 ms-md6 ms-lg6">
             <img class="antlers" src="../assets/images/acdc_antlers.jpg" />
-            <h1>The award</h1>
             <p>
               The winning team get to take home the ANTLERS to keep until next
               challenge.<br /><br />And all the glory they can carry!
@@ -61,6 +63,119 @@
         </div>
       </div>
     </div>
+    <!--<div class="row categories">
+      <div class="categories-container">
+        <div>
+          <div class="mt-3">
+            <b-card-group deck>
+              <b-card
+                bg-variant="primary"
+                text-variant="white"
+                header="Primary"
+                class="text-center"
+              >
+                <b-card-text
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.</b-card-text
+                >
+              </b-card>
+
+              <b-card
+                bg-variant="secondary"
+                text-variant="white"
+                header="Secondary"
+                class="text-center"
+              >
+                <b-card-text
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.</b-card-text
+                >
+              </b-card>
+
+              <b-card
+                bg-variant="success"
+                text-variant="white"
+                header="Success"
+                class="text-center"
+              >
+                <b-card-text
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.</b-card-text
+                >
+              </b-card>
+            </b-card-group>
+          </div>
+          <div class="mt-3">
+            <b-card-group deck>
+              <b-card
+                bg-variant="info"
+                text-variant="white"
+                header="Info"
+                class="text-center"
+              >
+                <b-card-text
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.</b-card-text
+                >
+              </b-card>
+
+              <b-card
+                bg-variant="warning"
+                text-variant="white"
+                header="Warning"
+                class="text-center"
+              >
+                <b-card-text
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.</b-card-text
+                >
+              </b-card>
+
+              <b-card
+                bg-variant="danger"
+                text-variant="white"
+                header="Danger"
+                class="text-center"
+              >
+                <b-card-text
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.</b-card-text
+                >
+              </b-card>
+            </b-card-group>
+          </div>
+          <div class="mt-3">
+            <b-card-group deck>
+              <b-card bg-variant="light" header="Light" class="text-center">
+                <b-card-text
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.</b-card-text
+                >
+              </b-card>
+
+              <b-card
+                bg-variant="dark"
+                header="Dark"
+                text-variant="white"
+                class="text-center"
+              >
+                <b-card-text
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.</b-card-text
+                >
+              </b-card>
+
+              <b-card header="Default" class="text-center">
+                <b-card-text
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.</b-card-text
+                >
+              </b-card>
+            </b-card-group>
+          </div>
+        </div>
+      </div>
+    </div>-->
     <div class="row contactus">
       <div class="contactus-container">
         <div class="ms-Grid contactus-content" dir="ltr">
@@ -85,343 +200,7 @@
         </div>
       </div>
     </div>
-    <!--<div class="row Categories">
-        <div class="categoriesHeader">
-          <div class="categoriesIcon">
-            <img
-              class="categoryIcon"
-              src="../assets/badges/Badges 2014-CommunityChamp.png"
-            />
-          </div>
-          <div class="categoriesTitle">
-            <h1>Categories</h1>
-          </div>
-        </div>
-        <div class="container">
-          <div class="categoriesContent">
-            <div class="row">
-              <div class="categoryCard col-md-4">
-                <div class="categoryContent">
-                  <div class="categoryPicture">
-                    <img
-                      class="categoryPictureImg"
-                      src="../assets/badges/Badges 2014-CommunityChamp.png"
-                    />
-                  </div>
-                  <div class="categoryTitle">
-                    <h2>TBA</h2>
-                  </div>
-                  <div class="categoryDescription">
-                    <p>We are working on it!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="categoryCard col-md-4">
-                <div class="categoryContent">
-                  <div class="categoryPicture">
-                    <img
-                      class="categoryPictureImg"
-                      src="../assets/badges/Badges 2014-CommunityChamp.png"
-                    />
-                  </div>
-                  <div class="categoryTitle">
-                    <h2>TBA</h2>
-                  </div>
-                  <div class="categoryDescription">
-                    <p>We are working on it!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="categoryCard col-md-4">
-                <div class="categoryContent">
-                  <div class="categoryPicture">
-                    <img
-                      class="categoryPictureImg"
-                      src="../assets/badges/Badges 2014-CommunityChamp.png"
-                    />
-                  </div>
-                  <div class="categoryTitle">
-                    <h2>TBA</h2>
-                  </div>
-                  <div class="categoryDescription">
-                    <p>We are working on it!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="categoryCard col-md-6">
-                <div class="categoryContent">
-                  <div class="categoryPicture">
-                    <img
-                      class="categoryPictureImg"
-                      src="../assets/badges/Badges 2014-CommunityChamp.png"
-                    />
-                  </div>
-                  <div class="categoryTitle">
-                    <h2>TBA</h2>
-                  </div>
-                  <div class="categoryDescription">
-                    <p>We are working on it!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="categoryCard col-md-6">
-                <div class="categoryContent">
-                  <div class="categoryPicture">
-                    <img
-                      class="categoryPictureImg"
-                      src="../assets/badges/Badges 2014-CommunityChamp.png"
-                    />
-                  </div>
-                  <div class="categoryTitle">
-                    <h2>TBA</h2>
-                  </div>
-                  <div class="categoryDescription">
-                    <p>We are working on it!</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>-->
-    <!--<div class="row theAward">
-        <div class="aboutHeader">
-          <div class="categoriesIcon">
-            <img
-              class="categoryIcon"
-              src="../assets/badges/Badges 2014-CommunityChamp.png"
-            />
-          </div>
-          <div class="aboutTitle">
-            <h1>About</h1>
-            <p>
-              ACDC is a 3 day Norwegian hackathon focusing on Microsoft
-              technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT.
-              Azure, ML, Power BI. <br />Our goal is to push technology to new
-              limits while we learn from each other and socialize. This great
-              event has been hosted for over 10 years at the beautiful
-              Voksenåsen. <br />Follow us on
-              <a href="https://www.youtube.com/watch?v=8Mhds_Ueqsc">YouTube</a>
-            </p>
-          </div>
-        </div>
-        
-        <div class="theAwardHeader">
-          <div class="categoriesIcon">
-            <img
-              class="theAwardIcon"
-              src="../assets/badges/Badges 2014-CommunityChamp.png"
-            />
-          </div>
-          <div class="theAwardTitle">
-            <h1>The award</h1>
-            <img class="antlers" src="../assets/images/acdc_antlers.jpg" />
-            <p>
-              The winning team get to take home the ANTLERS to keep until next
-              challenge.
-            </p>
-            <p>And all the glory they can carry!</p>
-          </div>
-        </div>
-      </div>-->
-    <!--<div class="row judges">
-        <div class="container">
-          <div class="judgesTitle darktext">
-            <h1>Judges</h1>
-          </div>
-          <div class="row legodivider">
-            <img class="legodividerimg2" src="../assets/images/legoline.svg" />
-          </div>
-        </div>
-        <div class="judgesContent">
-          <div class="row">
-            <div class="judgeCard col-md-4">
-              <div class="judgeContent">
-                <div class="judgePicture">
-                  <img
-                    class="judgePictureImg"
-                    src="../assets/judges/ninjaturtleface.jpg"
-                  />
-                </div>
-                <div class="judgeTitle">
-                  <h2>TBA</h2>
-                </div>
-                <div class="judgeDescription">
-                  <p>Coming soon!</p>
-                </div>
-              </div>
-            </div>
-            <div class="judgeCard col-md-4">
-              <div class="judgeContent">
-                <div class="judgePicture">
-                  <img
-                    class="judgePictureImg"
-                    src="../assets/judges/ninjaturtleface.jpg"
-                  />
-                </div>
-                <div class="judgeTitle">
-                  <h2>TBA</h2>
-                </div>
-                <div class="judgeDescription">
-                  <p>Coming soon!</p>
-                </div>
-              </div>
-            </div>
-            <div class="judgeCard col-md-4">
-              <div class="judgeContent">
-                <div class="judgePicture">
-                  <img
-                    class="judgePictureImg"
-                    src="../assets/judges/ninjaturtleface.jpg"
-                  />
-                </div>
-                <div class="judgeTitle">
-                  <h2>TBA</h2>
-                </div>
-                <div class="judgeDescription">
-                  <p>Coming soon!</p>
-                </div>
-              </div>
-            </div>
-            <div class="judgeCard col-md-6">
-              <div class="judgeContent">
-                <div class="judgePicture">
-                  <img
-                    class="judgePictureImg"
-                    src="../assets/judges/ninjaturtleface.jpg"
-                  />
-                </div>
-                <div class="judgeTitle">
-                  <h2>TBA</h2>
-                </div>
-                <div class="judgeDescription">
-                  <p>Coming soon!</p>
-                </div>
-              </div>
-            </div>
-            <div class="judgeCard col-md-6">
-              <div class="judgeContent">
-                <div class="judgePicture">
-                  <img
-                    class="judgePictureImg"
-                    src="../assets/judges/ninjaturtleface.jpg"
-                  />
-                </div>
-                <div class="judgeTitle">
-                  <h2>TBA</h2>
-                </div>
-                <div class="judgeDescription">
-                  <p>Coming soon!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row separator"></div>
-        </div>
-      </div>-->
-    <!--<div class="row thePriceToPay">
-        <div class="container">
-          <div class="thePriceToPayContainer">
-            <div class="thePriceToPayHeader">
-              <div class="thePriceToPayIcon">
-                <img
-                  class="thePriceToPayIconImg"
-                  src="../assets/images/icon-bilette.svg"
-                />
-              </div>
-            </div>
-            <div class="thePriceToPayContent">
-              <div class="thePriceToPayTitle">
-                <h1>Tickets</h1>
-              </div>
-              <div class="thePriceToPayAmount">
-                <p>From</p>
-                <p></p>
-                <h1>10.000 NOK</h1>
-                <p>excluding VAT</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>-->
-    <!--<div class="row sponsors">
-        <div class="container">
-          <div class="sponsorsContainer">
-            <div class="sponsorsHeader">
-              <div class="sponsorsIcon">
-                <p>
-                  <img
-                    class="sponsorsIconImg"
-                    src="../assets/images/icon-bilette.svg"
-                  />
-                </p>
-              </div>
-              <div class="sponsorsContent">
-                <div class="sponsorsTitle">
-                  <h1>Sponsors</h1>
-                  <p>
-                    <img
-                      class="sponsorsImg"
-                      src="../assets/sponsors/microsoft.png"
-                    />
-                  </p>
-                   <p><img class="sponsorsImg" src="../assets/sponsors/PointTaken-Logo-White.png"/></p> 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>-->
-    <!--<router-link class="registerbuttonlinkbottom registerbuttonbottom" to="/chart">SCOREBOARD</router-link>-->
-    <!--<a
-          class="registerbuttonlinkbottom"
-          href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPlPngU499LtNtryHiN0d-t5UQU4wVlJCTlQ2MVY2Q1VLVDUxVDhTQ1hPWSQlQCN0PWcu"
-          target="_blank"
-        >
-          <div class="registerbuttonbottom">REGISTER TODAY</div>
-        </a>-->
   </div>
-
-  <!-- <div class="row theCampSite">
-        <div class="container theCampSiteContainer">
-          <div class="theCampSiteHeader">
-            <div class="theCampSiteIconContainer">
-              <img
-                class="theCampSiteIcon"
-                src="../assets/images/icon-campsite.svg"
-              />
-            </div>
-            <div class="theCampSiteTitle">
-              <h1>The campsite</h1>
-              <p>
-                Venue is the venerable Voksenåsen Hotel, located in the hills
-                surrounding Oslo.
-              </p>
-              <p>
-                We encourage all participants to stay at the hotel for the
-                event.
-              </p>
-              <p>
-                We will handle room bookings, and as you see from the conference
-                fee most of what you'll need is covered so you can focus on
-                waging the ultimate cloud battle.
-              </p>
-              <div class="theCampSiteFooter">
-                <img
-                  class="theCampSiteIcon"
-                  src="../assets/images/logo-voksenaasen.svg"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-  <!-- <div class="theLocation">
-      <gmaps-map :options="mapOptions">
-        <gmaps-marker :position="{ lat: 59.96, lng: 10.665 }" />
-      </gmaps-map>
-    </div>
-  </div> -->
 </template>
 
 <script>
@@ -606,6 +385,7 @@ export default {
 }
 .theaward-content {
   margin: auto;
+  width: 80%;
 }
 .theaward h1 {
   text-align: left;
@@ -613,9 +393,10 @@ export default {
   font-weight: bold;
 }
 .theaward p {
+  margin-top: 50px;
   color: black;
   text-align: left;
-  font-size: 12pt;
+  font-size: 27px;
 }
 .theawardimage {
   max-height: 450px;
@@ -759,78 +540,34 @@ export default {
   width: 100%;
   margin-bottom: 10px;
 }
-.Categories {
-  background: lightgray;
-  background: url(../assets/images/background-legos.svg) no-repeat center;
-  height: 30%;
-  padding-top: 15vh;
-  flex-direction: column;
-}
-.categoriesHeader {
-  display: flex;
-  width: 60%;
+.categories {
+  background: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   margin: auto;
+  position: relative;
 }
-.categoriesHeader h1 {
-  color: black;
-  text-align: left;
-  font-size: 30pt;
-  font-weight: bold;
-}
-.categoriesHeader p {
-  color: #6d7c90;
-  text-align: left;
-  font-size: 12pt;
-}
-.categoryIcon {
-  margin-right: 2em;
-}
-.categoriesTitle {
+.categories-container {
+  height: 100vh;
+  width: 106%;
   display: flex;
-  flex-direction: column;
+  top: -170px;
 }
-.categoriesContent {
-  color: #6d7c90;
-  font-size: 30pt;
-  background-color: white;
+.categories-content {
+  margin: auto;
+  width: 80%;
+  padding-top: 170px;
 }
-.categoryCard {
-  padding: 1em 2em;
-}
-.categoryContent {
-  background-color: white;
-  height: 100%;
-}
-.categoryPicture {
-  width: 100%;
-}
-.categoryPictureImg {
-  margin-bottom: 15px;
-  max-width: 315px;
-  max-height: 315px;
-  padding: 25px;
-  width: 100%;
-}
-.categoryTitle {
-  font-size: 30pt;
-  color: black;
-  margin: 0px 1.75vw;
-}
-.categoryTitle h2 {
-  font-weight: bold;
-}
-.categoryDescription {
-  font-size: 12pt;
-  color: #6d7c90;
-  margin: 0px 1.75vw;
-}
-.categoriesCatTitle {
+.categories h1 {
   text-align: left;
-  color: white;
   font-size: 30pt;
   font-weight: bold;
-  margin-bottom: 15px;
-  font-family: "Roboto Condensed", Georgia, Times, serif;
+}
+.categories p {
+  color: black;
+  text-align: left;
+  font-size: 27px;
 }
 .thePriceToPay {
   background: lightgray;
@@ -1172,11 +909,19 @@ export default {
     width: 80%;
     margin: 0 auto;
   }
+  .about-container {
+    width: 106%;
+  }
   .aboutimage {
     width: 100%;
   }
   .about p {
     font-size: 18px;
+  }
+  .about-content {
+    margin: auto;
+    width: 80%;
+    padding-top: 0px;
   }
   .theaward {
     height: 100%;
@@ -1187,12 +932,15 @@ export default {
     display: block;
   }
   .theaward-content {
-    display:flex;
-    flex-direction: column-reverse;;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .theaward p {
+    font-size: 18px;
   }
   .margincolumn {
     margin: 20px 0;
-  }  
+  }
   .theawardimage {
     max-height: 350px;
   }
@@ -1220,27 +968,7 @@ export default {
   .legoredright {
     display: none;
   }
-  /* .categoriesHeader {
-    width: 90%;
-  } */
-  .categoriesContent {
-    background-color: transparent;
-  }
-  .categoriesIcon {
-    display: none;
-  }
-  .categoryIcon {
-    margin-right: 1em;
-  }
-  .categoriesTitle h1 {
-    font-size: 30pt;
-  }
-  .categoriesTitle p {
-    font-size: 12pt;
-  }
-  /* .aboutHeader {
-    width: 90%;
-  } */
+
   .aboutContent {
     background-color: transparent;
   }
