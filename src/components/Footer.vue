@@ -1,5 +1,5 @@
 <template>
-  <div class="row footer">
+  <div class="container-fluid body-container footer">
     <div class="container">
       <div class="col-md-12">
         <p>&copy; 2022 Arctic Cloud Developer Challenge</p>

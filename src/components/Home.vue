@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid body-container">
     <div class="row quickSummary">
       <div class="container">
         <div class="main-section-top">
@@ -40,6 +40,36 @@
                 <br />
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row theCampSite">
+      <div class="campsite-container">
+        <div class="ms-Grid theCampSiteHeader">
+          <div class="margincolumn ms-Grid-col ms-sm12 ms-md6 ms-lg6">
+            <h1 class="lightgreentitle">The campsite</h1>
+            <p>
+              Venue is the venerable Voksenåsen Hotel, located in the hills
+              surrounding Oslo.
+            </p>
+            <p>
+              We encourage all participants to stay at the hotel for the event.
+            </p>
+            <p>
+              We will handle room bookings, and as you see from the conference
+              fee most of what you'll need is covered so you can focus on waging
+              the ultimate cloud battle.
+            </p>
+            <div class="theCampSiteFooter">
+              <img
+                class="theCampSiteIcon"
+                src="../assets/images/logo-voksenaasen.svg"
+              />
+            </div>
+          </div>
+          <div class="margincolumn ms-Grid-col ms-sm12 ms-md6 ms-lg6">
+            <img class="campsite-image" src="../assets/images/voksenåsen.jpg" />
           </div>
         </div>
       </div>
@@ -215,6 +245,14 @@ export default {
 };
 </script>
 <style>
+.body-container {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.margincolumn {
+  display: flex;
+  flex-direction: column;
+}
 .sponsacdcheader {
   width: 100%;
   margin-top: 50px;
@@ -340,7 +378,7 @@ export default {
   background: white;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 90vh;
   margin: auto;
   position: relative;
 }
@@ -351,7 +389,7 @@ export default {
   background-image: url(../assets/images/2022/bg1.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 106%;
+  width: 100%;
   display: flex;
   top: -170px;
 }
@@ -373,7 +411,8 @@ export default {
 
 .theaward {
   background: white;
-  height: 60vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   margin: auto;
   position: relative;
 }
@@ -715,6 +754,9 @@ export default {
 .bottomspacing {
   margin-bottom: 3em;
 }
+.campsite-image {
+  width: 100%;
+}
 .theCampSite {
   background: white;
   padding-top: 15vh;
@@ -723,19 +765,17 @@ export default {
 }
 .theCampSiteHeader {
   display: flex;
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 .theCampSiteHeader h1 {
-  color: black;
   text-align: left;
-  font-size: 30pt;
   font-weight: bold;
 }
 .theCampSiteHeader p {
-  color: #6d7c90;
+  color: #000000;
   text-align: left;
-  font-size: 12pt;
+  font-size: 27px;
 }
 .theCampSiteFooter {
   display: flex;
@@ -1023,16 +1063,15 @@ export default {
   .sponsorsContent {
     margin-left: 35px;
   }
-  .theCampSiteTitle h1 {
-    font-size: 30pt;
-  }
-  .theCampSiteTitle p {
-    font-size: 12pt;
+  .theCampSiteHeader p {
+    color: #000000;
+    text-align: left;
+    font-size: 18px;
   }
   .theCampSiteHeader {
-    display: flex;
-    width: 100%;
-  }
+    width: 80%;
+    flex-direction: column;
+}
   .theCampSiteIcon {
     max-width: 200px;
   }
