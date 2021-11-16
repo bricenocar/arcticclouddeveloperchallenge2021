@@ -2,7 +2,7 @@
   <div class="row footer">
     <div class="container">
       <div class="col-md-12">
-        <p>&copy; 2021 Arctic Cloud Developer Challenge</p>
+        <p>&copy; 2022 Arctic Cloud Developer Challenge</p>
       </div>
     </div>
   </div>

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="column">
-          <h1 class="title">Arctic Cloud Developer Challenge</h1>
+          <h1 class="title">Convince Your Boss</h1>
           <div class="overview">
             <h4>What is Arctic Cloud Developer Challenge (ACDC)?</h4>
             <p>

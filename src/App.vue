@@ -123,6 +123,14 @@ h6 {
   color: #84af0f;
   font-family: "Turtles" !important;
 }
+.titleSmall {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #84af0f;
+  font-family: "Turtles" !important;
+  font-size: 26px;
+}
 @media only screen and (min-device-width: 800px) {
   .overview p {
     font-size: 25px;

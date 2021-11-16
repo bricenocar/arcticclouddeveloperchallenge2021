@@ -1,13 +1,13 @@
 <template>
-  <div class="container-fluid">
-    <div class="row badges">
-      <div class="container">
-        <div class="col-md-12 categoriestext">
-          <h1>Categories</h1>
-          <div class="row legodivider">
-            <img class="legodividerimg3" src="../assets/images/legoline.svg" />
-          </div>
-          <br />
+  <div class="container-fluid badges overview-header">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <h1 class="title">Categories and Badges</h1>
+           <h1 class="titleSmall">Categories</h1>
+
+          <div class="overview">
+         
           <div class="categDescription">
             <p>
               Each of the judges have from 1-10 points to give out to each team
@@ -15,43 +15,39 @@
             </p>
           </div>
           <div class="categTitle">
-            <h2>Blow my Mindstorm</h2>
+            <h4>Excellent User Experience</h4>
           </div>
           <div class="categDescription">
             <p>
-              If a Lego could speak, what would it say? Connect the Lego to the
-              cloud and find out
+              Visually appealing and an engaging experience surpassing expectations of simplicity, attractiveness and a look that just speaks of blings. 
             </p>
-            <p>Keywords: IOT, Arduino, Microcomputers, Microservices</p>
+            <!-- <p>Keywords: </p> -->
           </div>
           <div class="categTitle">
-            <h2>Lego Power Bricks</h2>
+            <h4>Most Extreme Business Value</h4>
           </div>
           <div class="categDescription">
-            <p>Emmet the Lego works hard every day, but can he work smarter?</p>
-            <p>
-              Keywords: Power Automate, Power Apps, Power BI, Power Virtual
-              Agent
-            </p>
+            <p>Running a business is though. Usable Solutions, Feasable ideas, Real World Scenarios </p>
+            <!-- <p>Keywords:</p> -->
           </div>
           <div class="categTitle">
-            <h2>Queen Watevra Wa-Nabi </h2>
+            <h4>Rock Solid Geeknes</h4>
           </div>
           <div class="categDescription">
             <p>
-              Show great UI / UX and glossy pixels and make the Queen happy.  
+             Best use of tools and technologies. 
             </p>
-            <p>Keywords: UI, UX</p>
-          </div>          
+            <!-- <p>Keywords: </p> -->
+          </div>
           <div class="categTitle">
-            <h2>Lego autobots</h2>
+            <h4>Killer App</h4>
           </div>
           <div class="categDescription">
-            <p>A pile of bricks have no value. Your skills to build from them is what matters. </p>
-            <p>Keywords: Azure infrastructure as code, ARM, PowerShell, CI/CD </p>
+            <p>Built the best killer app, the best solution.</p>
+            <!-- <p>Keywords: </p> -->
           </div>
-          <div class="categTitle">
-            <h2>Lego Shark Tank</h2>
+          <!-- <div class="categTitle">
+            <h4>Lego Shark Tank</h4>
           </div>
           <div class="categDescription">
             <p>
@@ -61,101 +57,31 @@
             <p>
               Keywords: Usable Solutions, Feasable ideas, Real World Scenarios
             </p>
-          </div>
-          <div class="row legodivider">
-          </div>
+          </div> -->
+        
         </div>
-        <div class="col-md-12">
-          <h1>Badges 2021</h1>
-          <div class="row legodivider">
-            <img class="legodividerimg3" src="../assets/images/legoline.svg" />
-          </div>
-          <div class="container">
-            <div class="categoriesContent">
-              <div class="row">
+        <!-- <div class="col-md-12">
+
+
+          <div class="container">-->
+            <h1 class="titleSmall">Badges</h1>
+            
+
+            <div class="overview">
+              <div class="categDescription">
+                <p>If you want to see examples on how to claim for badges, click on the badge to see the previous blogposts for this badge.</p>
+              </div>
+              <div class="row">                
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-NastyHacker.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h2>Nasty Hacker</h2>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>Creating superdirty hacks to achieve awesomeness</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-TeamSpirit.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h2>Remarkable Teamspirit</h2>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>
-                        Keeps a extraordinary good team spirit throught the day
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
-                        src="../assets/badges/Badges-Glossy.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h2>Glossy Pixels</h2>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>
-                        Shiny, glossy user interfaces would earn this badge, it
-                        won't break on small screens right?
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-Hipster.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h2>Hipster</h2>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>
-                        Use hip tech, like node.js, Clojure, functional
-                        programming style, Nancy. Hate on Visual Studio, embrace
-                        new Microsoft and use open technologies
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/head2head/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-37-H2H.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Head 2 Head</h2>
+                      <h4>Head 2 Head</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -166,16 +92,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="badgeCard col-md-3">
+                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/team-spirit/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-HappyCamper.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Happy Camper</h2>
+                      <h4>Happy Camper</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -186,16 +112,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="badgeCard col-md-3">
+                                <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/communitychampion/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-CommunityChamp.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Community Champion</h2>
+                      <h4>Community Champion</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -207,13 +133,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/dooh/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges-Dooh.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Dooh</h2>
+                      <h4>Dooh</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -226,31 +152,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
-                        src="../assets/badges/retro.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h2>Retro badgen</h2>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>
-                        Doing something cool with late technologies. It's all legacy now, baby!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/theivingbastard/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-31-Thief.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Thieving Bastards</h2>
+                      <h4>Thieving Bastards</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -260,16 +168,17 @@
                     </div>
                   </div>
                 </div>
-                <div class="badgeCard col-md-3">
+              
+                                <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                    <a href="https://acdc.blog/tag/sharingiscaring/">  <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-CommunityChamp.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Sharing is Caring</h2>
+                      <h4>Sharing is Caring</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -282,13 +191,47 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/remarkableteamspirit/"> <img
                         class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-Crawler.png"
-                      />
+                        src="../assets/badges/Badges 2014-TeamSpirit.png"
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Crawler</h2>
+                      <h4>Remarkable Teamspirit</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>
+                        Keeps a extraordinary good team spirit throught the day
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                     <a href="https://acdc.blog/tag/morningglory/"> <img
+                        class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-MorningGlory.png"
+                      /></a>
+                    </div>
+                    <div class="badgeTitle">
+                      <h4>Morning Glory</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>Starting the day before the sun rises.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                      <a href="https://acdc.blog/tag/crawler/"><img
+                        class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-Crawler.png"
+                      /></a>
+                    </div>
+                    <div class="badgeTitle">
+                      <h4>Crawler</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -302,29 +245,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
-                        class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-MorningGlory.png"
-                      />
-                    </div>
-                    <div class="badgeTitle">
-                      <h2>Morning Glory</h2>
-                    </div>
-                    <div class="badgeDescription">
-                      <p>Starting the day before the sun rises.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badgeCard col-md-3">
-                  <div class="badgeContent">
-                    <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/earlydelivery/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-EarlyDelivery.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Early Delivery</h2>
+                      <h4>Early Delivery</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -333,16 +260,32 @@
                     </div>
                   </div>
                 </div>
+                  <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                     <a href="https://acdc.blog/tag/nastyhacker/"> <img
+                        class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-NastyHacker.png"
+                      /></a>
+                    </div>   
+                    <div class="badgeTitle">
+                      <h4>Nasty Hacker</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>Creating superdirty hacks to achieve awesomeness</p>
+                    </div>
+                  </div>
+                </div>
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/rightnow/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-29-RightNow.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Right Now</h2>
+                      <h4>Right Now</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -353,16 +296,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="badgeCard col-md-3">
+                                <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/featurebombing/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-FeatureBombing.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Feauture Bombing</h2>
+                      <h4>Feauture Bombing</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -377,17 +320,36 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/glossypixels/"><img
                         class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-HighFive.png"
-                      />
+                        src="../assets/badges/Badges-Glossy.png"
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>High 5</h2>
+                      <h4>Glossy Pixels</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
-                        Uses the features of HTML5 to make Solution 
+                        Shiny, glossy user interfaces would earn this badge, it
+                        won't break on small screens right?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                      <a href="https://acdc.blog/tag/high5/"><img
+                        class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-HighFive.png"
+                      /></a>
+                    </div>
+                    <div class="badgeTitle">
+                      <h4>High 5</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>
+                        Uses the features of HTML5 to make Solution
                         supersmooth and modern. Make it nifty swifty and the
                         badge is yours.
                       </p>
@@ -397,13 +359,33 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/hipster/"> <img
                         class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-ShowNTell.png"
-                      />
+                        src="../assets/badges/Badges 2014-Hipster.png"
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Show And Tell</h2>
+                      <h4>Hipster</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>
+                        Use hip tech, like node.js, Clojure, functional
+                        programming style, Nancy. Hate on Visual Studio, embrace
+                        new Microsoft and use open technologies
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                     <a href="https://acdc.blog/tag/showandtell/"> <img
+                        class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-ShowNTell.png"
+                      /></a>
+                    </div>
+                    <div class="badgeTitle">
+                      <h4>Show And Tell</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -413,16 +395,17 @@
                     </div>
                   </div>
                 </div>
+                
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/gowiththeflow/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-33-Flow.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Go With The Flow</h2>
+                      <h4>Go With The Flow</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -435,13 +418,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/chameleon/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-25-Chameleon.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Chameleon</h2>
+                      <h4>Chameleon</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -454,13 +437,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/dashitout/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-38-Dash.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Dash It Out</h2>
+                      <h4>Dash It Out</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -472,13 +455,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/dataminer/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-DataMiner.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Dataminer</h2>
+                      <h4>Dataminer</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -492,13 +475,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/embeddingnumbuts/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-EmbeddingNumbnut.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Embedding numbuts</h2>
+                      <h4>Embedding numbuts</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>Integrate into everything that flips bits</p>
@@ -508,13 +491,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/stairwaytoheaven/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-StairwayToHeaven.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Stairway To Heaven</h2>
+                      <h4>Stairway To Heaven</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -527,13 +510,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/gonative/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-GoNative.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Go Native</h2>
+                      <h4>Go Native</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -546,13 +529,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/theexistentialrisk/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/existentialrisk.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>The Existential Risk</h2>
+                      <h4>The Existential Risk</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -565,13 +548,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/plugnplay/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges-Plug.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Plug N' Play</h2>
+                      <h4>Plug N' Play</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -586,17 +569,17 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/webbytescode/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-EmbeddingNumbnut.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Web Bytes Code</h2>
+                      <h4>Web Bytes Code</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
-                        Use WebAssembly to present front-end magic. Have you noticed Blazor is the  new kid in town? 
+                        Use WebAssembly to present front-end magic. Have you noticed Blazor is the  new kid in town?
                       </p>
                     </div>
                   </div>
@@ -604,13 +587,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/acdccraftsman/"><img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-SPCraftsman.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>ACDC Craftsman</h2>
+                      <h4>ACDC Craftsman</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -622,13 +605,34 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                      <a href="https://acdc.blog/tag/clientsidesalsa/"><img
                         class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-TestDriver.png"
-                      />
+                        src="../assets/badges/Badges 2014-24-Salsa.png"
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Power User Love</h2>
+                      <h4>Client Side Salsa</h4>
+                    </div>
+                    <div class="badgeDescription">
+                      <p>
+                        Most of their solutions are extremely fluent by running
+                        in the client's browser. But how to avoid creating a
+                        heavy monolith front-end. Show use of modern front-end
+                        frameworks. React, Angular, State management, Streams.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="badgeCard col-md-3">
+                  <div class="badgeContent">
+                    <div class="badgesPicture">
+                      <a href="https://acdc.blog/tag/poweruserlove/"><img
+                        class="badgesPictureImg"
+                        src="../assets/badges/Badges 2014-TestDriver.png"
+                      /></a>
+                    </div>
+                    <div class="badgeTitle">
+                      <h4>Power User Love</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -642,13 +646,13 @@
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/poweroftheshell/"> <img
                         class="badgesPictureImg"
                         src="../assets/badges/Badges 2014-39-Powershell.png"
-                      />
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Power Of The Shell</h2>
+                      <h4>Power Of The Shell</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
@@ -658,34 +662,33 @@
                     </div>
                   </div>
                 </div>
+                
                 <div class="badgeCard col-md-3">
                   <div class="badgeContent">
                     <div class="badgesPicture">
-                      <img
+                     <a href="https://acdc.blog/tag/retro/"> <img
                         class="badgesPictureImg"
-                        src="../assets/badges/Badges 2014-24-Salsa.png"
-                      />
+                        src="../assets/badges/retro.png"
+                      /></a>
                     </div>
                     <div class="badgeTitle">
-                      <h2>Client Side Salsa</h2>
+                      <h4>Retro badgen</h4>
                     </div>
                     <div class="badgeDescription">
                       <p>
-                        Most of their solutions are extremely fluent by running
-                        in the client's browser. But how to avoid creating a
-                        heavy monolith front-end. Show use of modern front-end
-                        frameworks. React, Angular, State management, Streams.
+                        Doing something cool with late technologies. It's all legacy now, baby!
                       </p>
                     </div>
                   </div>
-                </div>
+                </div>                
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+       </div>
+   </div>
+ <!--  </div>
+  </div> -->
 </template>
 
 <script>
@@ -707,31 +710,33 @@ export default {
   width: 50%;
   margin: auto;
 }
-.badges {
+/* .badges {
   padding: 20px;
   text-align: left;
   background: white;
-  background: url(../assets/images/background-graa.svg) no-repeat center;
+  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
+    center;
   background-size: cover;
   height: 40%;
   padding-top: 40px;
-  padding-bottom: 40%;
-}
-.badges h1 {
+  padding-bottom: 40px;
+} */
+/* .badges h1 {
   color: black;
   text-align: center;
   font-size: 30pt;
   font-weight: bold;
-}
+} */
 /* .badgeCard {
   padding: 1em 2em;
 } */
 .badgeContent {
-  background-color: white;
+  /* background-color: white; */
   height: 100%;
 }
-.badgePicture {
+.badgesPicture {
   width: 100%;
+  height:150px;
 }
 .badgePictureImg {
   margin-bottom: 15px;
@@ -739,6 +744,7 @@ export default {
   max-height: 315px; */
   padding: 25px;
   width: 100%;
+  
 }
 img.badgesPictureImg {
   display: block;
@@ -751,10 +757,10 @@ img.badgesPictureImg {
   margin: 0px 1.75vw;
   margin-bottom: 10px;
 }
-.badgeTitle h2 {
-  color: black;
+.badgeTitle h4 {
+  color:#84AF0F;
   text-align: center;
-  font-size: 20pt;
+  font-size: 18px;
   font-weight: bold;
 }
 .categTitle {
@@ -779,4 +785,10 @@ img.badgesPictureImg {
   color: #6d7c90;
   margin: 0px 1.75vw;
 }
+.badgeDescription p {
+color: white;
+  font-size: 18px;
+  /* padding: 0 20px; */
+  text-align: left;
+  }
 </style>

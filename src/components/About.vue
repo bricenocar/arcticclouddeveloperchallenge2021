@@ -1,130 +1,109 @@
 <template>
-    <div class="container-fluid">
-      <div class="row about">
-        <div class="container">
-          <div class="col-md-12">
-            <h1>Arctic cloud developer challenge</h1>
-             <div class="row legodivider">
-              <img class="legodividerimg3" src="../assets/images/legoline.svg" />
-            </div>
-            <!-- <p>#acdc2021 aims to stimulate collaborative learning, networking and stimulation of ideas for participants through
-              <nobr>hands-on,</nobr>
-              <nobr>time-limited</nobr> challenges. we are fiercely competitive, yet vastly helpful and extremely sharing (also across teams), realizing that collective learning is more important than personal gain!
-            </p>  -->
-            <div class="row devider">
-              <div class="col-md-12">
+    <div class="container-fluid overview-header">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <h1 class="title">Arctic Cloud Developer Challenge</h1>
+            <div class="overview">
+            <h4>The event</h4>
             <p>
-              ACDC is a 3 day Norwegian hackathon focusing on Microsoft technology, such as Microsoft 365, SharePoint, Dynamics 365, IOT. Azure, ML, Power BI. <br>Our goal is to push technology to new limits while we learn from each other and socialize.
-              This great event has been hosted for over 10 years at the beautiful Voksenåsen. This year we are forced to think new, so we are going online, and going LIVE!
+              ACDC stands for Arctic Cloud Developer Challenge. It is a hackathon that happens every year at Voksenåsen hotel. 
+              It's 3 days of hackathon + 1 day hangover. The event was created as a social happening by and for the community as a place where like-minded IT professionals can engage in friendly competition without worrying about the mercantile challenges. 
+              You will rather be rewarded for helping others and sharing experiences and know-how. 
+              <br /><br />
+              Be prepared, though! The competitive spirit will run high for you and the other participants. 
+              As soon as the points start ticking in, you'll know the competition is on! The old boys will get busy badge-hunting from the get-go, and develop their solutions to "snipe" the most badges. 
             </p>
-            </div>
-            </div>
+            <br />
+            <h4>The task</h4>
+            <p>
+              The event is about building solutions that will solve a fictive need inspired by this year's theme. 
+              You and your team will have to figure out for yourselves what you want to create and what business needs your solution will solve. 
+              This way you get to choose what you want to build and what tools to use. It's important to be clear on what categories and badges you are targeting and working towards. 
+              The categories are pretty much the same each year (Excellent User Experience, Most extreme Business Value, Rock Solid Geekness, Killer App). 
+              The badges vary from year to year and follow the trends and changes in technology. 
+            </p>
+            <br />
+            <h4>Rules</h4>
+            <p>
+              You compete by getting the most badges. Every team can get all badges, and they must be claimed by writing blog posts where you explicitly write what badge you are going for. 
+              Most badges are about implementing a solution using a particular kind of technology or framework. 
+              There are additional badges that can be won by showing good team spirit, lightning talks and doing stupid things for fun. 
+              There's room for interpretation and it's important to talk to the judges and know that you'll get points for and not. 
+
+              <br /><br />
+              The five judges will give points for what they see during the event and judge all the teams by each category. 
+              If they feel you got a great idea they will give you points in the "Great business value" category. 
+              If you think about the usability, look and feel you will be given points in the "Excellent User Experience" category, etc. 
+              Every day each judge can give each team point in each category. 
+              Every day they award a team "Category King" for each category, so it's important to communicate, write blog posts and demonstrate your solution to the judges throughout the competition.
+            </p>
+            <br />
+            <h4>What happens on the first day? </h4>
+            <p>
+              The first day will feel like a kick-start for newcomers. Many teams have participated for many years and know exactly what to do and how to get started. 
+              The first badge you go for is "Early Delivery"; this badge is about presenting what your team have planned to create with sketches. 
+              A good tip is to go for the "Show and tell" badge at the same time by writing a good description and presenting the solution well. 
+            </p>
+            <br />
+            <h4>Agenda</h4>
+            <p>
+              Usually the event run like this:
+            </p>
+           
+          </div>
+          <div class="row devider aboutACDC">
+          <div class="col-md-3">
+              <p>
+               <strong>Thursday</strong><br/>
+              0800 Check-in and rigging<br/>
+              0900 Welcome and Keynote<br/>
+              1000 Teams presentation<br/>
+              1030 Challenge kick-off<br/>
+              1200 Lunch<br/>
+              1245 Secret session<br/>
+              1600 Jury Duty and snacks<br/>
+              1900 Points and Crowns<br/>
+              1930 Dinner and SharePint
+              </p>
+           </div>
+           <div class="col-md-3">
+             <p>
+              <strong>Friday</strong><br/>
+              0800 Breakfast<br/>
+              0900 Challenge session<br/>
+              1200 Lunch<br/>
+              1245 Secret session<br/>
+              1430 Challenge session<br/>
+              1600 Jury Duty and snacks<br/>
+              1900 Points and Crowns<br/>
+              1930 Dinner and SharePint<br/>
+              2030 Kahoot</p>
+           </div>
+           <div class="col-md-3">
+             <p>
+              <strong>Saturday</strong><br/>
+              0800 Breakfast<br/>
+              0900 Challenge session<br/>
+              1200 Lunch<br/>
+              1600 Jury Delivery<br/>
+               Clean out the room!<br/>
+              1700 Free time<br/>
+              1900 Meetup at the bar<br/>
+              1930 Challenge fine dinner<br/>
+              2100 Demos and Awards<br/>
+              2230 ACDC party</p>
+           </div>
+              <div class="col-md-3">
+                <p>
+               <strong>Sunday</strong><br/>
+              0800 Breakfast<br/>
+              1100 Latest checkout<br/>
+            </p>              
+              </div>
+          </div>
           </div>
         </div>
-        <!-- <div class="row">
-          <div class="column col-md-4">    
-            <div class="about-icon-link about-v-default ">
-              <router-link :to="{ name: 'overview' }" class="io-about-reset">
-                <div class="about-icon-link__link-icon">
-                  <i class="ms-Icon ms-Icon--TextDocument" aria-hidden="true"></i>
-                </div>
-                <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading yellowtitle">
-                    About ACDC
-                  </h2>
-                  <p class="about-icon-link__description">
-                    The arctic cloud developer challenge was former known as the arctic sharepoint challenge. Read more...
-                  </p>
-                </div>
-              </router-link>
-            </div>
-          </div>
-          <div class="column col-md-4">    
-            <div class="about-icon-link about-v-default ">
-              <router-link :to="{ name: 'business' }" class="io-about-reset">
-                <div class="about-icon-link__link-icon">
-                  <i class="ms-Icon ms-Icon--Certificate" aria-hidden="true"></i>
-                </div>
-                <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading yellowtitle">
-                    The business challenge
-                  </h2>
-                  <p class="about-icon-link__description">
-                    The business challenges that the teams choose to target are up to the teams. this year’s theme is Vikings, so feel free to center your business case in anything Midgard related, your imagination is the limit!
-                  </p>
-                </div>
-              </router-link>
-            </div>
-          </div>
-          <div class="column col-md-4">    
-            <div class="about-icon-link about-v-default ">
-              <router-link :to="{ name: 'previous' }" class="io-about-reset">
-                <div class="about-icon-link__link-icon ">
-                  <i class="ms-Icon ms-Icon--BarChartVertical" aria-hidden="true"></i>
-                </div>
-                <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading yellowtitle">
-                    Previous events
-                  </h2>
-                  <p class="about-icon-link__description">
-                    ACDC have had very nice moments and stories, we are very happy to share them with you....
-                  </p>
-                </div>
-              </router-link>
-            </div>
-          </div>
-          <div class="column col-md-4">    
-            <div class="about-icon-link about-v-default ">
-              <router-link :to="{ name: 'jury' }" class="io-about-reset">
-                <div class="about-icon-link__link-icon">
-                  <i class="ms-Icon ms-Icon--Teamwork" aria-hidden="true"></i>
-                </div>
-                <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading yellowtitle">
-                    Jury and award process
-                  </h2>
-                  <p class="about-icon-link__description">
-                    The jury this year consists of 5 people. The jury does not participate in teams, but are allowed to jump in on any team and aid/assist.
-                  </p>
-                </div>
-              </router-link>
-            </div>
-          </div>
-          <div class="column col-md-4">    
-            <div class="about-icon-link about-v-default ">
-              <router-link :to="{ name: 'participants' }" class="io-about-reset">
-                <div class="about-icon-link__link-icon">
-                  <i class="ms-Icon ms-Icon--PlannerLogo" aria-hidden="true"></i>
-                </div>
-                <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading yellowtitle">
-                    The participants
-                  </h2>
-                  <p class="about-icon-link__description">
-                    The challenge is taken on by teams. The cloud is a collaborative platform and so should the development be. Teams are a minimum of two participants
-                  </p>
-                </div>
-              </router-link>
-            </div>
-          </div>
-          <div class="column col-md-4">    
-            <div class="about-icon-link about-v-default ">
-              <router-link :to="{ name: 'valueswins' }" class="io-about-reset">
-                <div class="about-icon-link__link-icon">
-                  <i class="ms-Icon ms-Icon--Trophy2" aria-hidden="true"></i>
-                </div>
-                <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading yellowtitle">
-                    Values and wins
-                  </h2>
-                  <p class="about-icon-link__description">
-                    To ensure that all events follow our values, the core team provides benevolent dictatorship for all events.
-                  </p>
-                </div>
-              </router-link>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
 </template>
@@ -141,7 +120,9 @@ export default {
 </script>
 <style>
 
-
+.aboutACDC p {
+  padding-left:20px
+}
 .about ul {
   list-style-type: none;
 }
