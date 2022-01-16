@@ -1071,7 +1071,7 @@ export default {
   .theCampSiteHeader {
     width: 80%;
     flex-direction: column;
-}
+  }
   .theCampSiteIcon {
     max-width: 200px;
   }
@@ -1124,6 +1124,10 @@ export default {
     position: absolute;
     left: 80vw;
     top: 110vh;
+  }
+
+  .registerbuttoncontainer {
+    bottom: 10vh;
   }
 
   .legoredleft {
