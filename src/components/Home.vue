@@ -93,6 +93,131 @@
         </div>
       </div>
     </div>
+    <div class="row judges">
+      <div class="judges-container">
+        <h1 class="title">Judges</h1>
+        <div class="judges-content">
+          <b-card-group deck>
+            <b-card
+              title="Ahmad Najjar"
+              img-src="https://media-exp1.licdn.com/dms/image/C4E03AQFjSs7jn9LXzw/profile-displayphoto-shrink_400_400/0/1628173766436?e=1648080000&v=beta&t=CnvhoAn1gg2ehLbHPIC-vrusrIj94uZZ2RvMJJH5mT0"
+              img-alt="Image"
+              img-top
+              class="judge-picture"
+            >
+              <b-card-text class="blacktext">
+                Ahmad is an enthusiastic developer heart and soul and a senior
+                consultant based in Oslo at Infoworker. He is also an active
+                co-organizer for events and hackathons. Ahmad is a subject
+                matter expert in Microsoft Power Platform, where "more and more"
+                they are becoming his full-time focus areas!
+              </b-card-text>
+            </b-card>
+            <b-card
+              title="Sanna Diana Tomren"
+              img-src="https://www.kode24.no/images/74972514.jpg?imageId=74972514&x=0&y=0&cropw=100&croph=100&width=640&height=640"
+              img-alt="Image"
+              img-top
+              class="judge-picture"
+            >
+              <b-card-text class="blacktext">
+                Sanna Diana is a technologist with expertise in cloud
+                technologies and cyber security. She secures cloud
+                transformation projects in private and public companies, by
+                hands-on technical implementation and development, to more
+                high-level management consulting practices.
+              </b-card-text>
+            </b-card>
+            <b-card
+              title="Cathrine Wilhelmsen"
+              img-src="https://media-exp1.licdn.com/dms/image/C4D03AQHvHTrCyC1u7A/profile-displayphoto-shrink_400_400/0/1634880917934?e=1648080000&v=beta&t=PZ4RsJtJp6Cq1bmppCs7iv-VV6oco6PgvfqsDZMwuQQ"
+              img-alt="Image"
+              img-top
+              class="judge-picture"
+            >
+              <b-card-text class="blacktext">
+                She has over 12 years experience as a developer, architect and
+                consultant on the Azure and Microsoft Data Platforms. Her focus
+                is on Business Intelligence, Data Warehousing, Data Integration,
+                Analytics, and Reporting projects.
+              </b-card-text>
+            </b-card>
+          </b-card-group>
+        </div>
+        <div class="judges-content">
+          <b-card-group deck>
+            <b-card
+              title="Harald Fianbakken"
+              img-src="https://media-exp1.licdn.com/dms/image/C5603AQGZll1o6-2mkw/profile-displayphoto-shrink_400_400/0/1516287492819?e=1648080000&v=beta&t=IRPvzeCuIb5Ui04ecYU7a2QRf3dwHZY27Z3EVk1r6g4"
+              img-alt="Image"
+              img-top
+              class="judge-picture"
+            >
+              <b-card-text class="blacktext">
+                Long experience helping partners with their digital
+                transformation journey - accelerating their practices around
+                Cloud Application Development and Infrastructure automation and
+                building innovating solutions. Speaker and Cloud enthusiast.
+                Cloud and Datacenter management MVP - prior to working for
+                Microsoft.
+              </b-card-text>
+            </b-card>
+            <b-card
+              title="Lasse Nordvik Wedø"
+              img-src="https://1811msignite20prodeast.blob.core.windows.net/26313avatar/r/53288875/biggest.png?sv=2014-02-14&sr=c&si=avatarUpload&sig=olisVMA8qYtTKv1brHi%2B10clt31R5oEElPfYBg7r%2F4w%3D"
+              img-alt="Image"
+              img-top
+              class="judge-picture"
+            >
+              <b-card-text class="blacktext">
+                Lasse Nordvik Wedø is an international speaker
+                (https://sessionize.com/lawedo), blogger and a solutions
+                architect, with a strong focus on Unified Communications and
+                Collaboration. He has more than 20 years of experience working
+                hands-on with small and large scale IT-Infrastructure in many
+                different industries.
+              </b-card-text>
+            </b-card>
+          </b-card-group>
+        </div>
+      </div>
+    </div>
+    <div class="row categories">
+      <div class="categories-container">
+        <h1 class="title">Categories</h1>
+        <div class="categories-content">
+          <b-card-group deck>
+            <b-card class="category-card" title="Excelent user experience">
+              <b-card-text class="blacktext">
+                Visually appealing and an engaging experience surpassing
+                expectations of simplicity, attractiveness and a look that just
+                speaks of blings.
+              </b-card-text>
+            </b-card>
+            <b-card class="category-card" title="Most Extreme Business Value">
+              <b-card-text class="blacktext">
+                Running a business is tough. Usable Solutions, Feasable ideas,
+                Real World Scenarios.
+              </b-card-text>
+            </b-card>
+          </b-card-group>
+        </div>
+        <div class="judges-content">
+          <b-card-group deck>
+            <b-card class="category-card" title="Rock Solid Geeknes">
+              <b-card-text class="blacktext">
+                Best use of tools and technologies.
+              </b-card-text>
+            </b-card>
+            <b-card class="category-card" title="Killer App">
+              <b-card-text class="blacktext">
+                Built the best killer app, the best solution
+              </b-card-text>
+            </b-card>
+          </b-card-group>
+        </div>
+      </div>
+    </div>
     <!--<div class="row categories">
       <div class="categories-container">
         <div>
@@ -410,7 +535,7 @@ export default {
 }
 
 .theaward {
-  background: white;
+  background: url("../assets/images/ninjaturtlebackground.jpeg");
   padding-top: 15vh;
   padding-bottom: 15vh;
   margin: auto;
@@ -418,7 +543,7 @@ export default {
 }
 .theaward-container {
   height: 60vh;
-  background: white;
+  background: transparent;
   width: 100%;
   display: flex;
 }
@@ -426,6 +551,7 @@ export default {
   margin: auto;
   width: 80%;
 }
+
 .theaward h1 {
   text-align: left;
   font-size: 30pt;
@@ -433,7 +559,7 @@ export default {
 }
 .theaward p {
   margin-top: 50px;
-  color: black;
+  color: white;
   text-align: left;
   font-size: 27px;
 }
@@ -579,35 +705,6 @@ export default {
   width: 100%;
   margin-bottom: 10px;
 }
-.categories {
-  background: white;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  margin: auto;
-  position: relative;
-}
-.categories-container {
-  height: 100vh;
-  width: 106%;
-  display: flex;
-  top: -170px;
-}
-.categories-content {
-  margin: auto;
-  width: 80%;
-  padding-top: 170px;
-}
-.categories h1 {
-  text-align: left;
-  font-size: 30pt;
-  font-weight: bold;
-}
-.categories p {
-  color: black;
-  text-align: left;
-  font-size: 27px;
-}
 .thePriceToPay {
   background: lightgray;
   background: url(../assets/images/background-graa.svg) no-repeat center;
@@ -688,9 +785,18 @@ export default {
   flex-direction: column;
 }
 .judges {
-  background: url("../assets/images/ninjaturtlebackground.jpeg") no-repeat
-    center;
   background-size: cover;
+}
+.judges-container {
+  height: 100%;
+  background: white;
+  display: block;
+}
+.judges-content {
+  margin: auto;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .judgesTitle {
   margin-top: 30px;
@@ -702,6 +808,45 @@ export default {
   margin-bottom: 30px;
 }
 .judgesContent {
+  color: white;
+  font-size: 30pt;
+  margin-top: 5%;
+  width: 80%;
+  margin: auto;
+}
+.judge-picture img {
+  max-height: 200px;
+  max-width: 200px;
+  align-self: center;
+  border-radius: 49.9%;
+}
+.category-card {
+}
+.categories {
+  background-size: cover;
+  margin-top: 40px;
+}
+.categories-container {
+  height: 100%;
+  background: url("../assets/images/ninjaturtlebackground.jpeg");
+  display: block;
+}
+.categories-content {
+  margin: auto;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.categoriesTitle {
+  margin-top: 30px;
+}
+.categoriesTitle h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.categoriesContent {
   color: white;
   font-size: 30pt;
   margin-top: 5%;
@@ -723,6 +868,11 @@ export default {
 }
 .judgeCard {
   padding: 1em 2em;
+}
+.card-title {
+  font-family: "Turtles" !important;
+  color: #84af0f;
+  font-size: 24pt;
 }
 .judgeContent {
   height: 100%;
@@ -968,7 +1118,6 @@ export default {
   }
   .theaward-container {
     height: 100%;
-    background: white;
     display: block;
   }
   .theaward-content {

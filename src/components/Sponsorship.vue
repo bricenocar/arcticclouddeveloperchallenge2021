@@ -42,7 +42,7 @@
           <div class="row devider">
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="sponsorshipCard">
-                <div class="card-body card-text">
+                <div class="card-body card-text-spons">
                   <h4>Bronze</h4>
                   <ul>
                     <li>SharePint Thursday, 10.000,-</li>
@@ -63,7 +63,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="sponsorshipCard">
-                <div class="card-body card-text">
+                <div class="card-body card-text-spons">
                   <h4>Bronze</h4>
                   <ul>
                     <li>GeekBeer Friday, 10.000,-</li>
@@ -84,7 +84,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="sponsorshipCard">
-                <div class="card-body card-text">
+                <div class="card-body card-text-spons">
                   <h4>Silver</h4>
                   <ul>
                     <li>Dinner Thursday, 20.000,-</li>
@@ -116,7 +116,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="sponsorshipCard">
-                <div class="card-body card-text">
+                <div class="card-body card-text-spons">
                   <h4>Silver</h4>
                   <ul>
                     <li>Dinner Friday, 20.000,-</li>
@@ -148,7 +148,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="sponsorshipCard">
-                <div class="card-body card-text">
+                <div class="card-body card-text-spons">
                   <h4>Gold</h4>
                   <ul>
                     <li>Activity Saturday, 30.000,-</li>
@@ -181,7 +181,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="sponsorshipCard">
-                <div class="card-body card-text">
+                <div class="card-body card-text-spons">
                   <h4>Gold</h4>
 
                   <ul>
@@ -235,7 +235,7 @@ export default {
   list-style-type: none;
 }
 
-.card-text {
+.card-text-spons {
   color: black;
   height: 380px;
 }
@@ -259,7 +259,7 @@ export default {
   padding: 5px 20px;
   position: absolute;
 }
-.card-text h4 {
+.card-text-spons h4 {
   color: #84af0f;
   font-size: 18px;
   font-weight: bold;

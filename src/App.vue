@@ -100,6 +100,10 @@ h6 {
   color:#84AF0F;
 }
 
+.blacktext {
+  color:black;
+}
+
 .bold-text {
   font-weight: bold;
 }

@@ -5,25 +5,22 @@
         <div class="container">
           <div class="col-md-12">
             <h1>Agenda</h1>
-             <div class="row legodivider">
-              <img class="legodividerimg3" src="../assets/images/legoline.svg" />
-            </div>
           <div class="row devider">
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-name">Thursday 04 February</h4>
+                    <h4 class="card-name">Thursday 10 February</h4>
                     <p class="card-text">
                        <ul>
                         <li><p><span class="yellowtitle">0800</span> Check-in and rigging</p></li>
                         <li><p><span class="yellowtitle">0900</span> Welcome and Keynote</p></li>
-                        <li><p><span class="yellowtitle">1000</span> Team presentations</p></li>
+                        <li><p><span class="yellowtitle">1000</span> Teams presentations</p></li>
                         <li><p><span class="yellowtitle">1030</span> Challenge kick-off</p></li>
                         <li><p><span class="yellowtitle">1130</span> Early Delivery Deadline</p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
-                        <li><p><span class="yellowtitle">1500</span> Points</p></li>
-                        <li><p><span class="yellowtitle">1700</span> Virtual Pints</p></li>
-                        <li><p><span class="yellowtitle">2030</span> Head 2 Head Challenge</p></li>              
+                        <li><p><span class="yellowtitle">1600</span> Jury Duty and Snacks</p></li>
+                        <li><p><span class="yellowtitle">1900</span> Point and Crowns</p></li>
+                        <li><p><span class="yellowtitle">1930</span> Dinner and SharePint</p></li>              
                       </ul>                  
                     </p>
                 </div>
@@ -32,16 +29,15 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-name">Friday 05 February</h4>
+                    <h4 class="card-name">Friday 11 February</h4>
                     <p class="card-text">
                        <ul>                        
-                        <li><p><span class="yellowtitle">0800</span> Morning Glory</p></li>
-                        <li><p><span class="yellowtitle">0900</span> Jury Summary</p></li>
-                        <li><p><span class="yellowtitle">1130</span> Points</p></li>
+                        <li><p><span class="yellowtitle">0800</span> Breakfast</p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
-                        <li><p><span class="yellowtitle">1500</span> Points </p></li>
-                        <li><p><span class="yellowtitle">1800</span> Virtual Pints</p></li>
-                        <li><p><span class="yellowtitle">2100</span> Fun and games</p></li>
+                        <li><p><span class="yellowtitle">1600</span> Jury Duty and Snacks</p></li>
+                        <li><p><span class="yellowtitle">1700</span> 5-kamp</p></li>
+                        <li><p><span class="yellowtitle">1900</span> Points and Crowns</p></li>
+                        <li><p><span class="yellowtitle">1930</span> Geekfood + Geekbeer</p></li>
                       </ul>                  
                     </p>
                 </div>
@@ -50,15 +46,29 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-name">Saturday 06 February</h4>
+                    <h4 class="card-name">Saturday 12 February</h4>
                     <p class="card-text">
                        <ul>
-                        <li><p><span class="yellowtitle">0800</span> Morning Glory</p></li>
-                        <li><p><span class="yellowtitle">0900</span> Jury Summary</p></li>
-                        <li><p><span class="yellowtitle">1130</span> Points</p></li>
+                        <li><p><span class="yellowtitle">0800</span> Breakfast</p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
-                        <li><p><span class="yellowtitle">1400</span> Final delivery</p></li>
-                        <li><p><span class="yellowtitle">1600</span> Awards</p></li>
+                        <li><p><span class="yellowtitle">1600</span> Final Delivery and Demo Clean out the room! </p></li>
+                        <li><p><span class="yellowtitle">1700</span> Free time</p></li>
+                        <li><p><span class="yellowtitle">1900</span> Meetup @ bar</p></li>
+                        <li><p><span class="yellowtitle">1930</span> Challenge fine dinner and Awards</p></li>
+                        <li><p><span class="yellowtitle">2230</span> ACDC party</p></li>
+                      </ul>                  
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-name">Sunday 13 February</h4>
+                    <p class="card-text">
+                       <ul>
+                        <li><p><span class="yellowtitle">0800</span> Breakfast</p></li>
+                        <li><p><span class="yellowtitle">1100</span> Latest checkout</p></li>
                       </ul>                  
                     </p>
                 </div>

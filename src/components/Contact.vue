@@ -47,8 +47,8 @@
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/cathrinewilhelmsen/"><img src="../assets/images/linkedin.svg" /></a></span><p> Cathrine Wilhelmsen</p></li>
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/haraldfianbakken/"><img src="../assets/images/linkedin.svg" /></a></span><p> Harald Fianbakken</p></li>
                         <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/sanna-diana-tomren/"><img src="../assets/images/linkedin.svg" /></a></span><p> Sanna Diana Tomren</p></li>
-                        <li><span class="linkedinicon"><img src="../assets/images/linkedin.svg" /></span><p> TBA</p></li>
-                        <li><span class="linkedinicon"><img src="../assets/images/linkedin.svg" /></span><p> TBA</p></li>
+                        <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/ahmadn82/"><img src="../assets/images/linkedin.svg" /></a></span><p> Ahmad Najjar</p></li>
+                        <li><span class="linkedinicon"><a href="https://www.linkedin.com/in/lawedo/"><img src="../assets/images/linkedin.svg" /></a></span><p> Lasse Nordvik Wedø</p></li>
 
                        </ul>
                     </p>
